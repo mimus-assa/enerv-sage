@@ -23,11 +23,11 @@ def analisis_de_recibo(tarifa, consumo_periodo_actual, consumos_historicos, nomb
         promedio_mensual = (consumo_periodo_actual + sum(suma_consumos_historicos)) / (len(suma_consumos_historicos) + 1)
         print("promedio_mensual: ", promedio_mensual)
         
-        numero_paneles = math.ceil(promedio_mensual / (530 * 0.3057))
+        numero_paneles = math.ceil(promedio_mensual / (585 * 0.3057))
         print("numero_paneles (PDBT, 01, 02, DAC): ", numero_paneles)
         
-        KWp = numero_paneles * 530 / 1000
-        KWh = numero_paneles * 530 * 0.3057
+        KWp = numero_paneles *585 / 1000
+        KWh = numero_paneles * 585 * 0.3057
         tipo_de_periodo = 'Bimestral'
         se_necesita_medidor = False
         
@@ -43,11 +43,11 @@ def analisis_de_recibo(tarifa, consumo_periodo_actual, consumos_historicos, nomb
         promedio_mensual = (consumo_periodo_actual + sum(suma_consumos_historicos)) / (len(suma_consumos_historicos) + 1)
         print("promedio_mensual: ", promedio_mensual)
         
-        numero_paneles = math.ceil(2 * promedio_mensual / (530 * 0.3057))
+        numero_paneles = math.ceil(2 * promedio_mensual / (585 * 0.3057))
         print("numero_paneles (GDMTO, GDMTH): ", numero_paneles)
         
-        KWp = numero_paneles * 530 / 1000
-        KWh = numero_paneles * 530 * 0.3057 / 2
+        KWp = numero_paneles * 585 / 1000
+        KWh = numero_paneles * 585 * 0.3057 / 2
         tipo_de_periodo = 'Mensual'
         
         se_necesita_medidor = KWp > demanda_contratada

@@ -1,7 +1,6 @@
-
 import math
 
-def calcular_articulos_requeridos(numero_paneles, tarifa):#esto afecta promt
+def calcular_articulos_requeridos(numero_paneles, tarifa):
     if tarifa in ['PDBT', '01', '02', 'DAC']:
         # Para pdbt o similar: un supresor de picos por cada 10 paneles, máximo 12
         supresores_de_picos = min(math.ceil(numero_paneles / 10), 12)
@@ -31,7 +30,7 @@ def calcular_articulos_requeridos(numero_paneles, tarifa):#esto afecta promt
         **cables,
         'Kits de Montaje Unirac': kits_unirac,
         'Pastillas Termomagnéticas en AC': pastillas_termomagneticas,
-        'PANEL FOTOVOLTAICO 530 W MARCA CANADIAN SOLAR O SIMILAR': numero_paneles
+        'PANEL FOTOVOLTAICO 585 W MARCA CANADIAN SOLAR O SIMILAR': numero_paneles
     }
 
     return articulos_requeridos
@@ -47,30 +46,33 @@ def determinar_inversores_y_calibres(numero_paneles):
         (25, 37, ('inversor mac 15ktl3-xl growatt', '6')),
         (38, 50, ('inversor mac 20ktl3-xl growatt', '4')),
         (51, 74, ('inversor mac 30ktl3-xl growatt', '2')),
-        (75, 150, ('inversor max 60ktl3-xl growatt 480V', '00'))
+        (75, 150, ('inversor max 60ktl3-xl2 growatt', '00'))
     ]
 
     inversores = []
     cables = {}
+    paneles_restantes = numero_paneles
     
-    # Determinar cuál inversor y cable usar basado en el rango específico
-    encontrado = False
-    for rango_inferior, rango_superior, (inversor, calibre) in rangos_inversores:
-        if rango_inferior <= numero_paneles <= rango_superior:
-            inversores.append({'inversor': inversor, 'calibre': calibre, 'cantidad': 1})
-            cable_key = f'CABLE CALIBRE {calibre} AWG THW-LS 100% COBRE(incluye tuberia conduit)'
-            cables[cable_key] = 1
-            encontrado = True
+    while paneles_restantes > 0:
+        encontrado = False
+        for rango_inferior, rango_superior, (inversor, calibre) in reversed(rangos_inversores):
+            if paneles_restantes >= rango_inferior:
+                cantidad_inversores = math.ceil(paneles_restantes / rango_superior)
+                paneles_que_cubre = cantidad_inversores * rango_superior
+                inversores.append({'inversor': inversor, 'calibre': calibre, 'cantidad': cantidad_inversores})
+                cable_key = f'CABLE CALIBRE {calibre} AWG THW-LS 100% COBRE(incluye tuberia conduit)'
+                cables[cable_key] = cables.get(cable_key, 0) + cantidad_inversores
+                paneles_restantes -= paneles_que_cubre
+                encontrado = True
+                break
+        
+        if not encontrado:
+            inversores.append({'inversor': 'No se encontró un inversor adecuado', 'calibre': 'N/A', 'cantidad': 0})
+            cable_key = 'No se encontró cable adecuado'
+            cables[cable_key] = 0
             break
-    
-    # Si no se encontró un inversor específico, manejar el caso especial o error
-    if not encontrado:
-        inversores.append({'inversor': 'No se encontró un inversor adecuado', 'calibre': 'N/A', 'cantidad': 0})
-        cable_key = 'No se encontró cable adecuado'
-        cables[cable_key] = 0
 
     return inversores, cables
-
 
 def calcular_kits_unirac_correctamente(numero_paneles):
     kits_unirac = {}
