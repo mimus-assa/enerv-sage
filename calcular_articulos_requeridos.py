@@ -1,3 +1,5 @@
+#calcular_articulos_requeridos.py
+
 import math
 
 def calcular_articulos_requeridos(numero_paneles, tarifa):
@@ -35,8 +37,8 @@ def calcular_articulos_requeridos(numero_paneles, tarifa):
 
     return articulos_requeridos
 
+# Redefiniendo la función con los ajustes necesarios
 def determinar_inversores_y_calibres(numero_paneles):
-    # Nueva definición de rangos para los inversores
     rangos_inversores = [
         (1, 5, ('inversor mic 2500tl-x growatt', '12')),
         (6, 8, ('inversor min 3600tl-x growatt', '12')),
@@ -57,22 +59,21 @@ def determinar_inversores_y_calibres(numero_paneles):
         encontrado = False
         for rango_inferior, rango_superior, (inversor, calibre) in reversed(rangos_inversores):
             if paneles_restantes >= rango_inferior:
-                cantidad_inversores = math.ceil(paneles_restantes / rango_superior)
-                paneles_que_cubre = cantidad_inversores * rango_superior
+                if paneles_restantes >= rango_superior:
+                    cantidad_inversores = paneles_restantes // rango_superior
+                    paneles_que_cubre = cantidad_inversores * rango_superior
+                else:
+                    cantidad_inversores = 1
+                    paneles_que_cubre = rango_superior
                 inversores.append({'inversor': inversor, 'calibre': calibre, 'cantidad': cantidad_inversores})
                 cable_key = f'CABLE CALIBRE {calibre} AWG THW-LS 100% COBRE(incluye tuberia conduit)'
                 cables[cable_key] = cables.get(cable_key, 0) + cantidad_inversores
                 paneles_restantes -= paneles_que_cubre
                 encontrado = True
                 break
-        
-        if not encontrado:
-            inversores.append({'inversor': 'No se encontró un inversor adecuado', 'calibre': 'N/A', 'cantidad': 0})
-            cable_key = 'No se encontró cable adecuado'
-            cables[cable_key] = 0
-            break
 
     return inversores, cables
+
 
 def calcular_kits_unirac_correctamente(numero_paneles):
     kits_unirac = {}

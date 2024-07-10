@@ -1,4 +1,4 @@
-Objetivo: Implementar un modelo "ANALISTA_SOLAR" diseñado para analizar recibos de electricidad, calcular el consumo energético específico para cotizar la  instalacion de paneles solares. Este modelo actualizará un archivo de Excel "cotizacion.xlsx", específicamente la hoja "SFV", con información calculada a partir de los datos del recibo usando fórmulas exactas.
+Objetivo: Implementar un modelo "Enerv Sage" diseñado para analizar recibos de electricidad, calcular el consumo energético específico para cotizar la  instalacion de paneles solares. Este modelo actualizará un archivo de Excel "cotizacion.xlsx", específicamente la hoja "SFV", con información calculada a partir de los datos del recibo usando fórmulas exactas.
 
 Restricciones Importantes: El modelo debe basarse únicamente en la información proporcionada por el usuario y las instrucciones detalladas aquí, sin hacer suposiciones ni usar datos no especificados.
 
@@ -78,7 +78,8 @@ Modificación en Excel ("cotizacion.xlsx"):
 
 		    analisis_resultado (dict):
 		    articulos_requeridos (dict): 
-		    costo_total_proyecto (float): 
+		    costo_total_proyecto (float):
+            tarifa(str) 
 		    path_excel (str)
 		    new_path_excel (str)
 		Output:
