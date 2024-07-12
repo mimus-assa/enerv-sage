@@ -1,10 +1,16 @@
 #actualizar_cotizacion_excel.py
-
 from openpyxl import load_workbook
 from openpyxl.styles import Font
 from datetime import datetime
 import pytz
 from openpyxl.styles import NamedStyle
+import time
+
+
+from openpyxl import load_workbook
+from openpyxl.styles import Font, NamedStyle
+from datetime import datetime
+import pytz
 import time
 
 # Función para calcular el nuevo folio basado en timestamp
@@ -15,19 +21,6 @@ def calcular_nuevo_folio():
     return nuevo_folio
 
 def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_total_proyecto, tarifa, path_excel='/mnt/data/cotizacion.xlsx', new_path_excel='/mnt/data/cotizacion_actualizada.xlsx'):
-    """
-    Actualiza el archivo Excel de cotización con los resultados del análisis y los artículos requeridos.
-
-    Parámetros:
-    - analisis_resultado (dict): Resultados del análisis de consumo y requerimientos de paneles.
-    - articulos_requeridos (dict): Diccionario con la cantidad de artículos requeridos.
-    - costo_total_proyecto (float): Costo total del proyecto.
-    - path_excel (str): Ruta al archivo Excel original.
-    - new_path_excel (str): Ruta donde se guardará el archivo Excel actualizado.
-
-    Retorna:
-    - str: La ruta del archivo Excel actualizado.
-    """
     nuevo_folio = calcular_nuevo_folio()
 
     # Cargar el archivo Excel para su edición
@@ -93,6 +86,14 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
         cell = sheet[f'E{row}']
         if cell.value is not None and isinstance(cell.value, str):
             cell.style = 'bold_style'
+
+    # Aplicar fuente Arial y tamaño 11 a las celdas F19 a F40
+    arial_font = Font(name='Arial', size=11)
+    
+    for row in range(19, 41):
+        cell = sheet[f'F{row}']
+        if cell.value is not None:
+            cell.font = arial_font
 
     # Limpiar las celdas D38 a F40 si la tarifa es "PDBT", "01", "02", "DAC"
     if tarifa in ['PDBT', '01', '02', 'DAC']:
