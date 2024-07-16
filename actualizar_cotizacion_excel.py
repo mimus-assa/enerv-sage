@@ -39,15 +39,16 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
     # Actualizar datos del cliente y del proyecto
     sheet['E4'] = analisis_resultado['nombre_cliente']
     sheet['E5'] = analisis_resultado['direccion_cliente']
-    sheet['D34'] = analisis_resultado['numero_paneles']
+    sheet['D33'] = analisis_resultado['numero_paneles']
     sheet['F19'] = f"Instalación de sistema fotovoltaico interconectado a la red de C.F.E. incluye: Suministro e instalación de SFVI de {round(analisis_resultado['KWp'],2)} KWp ó {round(analisis_resultado['KWh'],2)} KWh {analisis_resultado['tipo_de_periodo']}. Instalación a nivel de piso y Gestión de interconexión a red de C.F.E."
 
     # Inicializar la fila de inicio para los artículos específicos
-    fila_actual = 26
+    fila_actual = 25
 
     # Actualizar componentes específicos y sus cantidades
     for k, v in articulos_requeridos['Kits de Montaje Unirac'].items():
-        descripcion = f"{v} ESTRUCTURA UNIRAC SM ASCENDER {k}"
+        descripcion = f"ESTRUCTURA UNIRAC SM ASCENDER {k}"
+        sheet[f'D{fila_actual}'] = v
         sheet[f'F{fila_actual}'] = descripcion
         sheet[f'E{fila_actual}'] = obtener_unidad_medida(descripcion)
         fila_actual += 1
@@ -55,7 +56,8 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
     # Actualizar cables y sus cantidades
     for articulo, cantidad in articulos_requeridos.items():
         if articulo.startswith("CABLE CALIBRE"):
-            descripcion = f"{cantidad}x {articulo}"
+            descripcion = f"{articulo}"
+            sheet[f'D{fila_actual}'] = cantidad
             sheet[f'F{fila_actual}'] = descripcion
             sheet[f'E{fila_actual}'] = obtener_unidad_medida(descripcion)
             fila_actual += 1
@@ -76,7 +78,8 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
     for inversor in articulos_requeridos['Inversores']:
         nombre_inversor = inversor['inversor']
         cantidad_inversor = inversor['cantidad']
-        descripcion = f"{cantidad_inversor}x {nombre_inversor}"
+        descripcion = f"{nombre_inversor}"
+        sheet[f'D{fila_actual}'] = cantidad_inversor
         sheet[f'F{fila_actual}'] = descripcion
         sheet[f'E{fila_actual}'] = obtener_unidad_medida(descripcion)
         fila_actual += 1
