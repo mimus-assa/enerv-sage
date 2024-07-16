@@ -26,8 +26,10 @@ def obtener_unidad_medida(descripcion):
             return unidad
     return 'PZA'  # Valor predeterminado
 
-def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_total_proyecto, tarifa, path_excel='/mnt/data/cotizacion.xlsx', new_path_excel='/mnt/data/cotizacion_actualizada.xlsx'):
+def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_total_proyecto, tarifa, path_excel='/mnt/data/cotizacion.xlsx'):
     nuevo_folio = calcular_nuevo_folio()
+    nombre_cliente = analisis_resultado['nombre_cliente'].replace(" ", "_")  # Reemplazar espacios con guiones bajos
+    new_path_excel = f"Cot-{nuevo_folio}-SFV-{nombre_cliente}.xlsx"
 
     # Cargar el archivo Excel para su edición
     wb = load_workbook(filename=path_excel)
