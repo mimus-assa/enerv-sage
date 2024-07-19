@@ -1,5 +1,6 @@
 from openpyxl import load_workbook
 from openpyxl.styles import Font, NamedStyle
+from openpyxl.styles.numbers import FORMAT_NUMBER_COMMA_SEPARATED1
 from datetime import datetime
 import pytz
 import time
@@ -29,7 +30,7 @@ def obtener_unidad_medida(descripcion):
 def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_total_proyecto, tarifa, path_excel='/mnt/data/cotizacion.xlsx'):
     nuevo_folio = calcular_nuevo_folio()
     nombre_cliente = analisis_resultado['nombre_cliente'].replace(" ", "_")  # Reemplazar espacios con guiones bajos
-    new_path_excel = f"Cot-{nuevo_folio}-SFV-{nombre_cliente}.xlsx"
+    new_path_excel = f"/mnt/data/Cot-{nuevo_folio}-SFV-{nombre_cliente}.xlsx"
 
     # Cargar el archivo Excel para su edición
     wb = load_workbook(filename=path_excel)
@@ -93,6 +94,11 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
     
     # Actualizar costo del proyecto
     sheet['J19'] = round(costo_total_proyecto, 2)
+    sheet['K19'] = round(costo_total_proyecto, 2)
+    sheet['K52'] = round(costo_total_proyecto, 2)
+    sheet['K53'] = round(costo_total_proyecto*0.16, 2)
+    sheet['K54'] = round(costo_total_proyecto*1.16, 2)
+    
     
     # Crear un estilo nombrado para el texto en negrita
     bold_style = NamedStyle(name="bold_style")
@@ -120,6 +126,10 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
         for row in range(38, 41):
             for col in ['D', 'E', 'F']:
                 sheet[f'{col}{row}'] = ""
+
+    # Formatear las celdas K53 y K54 para que tengan dos decimales y estén separadas por comas
+    for cell in ['K53', 'K54']:
+        sheet[cell].number_format = FORMAT_NUMBER_COMMA_SEPARATED1
 
     # Guardar los cambios realizados en el archivo Excel
     wb.save(filename=new_path_excel)

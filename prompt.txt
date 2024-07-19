@@ -20,70 +20,26 @@ Entrada: Datos del Recibo de Luz
 Proceso Detallado:
 
     Extracción de Información: extraer del recibo los datos especificados anteriormente. 
+
+    creacion del diccionario de informacion
+
+        # Datos del recibo extraídos manualmente
+        datos_recibo = {
+            "nombre_cliente": NOMBRE_CLIENTE, #STR
+            "direccion_cliente": DIRECCION_CLIENTE, #STR
+            "tarifa": TARIFA, #STR
+            "consumo_periodo_actual": CONSUMO_PERIODO_ACTUAL, #FLOAT  
+            "consumos_historicos": CONSUMO_HISTORICO,  #LIST
+            "demanda_contratada": DEMANDA_CONTRATADA, #FLOAT
+            "total_a_pagar": TOTAL_A_PAGAR #FLOAT
+        }
+
     
     nota:Para el análisis de estos datos, aseguraremos la correcta importación de los módulos necesarios, como 'analisis_de_recibo.py', en nuestro entorno de ejecución. Esto implicará verificar y adaptar la configuración del entorno, como el sys.path
     
-    Usa la funcion analisis_de_recibo del archivo llamado analisis_de_recibo.py el cual requiere los siguientes inputs
-	        tarifa: Un string que indica el tipo de tarifa eléctrica aplicada al cliente. Puede ser 'PDBT', '01', '02', 'DAC', 'GDMTO', o 'GDMTH'.
-    	    consumo_periodo_actual: Un float o int que representa el consumo de electricidad del cliente en el período actual.
-            consumos_historicos: Una lista de floats o ints que contiene el historial de consumos de electricidad del cliente.
-            nombre_cliente
-            direccion_cliente
-            demanda_contratada
-            numero_de_periodos (opcional este esta por default en 0, pero si el usuario lo espesifica usamos el valor que el usuario espesifica)
-            
-    	para calcular una salida que es un diccionario con las siguientes entradas
-            numero_paneles: int, el número de paneles solares necesarios, redondeado hacia arriba.
-            promedio_mensual: float, el promedio mensual de consumo de electricidad.
-            KWp: float, la potencia total en kilovatios pico de los paneles solares necesarios.
-            KWh: float, el consumo anual estimado en kilovatios hora generado por los paneles solares.
-            tipo_de_periodo: string, el tipo de período de facturación, que puede ser 'Bimestral' o 'Mensual'. 
-            se_necesita_medidor: boleano
+    usa la funcion run del archivo llamado run.py la cual requiere como argumentos el diccionario anterior de los datos del recibo
 
-
-Cálculo de Artículos Requeridos basado en el Número de Paneles:
-
-    Usa la funcion calcular_articulos_requeridos en el archivo calcular_articulos_requeridos.py el cual tiene los siguientes inputs
-    	   numero_paneles (int)
-           tarifa (str)
-        
-        para calcular las siguientes salidas
-    	    Supresores de Picos (int)
-	        ITM en DC (int)
-	        Pares de Conectores MC4 (int)
-	        Gabinetes de Protecciones ABB (int)
-	        Inversor (str)
-	        CABLE CALIBRE {calibre_cable_awg} AWG THW-LS 100% COBRE(incluye tuberia conduit) (int)
-	        Kits de Montaje Unirac (dict)
-	        Pastillas Termomagnéticas en AC (int)
-		
-
-Cálculo de Costos Totales:
-    Para estimar el costo total del proyecto, seguimos estos pasos:
-	    
-	    con el resutlado de la funcion calcular_articulos_requeridos vamos a calcular el costo_articulos y costo_total_proyecto usando la funcion calcular_costo_proyecto del archivo calcular_costo_proyecto.py los inputs son
-	    	articulos_requeridos (Diccionario)
-            analisis_resultado (Diccionario)
-            path_precios_csv(String)
-            tarifa(String)
-            
-	   sus outputs son 
-		costo_articulos (Diccionario)
-		costo_total_proyecto (Float)
-		
-Modificación en Excel ("cotizacion.xlsx"):
-
-    Usa la funcion actualizar_cotizacion_excel del archivo actualizar_cotizacion_excel.py para modificar el excel y despues dar un link para la descarga, los inputs de esta funcion son
-		Inputs:
-
-		    analisis_resultado (dict):
-		    articulos_requeridos (dict): 
-		    costo_total_proyecto (float):
-            tarifa(str) 
-		    path_excel (str)
-		    new_path_excel (str)
-		Output:
-
+        outputs:    
 		    str: La función retorna la ruta del archivo Excel actualizado. Esto permite saber dónde se ha guardado el archivo modificado y facilita su posterior recuperación o uso.
 
 Calculo de Instalacion Parcial(opcional solo si el usuario lo pide)
@@ -99,4 +55,4 @@ Calculo de Instalacion Parcial(opcional solo si el usuario lo pide)
 Salida Esperada:
 
     Archivo de texto con análisis, cálculos y recomendaciones.
-    Archivo "cotizacion.xlsx" modificado en la hoja "SFV" con la cotización personalizada.
+    Archivo xlsx modificado con el nombre correcto.
