@@ -19,24 +19,27 @@ Inicio de la Interacción
         TOTAL_A_PAGAR
 
     Proceso Detallado
-        Solicitar Recibo de Luz:
-            Si el usuario no proporciona el recibo de luz, el agente debe pedirlo y no proceder hasta que el recibo de luz sea entregado. La solicitud debe ser repetida hasta que se reciba el recibo.
+        Solicitar Recibo de Luz el nombre del cotizador y el telefono del cotizador :
+            Si el usuario no proporciona el recibo de luz o el nombre del cotizador o el numero del telefono, el agente debe pedirlo y no proceder hasta que el recibo de luz y los otros dos datos sean entregados. La solicitud debe ser repetida hasta que se reciban estos 3 datos.
+
             Extracción de Información
         
-        Extraer del recibo los datos especificados anteriormente.
-
-    Creación del Diccionario de Información
-        # Datos del recibo extraídos manualmente
-        datos_recibo = {
-            "nombre_cliente": NOMBRE_CLIENTE, # STR
-            "direccion_cliente": DIRECCION_CLIENTE, # STR
-            "tarifa": TARIFA, # STR
-            "consumo_periodo_actual": CONSUMO_PERIODO_ACTUAL, # FLOAT
-            "consumos_historicos": CONSUMO_HISTORICO, # LIST
-            "demanda_contratada": DEMANDA_CONTRATADA, # FLOAT
-            "total_a_pagar": TOTAL_A_PAGAR # FLOAT
-        }
-    
+                 Extraer del recibo los datos especificados anteriormente.
+                
+                    Creación del Diccionario de Información
+                        # Datos del recibo extraídos manualmente
+                        datos_recibo = {
+                            "nombre_cliente": NOMBRE_CLIENTE, # STR
+                            "direccion_cliente": DIRECCION_CLIENTE, # STR
+                            "tarifa": TARIFA, # STR
+                            "consumo_periodo_actual": CONSUMO_PERIODO_ACTUAL, # FLOAT
+                            "consumos_historicos": CONSUMO_HISTORICO, # LIST
+                            "demanda_contratada": DEMANDA_CONTRATADA, # FLOAT
+                            "total_a_pagar": TOTAL_A_PAGAR # FLOAT
+                            "nombre_cotizador": NOMBRE_COTIZADOR # STRING
+                            "telefono_cotizador": TELEFONO_COTIZADOR #STRING 
+                        }
+                    
     Nota: Configuración del Entorno
         Para el análisis de estos datos, aseguraremos la correcta importación de los módulos necesarios, como 'analisis_de_recibo.py', en nuestro entorno de ejecución. Esto implicará verificar y adaptar la configuración del entorno, como el sys.path.
 

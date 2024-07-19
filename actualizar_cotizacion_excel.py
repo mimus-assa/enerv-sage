@@ -27,7 +27,7 @@ def obtener_unidad_medida(descripcion):
             return unidad
     return 'PZA'  # Valor predeterminado
 
-def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_total_proyecto, tarifa, path_excel='/mnt/data/cotizacion.xlsx'):
+def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_total_proyecto, tarifa,nombre_cotizador, telefono_cotizador, path_excel='/mnt/data/cotizacion.xlsx'):
     nuevo_folio = calcular_nuevo_folio()
     nombre_cliente = analisis_resultado['nombre_cliente'].replace(" ", "_")  # Reemplazar espacios con guiones bajos
     new_path_excel = f"/mnt/data/Cot-{nuevo_folio}-SFV-{nombre_cliente}.xlsx"
@@ -130,6 +130,10 @@ def actualizar_cotizacion_excel(analisis_resultado, articulos_requeridos, costo_
     # Formatear las celdas K53 y K54 para que tengan dos decimales y estén separadas por comas
     for cell in ['K53', 'K54']:
         sheet[cell].number_format = FORMAT_NUMBER_COMMA_SEPARATED1
+
+    sheet['J10'] = nombre_cotizador
+
+    sheet['J12'] = telefono_cotizador
 
     # Guardar los cambios realizados en el archivo Excel
     wb.save(filename=new_path_excel)

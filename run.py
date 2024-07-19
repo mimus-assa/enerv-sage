@@ -68,6 +68,8 @@ def run(datos_recibo):
             articulos_requeridos=articulos_requeridos,
             costo_total_proyecto=costo_proyecto[1],
             tarifa=datos_recibo["tarifa"],
+            nombre_cotizador= datos_recibo["nombre_cotizador"],
+            telefono_cotizador= datos_recibo["telefono_cotizador"],
             path_excel="/mnt/data/cotizacion.xlsx"
         )
         logging.info("Archivo Excel actualizado en: %s", ruta_actualizada_excel)
