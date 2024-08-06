@@ -1,0 +1,78 @@
+<b>CONTRATO PARA DETERMINAR LA CONTRAPRESTACIÓN APLICABLE POR LA ENERGÍA ELÉCTRICA QUE CELEBRAN POR UNA PARTE, CFE SUMINISTRADOR DE SERVICIOS BÁSICOS, EN ADELANTE “EL SUMINISTRADOR”, REPRESENTADA POR, ING. LEONARDO MENDEZ REYNOSO, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE,</b> <color=0,0,255> <b>{nombre_cliente}</b></color> , <b>EN ADELANTE “EL GENERADOR EXENTO”, REPRESENTADO POR</b> <color=0,0,255> <b>{nombre_gestor}</b></color> ,<b> EN SU CARÁCTER</b> <color=0,0,255> <b>GESTOR</b></color> <b>; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS: </b>
+<b>DECLARACIONES </b>
+<b>A.Declara “El Suministrador” que: </b>
+<b>I.</b> Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propio, de conformidad con lo dispuesto en el artículo 1 del Acuerdo por el que se crea CFE Suministrador de Servicios Básicos, publicado el 29 de marzo de 2016 en el Diario Oficial de la Federación, (Acuerdo de Creación) en relación con el 58 de la Ley de la Comisión Federal de Electricidad. 
+<b>II.</b> Tiene por objeto proveer el Suministro Básico a que se refieren los artículos 2, 4 fracción II, 5, 45, 46,  48, 50 y 51 de la Ley de la Industria Eléctrica, en favor de cualquier persona que lo solicite, debiendo generar valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del Acuerdo de Creación. 
+<b>III.</b> Cuenta con permiso para prestar el Suministro Básico, el cual fue otorgado por la Comisión Reguladora de Energía, bajo el No. E/1724/SB/2016, en fecha 28 de enero del 2016. 
+<b>IV.</b> De conformidad con lo previsto en el artículo 4 de su Acuerdo de Creación, se sujetará a lo dispuesto en la Ley de la Industria Eléctrica, la Ley de la Comisión Federal de Electricidad, los reglamentos de ambas leyes, su Acuerdo de Creación, los Términos para la Estricta Separación Legal de la Comisión Federal de Electricidad y las demás disposiciones jurídicas aplicables. El derecho mercantil y el civil serán supletorios. 
+<b>V. </b> De conformidad con el artículo 5, fracción IX, del Acuerdo de Creación, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público federal, estatal o municipal y con personas físicas o morales toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales. 
+<b>VI.</b> Su representante el  <b>ING .LEONARDO MENDEZ REYNOSO </b> en su carácter de Apoderado Legal, quien se identifica con Credencial de Elector No.IDMEX1880210774 , cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Contraprestación, lo que acredita con la Escritura Pública <b>No. 58643 de Fecha 14 de febrero de 2024</b>, otorgada ante la fe del Mtro. Víctor Rafael Aguilar Molina, Notario Público No. 174 de la Ciudad de México, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas. 
+<b>VII.</b> Cuenta con el Registro Federal de Contribuyentes número CSS160330CP7 y su domicilio fiscal es el ubicado en Avenida Paseo de la Reforma 164, colonia Juárez, Delegación Cuauhtémoc, Ciudad de México, CP 06600. 
+<b>VIII.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Contraprestación, el ubicado en <b>Av. San Miguel de Allende No. 933, Ciudad Industrial, Irapuato, Guanajuato C.P. 36541.  </b>
+<b>B. Declara “El Generador Exento” que: </b>
+[Aplica para la identificación de un Generador Exento, correspondiente a una persona física o persona moral, quien a su vez es Usuario de Suministro Básico y que entrega energía eléctrica a las Redes Generales de Distribución bajo el régimen de medición neta de energía Net  
+[Persona física] 
+<b>I.</b> Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Contraprestación y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo. 
+<b>II.</b> Se identifica con<color=0,0,255>  <b>INE No.{No_INE} </b></color> 
+<b>III.</b> Es Usuario de Suministro Básico a que se refieren los artículos 3 fracciones LVI y LVII y 51 de la Ley de la Industria Eléctrica y en términos del Contrato Mercantil de Suministro Básico de Energía Eléctrica en <color=0,0,255> <b>Baja Tensión</b> </color> celebrado con <b>CFE SUMINISTRADOR DE SERVICIOS BASICOS</b>, con RPU número <color=0,0,255> <b>{RPU}</b></color>  
+<b>IV.</b> RMU número <color=0,0,255> <b>{RMU}</b></color> , con número de cuenta <color=0,0,255> <b>cuenta</b></color>  que se presta en el domicilio ubicado en <color=0,0,255> <b>{direccion_cliente} </b></color> 
+<b>V.</b> Instalará una Central Eléctrica en las instalaciones asociadas al Contrato Mercantil de Suministro de Energía Eléctrica, con una capacidad instalada <color=0,0,255> <b>(kW) {promedio_mensual}</b></color> , una tensión <color=0,0,255> (<b>voltaje</b>)</color>  de interconexión <color=0,0,255> (<b>V</b>) </color> <color=0,0,255><b>{voltaje_tension} </b></color> , con una tecnología de generación <color=0,0,255> <b>SOLAR</b></color> . 
+<b>VI.</b> Tiene celebrado con un Contrato de Interconexión con <b>CFE SUMINISTRADOR DE SEVICIOS BASICOS</b>, bajo el numero <color=0,0,255> <b>{RPU}</b></color>. 
+<b>VII.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Contraprestación, el ubicado en <color=0,0,255>{direccion_cliente}, con teléfono {telefono_cliente}, y correo electrónico {correo_cliente}</color>.
+[Para el caso de que el Generado Exento sea representado por una tercera persona en la firma del presente Contrato de Contraprestación, se deberá anexar la correspondiente carta poder o poder notarial.] 
+<b>VIII.</b> <color=0,0,255><b>{nombre_gestor}</b></color>, en su carácter de Representante Legal, quien se identifica con <color=0,0,255><b>INE No. {No_INE_gestor}</b></color>, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Contraprestación, lo que acredita con <color=0,0,255><b>CARTA PODER SIMPLE</b></color>, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas. 
+<b>C. Declaran “Las Partes” que: </b>
+<b>I.</b> Se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que aceptan obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Contraprestación. 
+<b>II.</b> Que mediante la formalización del presente Contrato de Contraprestación, manifiestan su acuerdo y voluntad para llevar acabo la entrega de energía eléctrica a través del Punto de interconexión de la Central Eléctrica bajo el régimen de contraprestación y liquidación de <color=0,0,255><b>Net metering</b></color> en correspondencia con las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida, vigentes y aprobadas por la Comisión Reguladora de Energía. 
+<b>CLÁUSULAS </b>
+<b>PRIMERA. Objeto del Contrato. </b>
+El presente Contrato de Contraprestación tiene por objeto establecer la relación entre “Las Partes”, bajo los términos y condiciones señalados en las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+<b>SEGUNDA. Obligaciones de “El Generador Exento”.  </b>
+La celebración del presente Contrato de Contraprestación obliga a “El Generador Exento” a: 
+i) Mantener el régimen de contraprestación asociado a la interconexión, incluyendo medición, comunicación y demás requerimientos establecidos en las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+ii) Acatar las instrucciones del Distribuidor, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW. 
+iii) Garantizar el acceso a las unidades de verificación o inspección debidamente identificadas, según corresponda. 
+iv) No ceder o transferir el presente Contrato de Contraprestación durante su vigencia, sin previa autorización de “El Suministrador”. 
+v) Notificar a “El Suministrador” la intención de dar por terminado el presente Contrato de Contraprestación, con veinte (20) días de anticipación a la fecha en que se requiera tener por terminado. 
+vi) Notificar al Distribuidor sobre la celebración o conclusión del presente Contrato de Contraprestación, para los efectos legales a que haya lugar. 
+vii) Para el caso de migrar a un régimen de contraprestación distinto al elegido en el presente Contrato de Contraprestación, deberá llevar a cabo la formalización de un nuevo contrato. La migración de régimen de contraprestación, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Contraprestación. 
+viii) Generar y proporcionar a “El Suministrador”, de manera periódica, los documentos inherentes a las transacciones relacionadas al régimen de contraprestación seleccionado. 
+<b>TERCERA. Obligaciones del Suministrador.  </b>
+La celebración del presente Contrato de Contraprestación obliga a “El Suministrador” a: 
+i) Efectuar las transacciones relacionadas al régimen de contraprestación seleccionado por “El Generador Exento” en términos de las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+ii) Emitir y proporcionar a “El Generador Exento”, de manera periódica, los documentos inherentes a las transacciones relacionadas al régimen de contraprestación seleccionado por “El Generador Exento”. 
+<b>CUARTA. Modificaciones. </b>
+Cualquier modificación al presente Contrato de Contraprestación, exceptuando el cambio de régimen de contraprestación, se deberá formalizar mediante la celebración de una adenda. 
+<b>QUINTA. Transferencia del Contrato.</b> 
+Los derechos y obligaciones derivados del presente Contrato de Contraprestación sólo podrán transferirse totalmente, previa notificación por escrito a “El Suministrador” con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados en las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+<b>SEXTA. Vigencia. </b>
+El presente Contrato de Contraprestación surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida. 
+<b>SÉPTIMA. Terminación del Contrato.</b> 
+El presente Contrato de Contraprestación podrá darse por terminado por cualquiera de las causas siguientes: 
+a. Por voluntad de “El Generador Exento”, previa notificación por escrito a “El Suministrador” con anticipación no menor a veinte (20) días hábiles a la fecha en que se requiera tener por terminado el contrato. 
+b. Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquier de las disposiciones legales y administrativas aplicables. 
+c. Por acuerdo entre “Las Partes”. 
+<b>OCTAVA. Impuestos. </b>
+Cada una de “Las Partes” hará el pago de los impuestos, derechos, productos y aprovechamientos, recargos, multas y cualquier cargo de naturaleza fiscal que le corresponda en los términos establecidos en la legislación tributaria aplicable. Por tanto, ninguna de “Las Partes” estará obligada a absorber ninguna carga fiscal correspondiente a la otra Parte. 
+
+
+
+
+
+
+
+
+
+
+<b>NOVENA. Controversias.</b> 
+Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía. 
+Leído que fue por “Las Partes”, se extiende el presente Contrato de Contraprestación por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de <color=0,0,255><b>{lugar_fecha}</b></color>. 
+
+
+
+<b>  “EL GENERADOR EXENTO”                                                                 “EL SUMINISTRADOR”           </b> 
+<b>.                                                                                                   CFE SUMINISTRADOR DE SERVICIOS </b>
+<b>.                                                                                                   BÁSICOS                   </b>
+<b>.     {nombre_cliente}                                                                                ING. LEONARDO MENDEZ REYNOSO     </b>
+-----------------------------------------------------------------                       -------------------------------------------------------------------   
+<b>.             Nombre y firma                                                                                                  Apoderado Legal   </b>

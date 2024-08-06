@@ -1,7 +1,7 @@
 from docx import Document
 from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from text_contrato import configuracion_lineas
+from formato_contratos import formato_distribuidor
 
 class DocumentoContrato:
     def __init__(self):
@@ -23,23 +23,20 @@ class DocumentoContrato:
                 end_tag_pos = texto.find('>', i) + 1
                 tag = texto[i:end_tag_pos]
                 
-                # Procesar etiqueta de negritas
                 if tag.startswith('<b>'):
                     end_bold_tag_pos = texto.find('</b>', i) + len('</b>')
                     bold_text = texto[i + len('<b>'):end_bold_tag_pos - len('</b>')]
                     self.agregar_texto_con_formato(parrafo, bold_text, tamano_fuente, negrita=True)
                     i = end_bold_tag_pos
                 
-                # Procesar etiqueta de color
                 elif tag.startswith('<color='):
                     end_color_tag_pos = texto.find('</color>', i) + len('</color>')
-                    color_code = tag[len('<color='):tag.find('>')]  # Obtener el código de color
+                    color_code = tag[len('<color='):tag.find('>')]
                     color_value = tuple(map(int, color_code.split(',')))
                     color_text_start = end_tag_pos
                     color_text_end = texto.find('</color>', color_text_start)
                     color_text = texto[color_text_start:color_text_end]
 
-                    # Manejar texto con negritas dentro de color
                     if '<b>' in color_text:
                         start_bold_in_color = color_text.find('<b>') + len('<b>')
                         end_bold_in_color = color_text.find('</b>')
@@ -51,11 +48,9 @@ class DocumentoContrato:
                     
                     i = end_color_tag_pos
                 
-                # Saltar cualquier otra etiqueta desconocida
                 else:
                     i = end_tag_pos
             else:
-                # Procesar texto sin etiquetas
                 next_tag_pos = texto.find('<', i)
                 if next_tag_pos == -1:
                     self.agregar_texto_con_formato(parrafo, texto[i:], tamano_fuente)
@@ -65,79 +60,76 @@ class DocumentoContrato:
                     i = next_tag_pos
 
     def agregar_parrafo(self, texto, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
-        p = self.documento.add_paragraph()
-        
-        # Aplicar indentación
-        p_format = p.paragraph_format
-        if indentacion > 0:
-            p_format.left_indent = Pt(indentacion)
-        
-        # Aplicar espaciado antes y después del párrafo
-        p_format.space_before = Pt(0)
-        p_format.space_after = Pt(0)  # Asegurar que no haya espacio después del párrafo
+        lines = texto.split('\n')
+        for i, line in enumerate(lines):
+            p = self.documento.add_paragraph()
+            p_format = p.paragraph_format
+            
+            if indentacion > 0:
+                p_format.left_indent = Pt(indentacion)
+            
+            p_format.space_before = Pt(0)
+            p_format.space_after = Pt(0)
+            p_format.line_spacing = Pt(12)
 
-        # Establecer espaciado entre líneas en 1.0
-        p_format.line_spacing = Pt(12)  # Ajustar según sea necesario
+            self.procesar_etiquetas(p, line, tamano_fuente)
 
-        self.procesar_etiquetas(p, texto, tamano_fuente)
-
-        if justificado:
-            p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-        else:
-            if alineacion == 'center':
-                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            elif alineacion == 'right':
-                p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+            if justificado and i < len(lines) - 1:
+                p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             else:
-                p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                if alineacion == 'center':
+                    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                elif alineacion == 'right':
+                    p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+                else:
+                    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
     def generar_documento(self, lineas, variables, configuracion):
-        # Reemplazar variables en el texto
         for indice, linea in enumerate(lineas):
             for clave, valor in variables.items():
                 linea = linea.replace(f"{{{clave}}}", valor)
             
-            # Obtener configuración específica para la línea o usar valores por defecto
             config = configuracion.get(indice, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
             tamano_fuente = config['tamano_fuente']
             alineacion = config['alineacion']
             justificado = config['justificado']
             indentacion = config['indentacion']
 
-            # Agregar párrafo al documento
             self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
 
     def guardar_documento(self, nombre_archivo):
         self.documento.save(nombre_archivo)
 
-# Leer el archivo de texto
-with open("mnt/data/contrato_variables.txt", "r", encoding="utf-8") as file:
-    lineas = file.readlines()
+def cargar_lineas_archivo(ruta_archivo):
+    with open(ruta_archivo, "r", encoding="utf-8") as file:
+        return file.readlines()
 
-# Variables a reemplazar
-variables = {
-    "nombre_cliente": "John Doe",
-    "nombre_gestor": "Jane Smith",
-    "No_INE": "1234567890123",
-    "promedio_mensual": "5000",
-    "voltaje_tension": "220V",
-    "RPU": "987654321",
-    "RMU": "567890123",
-    "cuenta": "1234567890",
-    "direccion_cliente": "123 Main Street, City, Country",
-    "tarifa": "1C",
-    "numero_hilos": "3",
-    "numero_medidor": "5432109876",
-    "demanda_contratada": "50 kW",
-    "demanda_instalada": "60 kW",
-    "telefono_cliente": "555-1234",
-    "correo_cliente": "cliente@example.com",
-    "lugar_fecha": "Ciudad, Fecha",
-    "No_INE_gestor": "0987654321098"
-}
+# Ejemplo de uso
+if __name__ == "__main__":
+    ruta_lineas = "mnt/data/contrato_distribuidor.txt"
+    lineas = cargar_lineas_archivo(ruta_lineas)
 
+    variables = {
+        "nombre_cliente": "John Doe",
+        "nombre_gestor": "Jane Smith",
+        "No_INE": "1234567890123",
+        "promedio_mensual": "5000",
+        "voltaje_tension": "220V",
+        "RPU": "987654321",
+        "RMU": "567890123",
+        "cuenta": "1234567890",
+        "direccion_cliente": "123 Main Street, City, Country",
+        "tarifa": "1C",
+        "numero_hilos": "3",
+        "numero_medidor": "5432109876",
+        "demanda_contratada": "50 kW",
+        "demanda_instalada": "60 kW",
+        "telefono_cliente": "555-1234",
+        "correo_cliente": "cliente@example.com",
+        "lugar_fecha": "Ciudad, Fecha",
+        "No_INE_gestor": "0987654321098"
+    }
 
-# Crear y generar el documento
-doc_contrato = DocumentoContrato()
-doc_contrato.generar_documento(lineas, variables, configuracion_lineas)
-doc_contrato.guardar_documento("mnt/data/contrato_generado.docx")
+    doc_contrato = DocumentoContrato()
+    doc_contrato.generar_documento(lineas, variables, formato_distribuidor)
+    doc_contrato.guardar_documento("mnt/data/contrato_generado.docx")

@@ -2,15 +2,15 @@ base = 0
 first = 35
 seccond = 40 
  
-configuracion_lineas = { 
+formato_distribuidor= { 
      
     0:   {'tamano_fuente': 7,    'alineacion': 'right',   'justificado': False, 'indentacion': base   , 'espaciado_despues': 2},
     1:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': base   , 'espaciado_despues': 2},
     2:   {'tamano_fuente': 10,   'alineacion': 'center',  'justificado': False, 'indentacion': base   , 'espaciado_despues': 2},
-    3:   {'tamano_fuente': 8,   'alineacion': 'left',    'justificado': False, 'indentacion': base   , 'espaciado_despues': 2},
-    4:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': first  , 'espaciado_despues': 2},
-    5:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': first  , 'espaciado_despues': 2},
-    6:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': first  , 'espaciado_despues': 2},
+    3:   {'tamano_fuente': 8,   'alineacion': 'left',    'justificado': False,  'indentacion': base   , 'espaciado_despues': 2},
+    4:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': base  , 'espaciado_despues': 2},
+    5:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': base  , 'espaciado_despues': 2},
+    6:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': base  , 'espaciado_despues': 2},
     7:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': first  , 'espaciado_despues': 2},
     8:   {'tamano_fuente': 7,    'alineacion': 'justify', 'justificado': True,  'indentacion': first  , 'espaciado_despues': 2},
     9:   {'tamano_fuente': 8,   'alineacion': 'left',    'justificado': False, 'indentacion': base   , 'espaciado_despues': 2},
@@ -83,6 +83,13 @@ configuracion_lineas = {
     77:  {'tamano_fuente': 7,   'alineacion': 'justify', 'justificado': True,  'indentacion': base, 'espaciado_despues': 2},
     78:  {'tamano_fuente': 7,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
     79:  {'tamano_fuente': 7,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    
+}
+
+
+formato_suministrador= { 
+     
+
     80:  {'tamano_fuente': 7,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
     81:  {'tamano_fuente': 7,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
     82:  {'tamano_fuente': 10,   'alineacion': 'center', 'justificado': False,  'indentacion': seccond, 'espaciado_despues': 2},
