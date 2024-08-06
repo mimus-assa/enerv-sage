@@ -60,42 +60,47 @@ class DocumentoContrato:
                     i = next_tag_pos
 
     def agregar_parrafo(self, texto, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
-        lines = texto.split('\n')
-        for i, line in enumerate(lines):
-            p = self.documento.add_paragraph()
-            p_format = p.paragraph_format
-            
-            if indentacion > 0:
-                p_format.left_indent = Pt(indentacion)
-            
-            p_format.space_before = Pt(0)
-            p_format.space_after = Pt(0)
-            p_format.line_spacing = Pt(12)
+        p = self.documento.add_paragraph()
+        p_format = p.paragraph_format
+        
+        if indentacion > 0:
+            p_format.left_indent = Pt(indentacion)
+        
+        p_format.space_before = Pt(0)
+        p_format.space_after = Pt(0)
+        p_format.line_spacing = Pt(12)
 
-            self.procesar_etiquetas(p, line, tamano_fuente)
+        # Procesar líneas dentro del párrafo
+        lineas = texto.split('\n')
+        for i, linea in enumerate(lineas):
+            if i > 0:
+                p.add_run().add_break()
+            self.procesar_etiquetas(p, linea, tamano_fuente)
 
-            if justificado and i < len(lines) - 1:
-                p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+        if justificado:
+            p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+        else:
+            if alineacion == 'center':
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            elif alineacion == 'right':
+                p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
             else:
-                if alineacion == 'center':
-                    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                elif alineacion == 'right':
-                    p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-                else:
-                    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                p.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
     def generar_documento(self, lineas, variables, configuracion):
         for indice, linea in enumerate(lineas):
-            for clave, valor in variables.items():
-                linea = linea.replace(f"{{{clave}}}", valor)
-            
-            config = configuracion.get(indice, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
-            tamano_fuente = config['tamano_fuente']
-            alineacion = config['alineacion']
-            justificado = config['justificado']
-            indentacion = config['indentacion']
+            linea = linea.strip()
+            if linea:  # Sólo procesar líneas no vacías
+                for clave, valor in variables.items():
+                    linea = linea.replace(f"{{{clave}}}", valor)
+                
+                config = configuracion.get(indice, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
+                tamano_fuente = config['tamano_fuente']
+                alineacion = config['alineacion']
+                justificado = config['justificado']
+                indentacion = config['indentacion']
 
-            self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
+                self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
 
     def guardar_documento(self, nombre_archivo):
         self.documento.save(nombre_archivo)
