@@ -1,0 +1,40 @@
+Fecha {fecha} Número de Solicitud _______________
+{nombre_cliente}
+{domicilio_calle}
+{domicilio_no_exterior}
+{domicilio_no_interior}
+{domicilio_zip}
+{domicilio_colonia}
+{domicilio_municipio}
+{domicilio_estado}
+{telefono_cliente}
+{correo_cliente}
+{nombre_gestor}
+{puesto_gestor}
+{domicilio_gestor_calle}
+{domicilio_gestor_no_exterior}
+{domicilio_gestor_no_interior}
+{domicilio_gestor_zip}
+{domicilio_gestor_colonia}
+{domicilio_gestor_municipio}
+{domicilio_gestor_estado}
+{telefono_gestor}
+{correo_gestor}
+{baja_tencion}
+{media_tension}
+{consumo_centro_carga}
+{consumo_centro_carga_venta_excedentes}
+{venta_total}
+{RPU}
+{voltaje_tension}
+{fecha_estimada}
+{capacidad_bruta_instalada}
+{generacion_promedio_mensual_estimada}
+{cantidad_de_paneles} de 585 W
+{latitud}
+{longitud}
+{nombre_cliente} (Representante Legal o El solicitante) (El solicitante) certifica que la información proporcionada en la presente solicitud es apropiada, precisa y verídica. El solicitante acepta que los datos proporcionados sean utilizados para llevar a cabo los Estudios de Interconexión para garantizar la confiabilidad del Sistema Eléctrico Nacional con la Interconexión de la Central Eléctrica del Solicitante al amparo de la Ley de la Industria Eléctrica y su reglamento, en caso de ser requeridos.
+El solicitante entiende que los datos proporcionados se añadirán a las bases de datos del Suministrador cuando se firme un contrato de Interconexión respectivo.
+El solicitante deberá anexar a la presente solicitud, la información técnica requerida en el documento “Información Técnica Requerida para Centrales Eléctricas”.
+{nombre_cliente} 
+{fecha} 

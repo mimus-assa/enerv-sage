@@ -1,0 +1,41 @@
+nombre_cliente, del recibo
+nombre_gestor, se da en el prompt
+No_INE, se saca del propmpt
+promedio_mensual, resultado de la cotizacion
+voltaje_tension /foto del medidor posiblemente se le da al chatgpt
+RPU, sale del recibo
+RMU, recibo
+cuenta, recibo
+direccion_cliente, recibo
+tarifa, recibo
+voltaje_tension /foto del medidor posiblemente se le da al chatgpt
+numero_hilos, foto del medidor
+numero_medidor, foto del medidor o entregado por el gestor
+voltaje_tension /foto del medidor posiblemente se le da al chatgpt
+promedio_mensual, resultado de la cotizacion
+demanda_contratada, recibo dependiendo de si es GDMTO/H
+demanda_instalada, prompt se obtiene marcando al 071(el cliente debe de marcar)
+promedio_mensual, resultado de la cotizacion
+voltaje_tension /foto del medidor posiblemente se le da al chatgpt
+direccion_cliente, recibo
+telefono_cliente, prompt
+correo_cliente, prompt
+lugar_fecha, por definirse
+nombre_cliente, del recibo
+nombre_cliente, del recibo
+nombre_cliente, del recibo
+nombre_gestor, se da en el prompt
+No_INE, se saca del propmpt
+RPU, sale del recibo
+RMU, recibo
+cuenta, recibo
+direccion_cliente, recibo
+promedio_mensual, resultado de la cotizacion
+voltaje_tension /foto del medidor posiblemente se le da al chatgpt
+RPU, sale del recibo
+direccion_cliente, recibo
+elefono_cliente, prompt
+correo_cliente, prompt
+nombre_gestor, se da en el prompt
+No_INE_gestor, se saca del propmpt
+lugar_fecha, por definirse

@@ -1,0 +1,159 @@
+Contrato Interconexión  
+CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR <b>ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA</b>, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE,<color=0,0,255> <b>{nombre_cliente}</b> </color>EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR <color=0,0,255> <b>{nombre_gestor}</b> </color>EN SU CARÁCTER DE <color=0,0,255> <b>GESTOR</b> </color>; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:
+<b>DECLARACIONES</b> 
+<b>A. Declara “El Distribuidor” que: </b>
+<b>I.</b> Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propios, de conformidad con lo dispuesto en el artículo 1 del Acuerdo de creación de la empresa productiva subsidiaria de la Comisión Federal de Electricidad, denominada CFE Distribución, publicado en el Diario Oficial de la Federación el 29 de marzo de 2016. 
+<b>II.</b> Tiene por objeto realizar las actividades necesarias para prestar el Servicio Público de Distribución de energía eléctrica de conformidad con los artículos 2, 4 fracción I, 5, 26, 30, 31 y 33 de la Ley de la Industria Eléctrica y 6, 57, 58 y 59 de la Ley de la Comisión Federal de Electricidad, así como para llevar a cabo, entre otras actividades, el financiamiento, instalación, mantenimiento, gestión, operación y ampliación de la infraestructura necesaria para prestar el servicio público de distribución, de conformidad con lo previsto en las leyes citadas, los Términos para la estricta separación legal de la Comisión Federal de Electricidad y demás disposiciones jurídicas aplicables, generando valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del referido Acuerdo. 
+<b>III.</b> De conformidad con el artículo 5, fracción XVIII, del Acuerdo mencionado, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público del Gobierno Federal, Estatal o Municipal y con personas físicas o morales, toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales de obligaciones contraídas por sí, la Comisión Federal de Electricidad o las empresas productivas subsidiarias y empresas filiales de ésta, con sujeción a las disposiciones legales aplicables.  
+<b>IV. ING. JOSE FROYLAN GONZALEZ DE ANDA</b>, en su carácter de Apoderado Legal, quien se identifica con Credencial de Elector No.7506040H2912316MEX, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Interconexión, lo que acredita con la Escritura Pública No. <b>43,386</b>, de <b>24</b> de <b>marzo</b> de <b>2017</b>, otorgada ante la fe del <b>Lic. Victor Rafael Aguilar Molina</b>, Notario Público No.<b>174</b>, de la <b>Ciudad de México</b>, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas.  
+<b>V.</b> Cuenta con el Registro Federal de Contribuyentes número <b>CSS160330CP7</b> y tiene su domicilio fiscal en <b>Av..Paseo de la Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en <b>Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541. </b>
+<b>B. Declara “El Solicitante” que: </b>
+<color=255,0,0>[Persona física] </color>
+<b>I.</b> Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Interconexión y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo. 
+<b>II.</b> Se identifica con <color=0,0,255> <b>INE No. {No_INE} </b>  </color>
+<b>III.</b> (Si) (No) <b>SI</b> se adquiere el suministro de energía eléctrica para su consumo en el mismo Punto de interconexión de la Central Eléctrica. 
+<b>IV.</b> Mediante la formalización del presente Contrato de Interconexión, manifiesta su voluntad para llevar a cabo la interconexión a las Redes Generales de Distribución, de una Central Eléctrica con una capacidad instalada (kW) <color=0,0,255> <b>{promedio_mensual}</b></color> , una tensión (voltaje) de interconexión (V) <color=0,0,255> <b>{voltaje_tension}</b></color> , con una tecnología de generación <color=0,0,255> <b>SOLAR.</b> </color> 
+<b>V.</b> Para el desarrollo de las actividades materia del presente Contrato de Interconexión, se hará uso de las instalaciones correspondientes el Contrato Mercantil de Suministro de Energía Eléctrica celebrado con el CFE SUMINISTRADOR DE SERVICIOS BASICOS., con <color=0,0,255><b>RPU {RPU}</b></color>, <color=0,0,255><b>No. RMU  {RMU}</b></color>, con número de cuenta<color=0,0,255> <b>{cuenta}</b></color>, que se presta en el domicilio ubicado En <color=0,0,255> <b>{direccion_cliente}</b></color> con tarifa <color=0,0,255><b>{tarifa}</b></color>, con voltaje <color=0,0,255><b>{voltaje_tension}</b></color>, numero de hilos <color=0,0,255><b>{numero_hilos}</b>,</color> numero de medidor <color=0,0,255><b>{numero_medidor}</b></color>, tipo de medidor (electromecánico) y/o (digital) <color=0,0,255><b>DIGITAL</b></color>, tensión (voltaje) de suministro (V) <color=0,0,255><b>{voltaje_tension}</b></color>, con carga total instalada (KVA) <color=0,0,255><b>{promedio_mensual}</b></color>, potencia instalada (KW) <color=0,0,255><b>{demanda_instalada}</b> </color> y una demanda contratada (KW) <color=0,0,255> <b>{demanda_contratada} </b> </color>KW.  
+<b>VI.</b> De conformidad con la clasificación de Centrales Eléctricas establecida en el Manual de interconexión de centrarles de generación con capacidad menor a 0.5 MW, se trata de una Central Eléctrica (Baja Tensión hasta 50kW [BT]) (Media Tensión hasta 250 kW [MT1]) (Media Tensión de 250 kW hasta 500 <color=0,0,255> <b>kW [MT2])  {demanda_contratada} KW.</b></color>  
+<b>VII.</b> Instalará una Central Eléctrica en el domicilio del Usuario Final, con una capacidad instalada (kW) <color=0,0,255> <b>{promedio_mensual}</b></color>  KW, una tensión (voltaje) de interconexión (V) <color=0,0,255> <b>{voltaje_tension}</b></color> , con una tecnología de generación <color=0,0,255> <b>SOLAR</b></color> .              
+El régimen de contraprestación asociado a la interconexión será Net metering 
+<b>VIII.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en <b>{direccion_cliente}</b>. con teléfono <color=0,0,255> <b>{telefono_cliente}</b></color> , y correo electrónico <color=0,0,255> <b>{correo_cliente}</b> </color> .  
+<b>C. Declaran “Las Partes” que: </b>
+Que se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que están de acuerdo en establecer las siguientes: 
+<b>CLÁUSULAS</b> 
+<b>PRIMERA. Objeto del Contrato. </b>
+El presente Contrato de Interconexión tiene por objeto establecer los términos y las condiciones entre “Las Partes”, para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución. 
+<b>SEGUNDA. Obligaciones del Solicitante.  </b>
+La celebración del presente Contrato de Interconexión obliga a “El Solicitante” a: 
+i) Mantener en operación la Central Eléctrica, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW. 
+ii) En caso de no contar con un contrato de suministro de energía eléctrica asociado al Punto de interconexión, deberá cubrir los costos relacionados con la instalación del(los) medidor(es), y equipo(s) de medición (transformadores de instrumentos) necesarios para la interconexión. 
+iii) Proporcionar el mantenimiento correspondiente a la Central Eléctrica, con base en lo señalado en los manuales del fabricante de los equipos. 
+iv) No intervenir ni modificar los equipos instalados por “El Distribuidor”, en caso contrario, “El Solicitante” deberá responder por los daños y perjuicios que causen a “El Distribuidor”. 
+v) Garantizar el acceso a las unidades de verificación o de inspección, según corresponda. 
+vi) Contar con los medios de protección y desconexión que permitan interrumpir la operación de la Central Eléctrica en caso de falla o mal funcionamiento, o bien, a solicitud de “El Distribuidor”, para el caso de realización de maniobras de mantenimiento de las Redes Generales de Distribución o por posibles afectaciones a la infraestructura y operación de las Redes Generales de Distribución. 
+vii) Notificar a “El Distribuidor” cualquier caso fortuito o de fuerza mayor que afecte a la Central Eléctrica o infraestructura de interconexión en un plazo no mayor a 48 horas a partir de la ocurrencia del suceso. 
+viii) No ceder o transferir el presente Contrato de Interconexión durante su vigencia sin la autorización de “El Distribuidor”. 
+ix) Notificar a “El Distribuidor”, a través del Suministrador, de la intención de dar por terminado el presente Contrato con al menos veinte (20) días de anticipación a la fecha en que se requiera tener por terminado el contrato.  
+x) Notificar al Suministrador sobre la celebración o conclusión del presente Contrato de Interconexión, para los efectos legales a que haya lugar.  
+xi) Para el caso de migrar de un régimen de contraprestación asociado a la interconexión, distinto al elegido en el presente Contrato de Interconexión, deberá llevar a cabo la formalización de un nuevo contrato y asumir los costos correspondientes a la migración. La migración de régimen, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Interconexión en los términos señalados por las disposiciones aplicables. 
+<b>TERCERA. Obligaciones de “El Distribuidor”.  </b>
+La celebración del presente Contrato de Interconexión obliga a “El Distribuidor” a: 
+i) Cubrir los costos relacionados con la instalación del(los) medidor(es) y equipo(s) de medición (transformadores de instrumentos) requeridos para la interconexión de la Central Eléctrica, cuando ésta se encuentra asociada a un contrato de suministro de energía eléctrica. 
+ii) Instalar el(los) medidor(es) necesario(s) y llevar a cabo la interconexión de la Central Eléctrica a las Redes Generales de Distribución, previo cumplimiento de los esquemas típicos de interconexión por parte de “El Solicitante” y mantener la interconexión física durante la vigencia del presente Contrato de Interconexión. Para el caso de terminación del presente Contrato de Interconexión, “El Distribuidor”, podrá sustituir los equipos de medición, debiendo instalar el medidor necesario para continuar, en su caso, con el servicio de conformidad con el contrato de suministro de energía eléctrica. 
+iii) Tomar lectura del(los) medidor(es) de forma periódica (en función con el periodo de facturación) y notificar las mismas al Suministrador en tiempo y forma. 
+iv) Mantener y operar la infraestructura de interconexión asociada a la Central Eléctrica. 
+v) Notificar con diez (10) días de anticipación al Solicitante la realización de actividades de mantenimiento a las Redes Generales de Distribución que interconecta a la Central Eléctrica en cuestión. 
+vi) Notificar a “El Solicitante” los eventos de caso fortuito o fuerza mayor que afecten la interconexión entre la Central Eléctrica y las Redes Generales de Distribución. 
+vii) Reemplazar, por motivos de falla, obsolescencia o mantenimiento, previa solicitud del Suministrador de Servicios Básicos, los medidores y equipos de medición, colocando los sellos y medidas de seguridad que sean necesarios, sin costo para el Usuario Final. 
+viii) Suspender el servicio cuando se presente cualquiera de los supuestos aplicables en el artículo 41 de la Ley de la Industria Eléctrica. 
+<b>CUARTA. Especificaciones. </b>
+Las Partes se obligan a cumplir con las normas, especificaciones y demás disposiciones aplicables a los equipos, materiales, accesorios o elementos empleados para llevar a cabo la interconexión, así como las aplicables a la Generación Distribuida o Generación Limpia Distribuida y lo establecido en el presente Contrato de Interconexión. 
+<b>QUINTA. Modificaciones. </b>
+Cualquier modificación al presente Contrato de Interconexión, exceptuando el cambio de régimen de contraprestación asociado a la interconexión, se deberá formalizar mediante la celebración de una adenda. 
+<b>SEXTA. Transferencia del Contrato. </b>
+Los derechos y obligaciones derivados del presente Contrato de Interconexión sólo podrán transferirse totalmente, previa notificación por escrito a “El Distribuidor”, a través del Suministrador, con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución de conformidad con las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+<b>SÉPTIMA. Vigencia. </b>
+El presente Contrato de Interconexión surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida. 
+<b>OCTAVA. Terminación del contrato. </b>
+El presente Contrato podrá darse por terminado por cualquiera de las causas siguientes: 
+a. Por voluntad de “El Solicitante”, previa notificación por escrito a “El Distribuidor” con anticipación no menor a veinte (20) días hábiles a la fecha en que se requiera tener por terminado el contrato. 
+b. Por necesidades del servicio, previa notificación, debidamente justificada por parte de “El Distribuidor”, a “El Solicitante”, con anticipación no menor a veinte (20) días hábiles a la fecha en que “El Distribuidor” tenga programado efectuar sus actividades. 
+c. Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquiera de las Disposiciones Legales y Administrativas aplicables. 
+d. Por acuerdo entre “Las Partes”. 
+<b>NOVENA. Controversias. </b>
+Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía.  
+Leído que fue por “Las Partes”, se extiende el presente Contrato de Interconexión por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de <color=0,0,255> <b>{lugar_fecha}</b></color> . 
+
+
+<b>“EL SOLICITANTE O REPRESENTANTE”                    EL DISTRIBUIDOR         </b>
+<b>  DE LA CENTRAL ELECTRICA                     CFE DISTRIBUCION        </b>
+_____________________________________________________       _____________________________________________________  
+<color=0,0,255><b>        {nombre_cliente}</b> </color>                                    <b>ING. JOSÉ FROYLAN GONZALEZ DE ANDA</b>    
+<color=0,0,255> <b>FIRMA Y NOMBRE DEL SOLICITANTE    </b></color>                             <b>SUPERINTENDENTE DE ZONA IRAPUATO        </b>
+
+
+
+
+
+La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y<color=0,0,255>  <b> {nombre_cliente}  </b>  </color> . 
+
+
+
+<b>CONTRATO PARA DETERMINAR LA CONTRAPRESTACIÓN APLICABLE POR LA ENERGÍA ELÉCTRICA QUE CELEBRAN POR UNA PARTE, CFE SUMINISTRADOR DE SERVICIOS BÁSICOS, EN ADELANTE “EL SUMINISTRADOR”, REPRESENTADA POR, ING. LEONARDO MENDEZ REYNOSO, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE,</b> <color=0,0,255> <b>{nombre_cliente}</b></color> , <b>EN ADELANTE “EL GENERADOR EXENTO”, REPRESENTADO POR</b> <color=0,0,255> <b>{nombre_gestor}</b></color> ,<b> EN SU CARÁCTER</b> <color=0,0,255> <b>GESTOR</b></color> <b>; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS: </b>
+<b>DECLARACIONES </b>
+<b>A.Declara “El Suministrador” que: </b>
+<b>I.</b> Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propio, de conformidad con lo dispuesto en el artículo 1 del Acuerdo por el que se crea CFE Suministrador de Servicios Básicos, publicado el 29 de marzo de 2016 en el Diario Oficial de la Federación, (Acuerdo de Creación) en relación con el 58 de la Ley de la Comisión Federal de Electricidad. 
+<b>II.</b> Tiene por objeto proveer el Suministro Básico a que se refieren los artículos 2, 4 fracción II, 5, 45, 46,  48, 50 y 51 de la Ley de la Industria Eléctrica, en favor de cualquier persona que lo solicite, debiendo generar valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del Acuerdo de Creación. 
+<b>III.</b> Cuenta con permiso para prestar el Suministro Básico, el cual fue otorgado por la Comisión Reguladora de Energía, bajo el No. E/1724/SB/2016, en fecha 28 de enero del 2016. 
+<b>IV.</b> De conformidad con lo previsto en el artículo 4 de su Acuerdo de Creación, se sujetará a lo dispuesto en la Ley de la Industria Eléctrica, la Ley de la Comisión Federal de Electricidad, los reglamentos de ambas leyes, su Acuerdo de Creación, los Términos para la Estricta Separación Legal de la Comisión Federal de Electricidad y las demás disposiciones jurídicas aplicables. El derecho mercantil y el civil serán supletorios. 
+<b>V. </b> De conformidad con el artículo 5, fracción IX, del Acuerdo de Creación, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público federal, estatal o municipal y con personas físicas o morales toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales. 
+<b>VI.</b> Su representante el  <b>ING .LEONARDO MENDEZ REYNOSO </b> en su carácter de Apoderado Legal, quien se identifica con Credencial de Elector No.IDMEX1880210774 , cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Contraprestación, lo que acredita con la Escritura Pública <b>No. 58643 de Fecha 14 de febrero de 2024</b>, otorgada ante la fe del Mtro. Víctor Rafael Aguilar Molina, Notario Público No. 174 de la Ciudad de México, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas. 
+<b>VII.</b> Cuenta con el Registro Federal de Contribuyentes número CSS160330CP7 y su domicilio fiscal es el ubicado en Avenida Paseo de la Reforma 164, colonia Juárez, Delegación Cuauhtémoc, Ciudad de México, CP 06600. 
+<b>VIII.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Contraprestación, el ubicado en <b>Av. San Miguel de Allende No. 933, Ciudad Industrial, Irapuato, Guanajuato C.P. 36541.  </b>
+<b>B. Declara “El Generador Exento” que: </b>
+[Aplica para la identificación de un Generador Exento, correspondiente a una persona física o persona moral, quien a su vez es Usuario de Suministro Básico y que entrega energía eléctrica a las Redes Generales de Distribución bajo el régimen de medición neta de energía Net  
+[Persona física] 
+<b>I.</b> Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Contraprestación y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo. 
+<b>II.</b> Se identifica con<color=0,0,255>  <b>INE No.{No_INE} </b></color> 
+<b>III.</b> Es Usuario de Suministro Básico a que se refieren los artículos 3 fracciones LVI y LVII y 51 de la Ley de la Industria Eléctrica y en términos del Contrato Mercantil de Suministro Básico de Energía Eléctrica en <color=0,0,255> <b>Baja Tensión</b> </color> celebrado con <b>CFE SUMINISTRADOR DE SERVICIOS BASICOS</b>, con RPU número <color=0,0,255> <b>{RPU}</b></color>  
+<b>IV.</b> RMU número <color=0,0,255> <b>{RMU}</b></color> , con número de cuenta <color=0,0,255> <b>cuenta</b></color>  que se presta en el domicilio ubicado en <color=0,0,255> <b>{direccion_cliente} </b></color> 
+<b>V.</b> Instalará una Central Eléctrica en las instalaciones asociadas al Contrato Mercantil de Suministro de Energía Eléctrica, con una capacidad instalada <color=0,0,255> <b>(kW) {promedio_mensual}</b></color> , una tensión <color=0,0,255> (<b>voltaje</b>)</color>  de interconexión <color=0,0,255> (<b>V</b>) </color> <color=0,0,255><b>{voltaje_tension} </b></color> , con una tecnología de generación <color=0,0,255> <b>SOLAR</b></color> . 
+<b>VI.</b> Tiene celebrado con un Contrato de Interconexión con <b>CFE SUMINISTRADOR DE SEVICIOS BASICOS</b>, bajo el numero <color=0,0,255> <b>{RPU}</b></color>. 
+<b>VII.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Contraprestación, el ubicado en <color=0,0,255>{direccion_cliente}, con teléfono {telefono_cliente}, y correo electrónico {correo_cliente}</color>.
+[Para el caso de que el Generado Exento sea representado por una tercera persona en la firma del presente Contrato de Contraprestación, se deberá anexar la correspondiente carta poder o poder notarial.] 
+<b>VIII.</b> <color=0,0,255><b>{nombre_gestor}</b></color>, en su carácter de Representante Legal, quien se identifica con <color=0,0,255><b>INE No. {No_INE_gestor}</b></color>, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Contraprestación, lo que acredita con <color=0,0,255><b>CARTA PODER SIMPLE</b></color>, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas. 
+<b>C. Declaran “Las Partes” que: </b>
+<b>I.</b> Se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que aceptan obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Contraprestación. 
+<b>II.</b> Que mediante la formalización del presente Contrato de Contraprestación, manifiestan su acuerdo y voluntad para llevar acabo la entrega de energía eléctrica a través del Punto de interconexión de la Central Eléctrica bajo el régimen de contraprestación y liquidación de <color=0,0,255><b>Net metering</b></color> en correspondencia con las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida, vigentes y aprobadas por la Comisión Reguladora de Energía. 
+<b>CLÁUSULAS </b>
+<b>PRIMERA. Objeto del Contrato. </b>
+El presente Contrato de Contraprestación tiene por objeto establecer la relación entre “Las Partes”, bajo los términos y condiciones señalados en las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+<b>SEGUNDA. Obligaciones de “El Generador Exento”.  </b>
+La celebración del presente Contrato de Contraprestación obliga a “El Generador Exento” a: 
+i) Mantener el régimen de contraprestación asociado a la interconexión, incluyendo medición, comunicación y demás requerimientos establecidos en las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+ii) Acatar las instrucciones del Distribuidor, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW. 
+iii) Garantizar el acceso a las unidades de verificación o inspección debidamente identificadas, según corresponda. 
+iv) No ceder o transferir el presente Contrato de Contraprestación durante su vigencia, sin previa autorización de “El Suministrador”. 
+v) Notificar a “El Suministrador” la intención de dar por terminado el presente Contrato de Contraprestación, con veinte (20) días de anticipación a la fecha en que se requiera tener por terminado. 
+vi) Notificar al Distribuidor sobre la celebración o conclusión del presente Contrato de Contraprestación, para los efectos legales a que haya lugar. 
+vii) Para el caso de migrar a un régimen de contraprestación distinto al elegido en el presente Contrato de Contraprestación, deberá llevar a cabo la formalización de un nuevo contrato. La migración de régimen de contraprestación, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Contraprestación. 
+viii) Generar y proporcionar a “El Suministrador”, de manera periódica, los documentos inherentes a las transacciones relacionadas al régimen de contraprestación seleccionado. 
+<b>TERCERA. Obligaciones del Suministrador.  </b>
+La celebración del presente Contrato de Contraprestación obliga a “El Suministrador” a: 
+i) Efectuar las transacciones relacionadas al régimen de contraprestación seleccionado por “El Generador Exento” en términos de las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+ii) Emitir y proporcionar a “El Generador Exento”, de manera periódica, los documentos inherentes a las transacciones relacionadas al régimen de contraprestación seleccionado por “El Generador Exento”. 
+<b>CUARTA. Modificaciones. </b>
+Cualquier modificación al presente Contrato de Contraprestación, exceptuando el cambio de régimen de contraprestación, se deberá formalizar mediante la celebración de una adenda. 
+<b>QUINTA. Transferencia del Contrato.</b> 
+Los derechos y obligaciones derivados del presente Contrato de Contraprestación sólo podrán transferirse totalmente, previa notificación por escrito a “El Suministrador” con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados en las Disposiciones Administrativas de Carácter General en Materia de Generación Distribuida y sus anexos. 
+<b>SEXTA. Vigencia. </b>
+El presente Contrato de Contraprestación surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida. 
+<b>SÉPTIMA. Terminación del Contrato.</b> 
+El presente Contrato de Contraprestación podrá darse por terminado por cualquiera de las causas siguientes: 
+a. Por voluntad de “El Generador Exento”, previa notificación por escrito a “El Suministrador” con anticipación no menor a veinte (20) días hábiles a la fecha en que se requiera tener por terminado el contrato. 
+b. Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquier de las disposiciones legales y administrativas aplicables. 
+c. Por acuerdo entre “Las Partes”. 
+<b>OCTAVA. Impuestos. </b>
+Cada una de “Las Partes” hará el pago de los impuestos, derechos, productos y aprovechamientos, recargos, multas y cualquier cargo de naturaleza fiscal que le corresponda en los términos establecidos en la legislación tributaria aplicable. Por tanto, ninguna de “Las Partes” estará obligada a absorber ninguna carga fiscal correspondiente a la otra Parte. 
+
+
+
+
+
+
+
+
+
+
+<b>NOVENA. Controversias.</b> 
+Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía. 
+Leído que fue por “Las Partes”, se extiende el presente Contrato de Contraprestación por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de <color=0,0,255><b>{lugar_fecha}</b></color>. 
+
+
+
+<b>  “EL GENERADOR EXENTO”                                                                 “EL SUMINISTRADOR”           </b> 
+<b>.                                                                                                   CFE SUMINISTRADOR DE SERVICIOS </b>
+<b>.                                                                                                   BÁSICOS                   </b>
+<b>.     {nombre_cliente}                                                                                ING. LEONARDO MENDEZ REYNOSO     </b>
+-----------------------------------------------------------------                       -------------------------------------------------------------------   
+<b>.             Nombre y firma                                                                                                  Apoderado Legal   </b>
