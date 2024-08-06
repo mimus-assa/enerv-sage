@@ -1,5 +1,5 @@
 from docx import Document
-from docx.shared import Pt, RGBColor
+from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from formato_contratos import formato_distribuidor
 
@@ -7,10 +7,26 @@ class DocumentoContrato:
     def __init__(self):
         self.documento = Document()
         self.documento._body.clear_content()
+        self.configurar_pagina()
+
+    def configurar_pagina(self):
+        sections = self.documento.sections
+        for section in sections:
+            section.page_width = Inches(8.5)
+            section.page_height = Inches(11)
+            section.left_margin = Inches(1.18)
+            section.right_margin = Inches(1.18)
+            section.top_margin = Inches(0.49)
+            section.bottom_margin = Inches(0.49)
+
+    def configurar_fuente(self, parrafo, fuente="Arial"):
+        for run in parrafo.runs:
+            run.font.name = fuente
 
     def agregar_texto_con_formato(self, parrafo, texto, tamano_fuente, color=None, negrita=False):
         run = parrafo.add_run(texto)
         run.font.size = Pt(tamano_fuente)
+        run.font.name = "Arial"  # Configurar la fuente en Arial
         if negrita:
             run.bold = True
         if color:
@@ -77,6 +93,9 @@ class DocumentoContrato:
                 p.add_run().add_break()
             self.procesar_etiquetas(p, linea, tamano_fuente)
 
+        # Configurar la fuente del párrafo en Arial
+        self.configurar_fuente(p)
+
         if justificado:
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
         else:
@@ -89,8 +108,8 @@ class DocumentoContrato:
 
     def generar_documento(self, lineas, variables, configuracion):
         for indice, linea in enumerate(lineas):
-            linea = linea.strip()
-            if linea:  # Sólo procesar líneas no vacías
+            linea = linea.rstrip()  # Eliminar espacios en blanco al final de cada línea
+            if linea:
                 for clave, valor in variables.items():
                     linea = linea.replace(f"{{{clave}}}", valor)
                 
@@ -101,6 +120,9 @@ class DocumentoContrato:
                 indentacion = config['indentacion']
 
                 self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
+            else:
+                # Agregar un párrafo vacío para representar la línea en blanco
+                self.documento.add_paragraph()
 
     def guardar_documento(self, nombre_archivo):
         self.documento.save(nombre_archivo)
