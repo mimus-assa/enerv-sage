@@ -85,6 +85,12 @@ formato_distribuidor= {
     77:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': base, 'espaciado_despues': 2},
     78:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
     79:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    80:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    81:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    82:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    83:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    84:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
+    85:  {'tamano_fuente': 9,   'alineacion': 'justify', 'justificado': True,  'indentacion': seccond, 'espaciado_despues': 2},
     
 }
 

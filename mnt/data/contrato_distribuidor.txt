@@ -1,10 +1,11 @@
 Contrato Interconexión  
-
+ 
 CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR <b>ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA</b>, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE,<color=0,0,255> <b>{nombre_cliente}</b> </color>EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR <color=0,0,255> <b>{nombre_gestor}</b> </color>EN SU CARÁCTER DE <color=0,0,255> <b>GESTOR</b> </color>; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:
-
+ 
 <b>DECLARACIONES</b> 
-
+ 
 <b>A. Declara “El Distribuidor” que: </b>
+
 <list>
 <item>Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propios, de conformidad con lo dispuesto en el artículo 1 del Acuerdo de creación de la empresa productiva subsidiaria de la Comisión Federal de Electricidad, denominada CFE Distribución, publicado en el Diario Oficial de la Federación el 29 de marzo de 2016.</item>
 <item>Tiene por objeto realizar las actividades necesarias para prestar el Servicio Público de Distribución de energía eléctrica de conformidad con los artículos 2, 4 fracción I, 5, 26, 30, 31 y 33 de la Ley de la Industria Eléctrica y 6, 57, 58 y 59 de la Ley de la Comisión Federal de Electricidad, así como para llevar a cabo, entre otras actividades, el financiamiento, instalación, mantenimiento, gestión, operación y ampliación de la infraestructura necesaria para prestar el servicio público de distribución, de conformidad con lo previsto en las leyes citadas, los Términos para la estricta separación legal de la Comisión Federal de Electricidad y demás disposiciones jurídicas aplicables, generando valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del referido Acuerdo.</item> 
@@ -83,4 +84,4 @@ _____________________________________________________       ____________________
 
 
 
-La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y<color=0,0,255>  <b> {nombre_cliente}  </b>  </color> . 
+La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y <color=0,0,255>  <b> {nombre_cliente}  </b>  </color> . 

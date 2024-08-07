@@ -4,7 +4,29 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from formato_contratos import formato_distribuidor
 from roman import convertir_a_romano
-from configurador_documento import *
+
+class ConfiguradorDocumento:
+    def __init__(self, documento):
+        self.documento = documento
+
+    def configurar_pagina(self):
+        sections = self.documento.sections
+        for section in sections:
+            section.page_width = Inches(8.5)
+            section.page_height = Inches(11)
+            section.left_margin = Inches(1.18)
+            section.right_margin = Inches(1.18)
+            section.top_margin = Inches(0.49)
+            section.bottom_margin = Inches(0.49)
+
+    def configurar_fuente(self, parrafo, fuente="Arial", tamano_fuente=12):
+        for run in parrafo.runs:
+            run.font.name = fuente
+            run.font.size = Pt(tamano_fuente)
+            r = run._element
+            r.rPr.rFonts.set(qn('w:eastAsia'), fuente)
+        parrafo.style.font.name = fuente
+        parrafo.style.font.size = Pt(tamano_fuente)
 
 class ProcesadorTexto:
     def __init__(self, documento):
@@ -64,13 +86,6 @@ class ProcesadorTexto:
                     self.agregar_texto_con_formato(parrafo, texto[i:next_tag_pos], tamano_fuente)
                     i = next_tag_pos
 
-from docx import Document
-from docx.shared import Pt, RGBColor, Inches
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml.ns import qn
-from formato_contratos import formato_distribuidor
-from roman import convertir_a_romano
-
 class DocumentoContrato:
     def __init__(self):
         self.documento = Document()
@@ -82,21 +97,21 @@ class DocumentoContrato:
     def agregar_parrafo(self, texto, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
         p = self.documento.add_paragraph()
         p_format = p.paragraph_format
-        
+
         if indentacion > 0:
             p_format.left_indent = Pt(indentacion)
-        
+
         p_format.space_before = Pt(0)
         p_format.space_after = Pt(0)
         p_format.line_spacing = Pt(12)
+
+        self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
 
         lineas = texto.split('\n')
         for i, linea in enumerate(lineas):
             if i > 0:
                 p.add_run().add_break()
             self.procesador.procesar_etiquetas(p, linea, tamano_fuente)
-
-        self.configurador.configurar_fuente(p)
 
         if justificado:
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -115,22 +130,20 @@ class DocumentoContrato:
                 numero_romano = convertir_a_romano(n)
                 p = self.documento.add_paragraph()
 
-                # Agregar el número romano y un tab
+                p_format = p.paragraph_format
+                p_format.left_indent = Inches(0.5)
+                p_format.first_line_indent = Inches(-0.5)
+                p_format.space_before = Pt(0)
+                p_format.space_after = Pt(0)
+                p_format.line_spacing = Pt(12)
+
+                self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
+
                 run = p.add_run(f"{numero_romano}. \t")
                 run.font.size = Pt(tamano_fuente)
                 run.font.name = "Arial"
 
-                # Agregar el texto del item después del tab
                 self.procesador.procesar_etiquetas(p, item, tamano_fuente)
-                self.configurador.configurar_fuente(p)
-
-                # Configurar el formato del párrafo
-                p_format = p.paragraph_format
-                p_format.left_indent = Inches(0.5)  # Sangría de todo el párrafo
-                p_format.first_line_indent = Inches(-0.5)  # Sangría negativa para la primera línea
-                p_format.space_before = Pt(0)
-                p_format.space_after = Pt(0)
-                p_format.line_spacing = Pt(12)
 
                 if justificado:
                     p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -145,6 +158,10 @@ class DocumentoContrato:
                 p = self.documento.add_paragraph()
                 p.paragraph_format.space_before = Pt(0)
                 p.paragraph_format.space_after = Pt(0)
+                run = p.add_run()
+                self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
+                run.font.size = Pt(tamano_fuente)
+                run.font.name = "Arial"
 
     def procesar_linea(self, linea, configuracion, i, lineas):
         config = configuracion.get(i, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
@@ -170,6 +187,7 @@ class DocumentoContrato:
 
     def generar_documento(self, lineas, variables, configuracion):
         i = 0
+        p = None
         while i < len(lineas):
             linea = lineas[i].rstrip()
             if linea:
@@ -178,6 +196,10 @@ class DocumentoContrato:
                 i = self.procesar_linea(linea, configuracion, i, lineas)
             else:
                 p = self.documento.add_paragraph()
+                run = p.add_run()
+                self.configurador.configurar_fuente(p, tamano_fuente=9)
+                run.font.size = Pt(9)
+                run.font.name = "Arial"
                 p.paragraph_format.space_before = Pt(0)
                 p.paragraph_format.space_after = Pt(0)
                 i += 1
@@ -190,7 +212,7 @@ def cargar_lineas_archivo(ruta_archivo):
         return file.readlines()
 
 # Ejemplo de uso
-if __name__ == "__main__":
+if __name__:
     ruta_lineas = "mnt/data/contrato_distribuidor.txt"
     lineas = cargar_lineas_archivo(ruta_lineas)
 
