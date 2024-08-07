@@ -1,32 +1,21 @@
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml.ns import qn
 from formato_contratos import formato_distribuidor
+from roman import convertir_a_romano
+from configurador_documento import *
 
-class DocumentoContrato:
-    def __init__(self):
-        self.documento = Document()
-        self.documento._body.clear_content()
-        self.configurar_pagina()
-
-    def configurar_pagina(self):
-        sections = self.documento.sections
-        for section in sections:
-            section.page_width = Inches(8.5)
-            section.page_height = Inches(11)
-            section.left_margin = Inches(1.18)
-            section.right_margin = Inches(1.18)
-            section.top_margin = Inches(0.49)
-            section.bottom_margin = Inches(0.49)
-
-    def configurar_fuente(self, parrafo, fuente="Arial"):
-        for run in parrafo.runs:
-            run.font.name = fuente
+class ProcesadorTexto:
+    def __init__(self, documento):
+        self.documento = documento
 
     def agregar_texto_con_formato(self, parrafo, texto, tamano_fuente, color=None, negrita=False):
         run = parrafo.add_run(texto)
         run.font.size = Pt(tamano_fuente)
-        run.font.name = "Arial"  # Configurar la fuente en Arial
+        run.font.name = "Arial"
+        r = run._element
+        r.rPr.rFonts.set(qn('w:eastAsia'), "Arial")
         if negrita:
             run.bold = True
         if color:
@@ -75,6 +64,21 @@ class DocumentoContrato:
                     self.agregar_texto_con_formato(parrafo, texto[i:next_tag_pos], tamano_fuente)
                     i = next_tag_pos
 
+from docx import Document
+from docx.shared import Pt, RGBColor, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml.ns import qn
+from formato_contratos import formato_distribuidor
+from roman import convertir_a_romano
+
+class DocumentoContrato:
+    def __init__(self):
+        self.documento = Document()
+        self.documento._body.clear_content()
+        self.configurador = ConfiguradorDocumento(self.documento)
+        self.procesador = ProcesadorTexto(self.documento)
+        self.configurador.configurar_pagina()
+
     def agregar_parrafo(self, texto, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
         p = self.documento.add_paragraph()
         p_format = p.paragraph_format
@@ -86,15 +90,13 @@ class DocumentoContrato:
         p_format.space_after = Pt(0)
         p_format.line_spacing = Pt(12)
 
-        # Procesar líneas dentro del párrafo
         lineas = texto.split('\n')
         for i, linea in enumerate(lineas):
             if i > 0:
                 p.add_run().add_break()
-            self.procesar_etiquetas(p, linea, tamano_fuente)
+            self.procesador.procesar_etiquetas(p, linea, tamano_fuente)
 
-        # Configurar la fuente del párrafo en Arial
-        self.configurar_fuente(p)
+        self.configurador.configurar_fuente(p)
 
         if justificado:
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -106,23 +108,79 @@ class DocumentoContrato:
             else:
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
+    def agregar_lista(self, items, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
+        for i, item in enumerate(items):
+            if item.strip():
+                n = i + 1
+                numero_romano = convertir_a_romano(n)
+                p = self.documento.add_paragraph()
+
+                # Agregar el número romano y un tab
+                run = p.add_run(f"{numero_romano}. \t")
+                run.font.size = Pt(tamano_fuente)
+                run.font.name = "Arial"
+
+                # Agregar el texto del item después del tab
+                self.procesador.procesar_etiquetas(p, item, tamano_fuente)
+                self.configurador.configurar_fuente(p)
+
+                # Configurar el formato del párrafo
+                p_format = p.paragraph_format
+                p_format.left_indent = Inches(0.5)  # Sangría de todo el párrafo
+                p_format.first_line_indent = Inches(-0.5)  # Sangría negativa para la primera línea
+                p_format.space_before = Pt(0)
+                p_format.space_after = Pt(0)
+                p_format.line_spacing = Pt(12)
+
+                if justificado:
+                    p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+                else:
+                    if alineacion == 'center':
+                        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                    elif alineacion == 'right':
+                        p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+                    else:
+                        p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+            else:
+                p = self.documento.add_paragraph()
+                p.paragraph_format.space_before = Pt(0)
+                p.paragraph_format.space_after = Pt(0)
+
+    def procesar_linea(self, linea, configuracion, i, lineas):
+        config = configuracion.get(i, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
+        tamano_fuente = config['tamano_fuente']
+        alineacion = config['alineacion']
+        justificado = config['justificado']
+        indentacion = config['indentacion']
+
+        if linea.startswith('<list>'):
+            items = []
+            i += 1
+            while i < len(lineas) and not lineas[i].startswith('</list>'):
+                item = lineas[i].strip().replace('<item>', '').replace('</item>', '')
+                if item:
+                    items.append(item)
+                i += 1
+            self.agregar_lista(items, tamano_fuente, alineacion, justificado, indentacion)
+        elif linea.startswith('</list>'):
+            return i + 1
+        else:
+            self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
+        return i + 1
+
     def generar_documento(self, lineas, variables, configuracion):
-        for indice, linea in enumerate(lineas):
-            linea = linea.rstrip()  # Eliminar espacios en blanco al final de cada línea
+        i = 0
+        while i < len(lineas):
+            linea = lineas[i].rstrip()
             if linea:
                 for clave, valor in variables.items():
                     linea = linea.replace(f"{{{clave}}}", valor)
-                
-                config = configuracion.get(indice, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
-                tamano_fuente = config['tamano_fuente']
-                alineacion = config['alineacion']
-                justificado = config['justificado']
-                indentacion = config['indentacion']
-
-                self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
+                i = self.procesar_linea(linea, configuracion, i, lineas)
             else:
-                # Agregar un párrafo vacío para representar la línea en blanco
-                self.documento.add_paragraph()
+                p = self.documento.add_paragraph()
+                p.paragraph_format.space_before = Pt(0)
+                p.paragraph_format.space_after = Pt(0)
+                i += 1
 
     def guardar_documento(self, nombre_archivo):
         self.documento.save(nombre_archivo)
