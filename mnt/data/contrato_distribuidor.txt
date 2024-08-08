@@ -1,9 +1,9 @@
 Contrato Interconexión  
- 
+
 CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR <b>ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA</b>, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE,<color=0,0,255> <b>{nombre_cliente}</b> </color>EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR <color=0,0,255> <b>{nombre_gestor}</b> </color>EN SU CARÁCTER DE <color=0,0,255> <b>GESTOR</b> </color>; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:
- 
+
 <b>DECLARACIONES</b> 
- 
+
 <b>A. Declara “El Distribuidor” que: </b>
 
 <list>
@@ -16,7 +16,6 @@ CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES
 <item>Cuenta con el Registro Federal de Contribuyentes número <b>CSS160330CP7</b> y tiene su domicilio fiscal en <b>Av..Paseo de la Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en <b>Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541. </b> </item>
 
 </list> 
-
 <b>B. Declara “El Solicitante” que: </b>
 
 <color=255,0,0>[Persona física] </color>

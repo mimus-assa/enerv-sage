@@ -1,6 +1,7 @@
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.style import WD_STYLE_TYPE
 from docx.oxml.ns import qn
 from formato_contratos import formato_distribuidor
 from roman import convertir_a_romano
@@ -43,7 +44,8 @@ class ProcesadorTexto:
         if color:
             run.font.color.rgb = RGBColor(color[0], color[1], color[2])
 
-    def procesar_etiquetas(self, parrafo, texto, tamano_fuente):
+    def procesar_etiquetas(self, texto, tamano_fuente):
+        partes = []
         i = 0
         while i < len(texto):
             if texto[i] == '<':
@@ -53,7 +55,7 @@ class ProcesadorTexto:
                 if tag.startswith('<b>'):
                     end_bold_tag_pos = texto.find('</b>', i) + len('</b>')
                     bold_text = texto[i + len('<b>'):end_bold_tag_pos - len('</b>')]
-                    self.agregar_texto_con_formato(parrafo, bold_text, tamano_fuente, negrita=True)
+                    partes.append(('text', bold_text, tamano_fuente, None, True))
                     i = end_bold_tag_pos
                 
                 elif tag.startswith('<color='):
@@ -67,11 +69,11 @@ class ProcesadorTexto:
                     if '<b>' in color_text:
                         start_bold_in_color = color_text.find('<b>') + len('<b>')
                         end_bold_in_color = color_text.find('</b>')
-                        self.agregar_texto_con_formato(parrafo, color_text[:start_bold_in_color - len('<b>')], tamano_fuente, color=color_value)
-                        self.agregar_texto_con_formato(parrafo, color_text[start_bold_in_color:end_bold_in_color], tamano_fuente, color=color_value, negrita=True)
-                        self.agregar_texto_con_formato(parrafo, color_text[end_bold_in_color + len('</b>'):], tamano_fuente, color=color_value)
+                        partes.append(('text', color_text[:start_bold_in_color - len('<b>')], tamano_fuente, color_value, False))
+                        partes.append(('text', color_text[start_bold_in_color:end_bold_in_color], tamano_fuente, color_value, True))
+                        partes.append(('text', color_text[end_bold_in_color + len('</b>'):], tamano_fuente, color_value, False))
                     else:
-                        self.agregar_texto_con_formato(parrafo, color_text, tamano_fuente, color=color_value)
+                        partes.append(('text', color_text, tamano_fuente, color_value, False))
                     
                     i = end_color_tag_pos
                 
@@ -80,11 +82,12 @@ class ProcesadorTexto:
             else:
                 next_tag_pos = texto.find('<', i)
                 if next_tag_pos == -1:
-                    self.agregar_texto_con_formato(parrafo, texto[i:], tamano_fuente)
+                    partes.append(('text', texto[i:], tamano_fuente, None, False))
                     break
                 else:
-                    self.agregar_texto_con_formato(parrafo, texto[i:next_tag_pos], tamano_fuente)
+                    partes.append(('text', texto[i:next_tag_pos], tamano_fuente, None, False))
                     i = next_tag_pos
+        return partes
 
 class DocumentoContrato:
     def __init__(self):
@@ -93,6 +96,15 @@ class DocumentoContrato:
         self.configurador = ConfiguradorDocumento(self.documento)
         self.procesador = ProcesadorTexto(self.documento)
         self.configurador.configurar_pagina()
+        self.estilo_personalizado = self.crear_estilo_personalizado('EstiloPersonalizado', 9)  # Ajusta el tamaño de fuente aquí
+
+    def crear_estilo_personalizado(self, nombre_estilo, tamano_fuente):
+        estilos = self.documento.styles
+        estilo_parrafo = estilos.add_style(nombre_estilo, WD_STYLE_TYPE.PARAGRAPH)
+        estilo_fuente = estilo_parrafo.font
+        estilo_fuente.size = Pt(tamano_fuente)
+        estilo_fuente.name = 'Arial'
+        return nombre_estilo
 
     def agregar_parrafo(self, texto, config):
         p = self.documento.add_paragraph()
@@ -111,7 +123,10 @@ class DocumentoContrato:
         for i, linea in enumerate(lineas):
             if i > 0:
                 p.add_run().add_break()
-            self.procesador.procesar_etiquetas(p, linea, config['tamano_fuente'])
+            partes = self.procesador.procesar_etiquetas(linea, config['tamano_fuente'])
+            for tipo, texto, tamano_fuente, color, negrita in partes:
+                if tipo == 'text':
+                    self.procesador.agregar_texto_con_formato(p, texto, tamano_fuente, color, negrita)
 
         if config.get('justificado', False):
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -125,10 +140,7 @@ class DocumentoContrato:
 
     def agregar_parrafo_en_blanco(self, config):
         p = self.documento.add_paragraph()
-        run = p.add_run()
-        self.configurador.configurar_fuente(p, tamano_fuente=config['tamano_fuente'])
-        run.font.size = Pt(config['tamano_fuente'])
-        run.font.name = "Arial"
+        p.style = self.documento.styles[self.estilo_personalizado]
         p.paragraph_format.space_before = Pt(0)
         p.paragraph_format.space_after = Pt(config.get('espaciado_despues', 0))
 
@@ -152,7 +164,10 @@ class DocumentoContrato:
                 run.font.size = Pt(config['tamano_fuente'])
                 run.font.name = "Arial"
 
-                self.procesador.procesar_etiquetas(p, item, config['tamano_fuente'])
+                partes = self.procesador.procesar_etiquetas(item, config['tamano_fuente'])
+                for tipo, texto, tamano_fuente, color, negrita in partes:
+                    if tipo == 'text':
+                        self.procesador.agregar_texto_con_formato(p, texto, tamano_fuente, color, negrita)
 
                 if config.get('justificado', False):
                     p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
@@ -191,7 +206,8 @@ class DocumentoContrato:
                     linea = linea.replace(f"{{{clave}}}", valor)
                 i = self.procesar_linea(linea, configuracion, i, lineas)
             else:
-                self.agregar_parrafo_en_blanco(configuracion.get(i, {'tamano_fuente': 12}))
+                config = configuracion.get(i, {'tamano_fuente': 12})
+                self.agregar_parrafo_en_blanco(config)
                 i += 1
 
     def guardar_documento(self, nombre_archivo):
@@ -202,7 +218,7 @@ def cargar_lineas_archivo(ruta_archivo):
         return file.readlines()
 
 # Ejemplo de uso
-if __name__:
+if __name__ == "__main__":
     ruta_lineas = "mnt/data/contrato_distribuidor.txt"
     lineas = cargar_lineas_archivo(ruta_lineas)
 
