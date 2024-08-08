@@ -94,45 +94,45 @@ class DocumentoContrato:
         self.procesador = ProcesadorTexto(self.documento)
         self.configurador.configurar_pagina()
 
-    def agregar_parrafo(self, texto, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
+    def agregar_parrafo(self, texto, config):
         p = self.documento.add_paragraph()
         p_format = p.paragraph_format
 
-        if indentacion > 0:
-            p_format.left_indent = Pt(indentacion)
+        if config['indentacion'] > 0:
+            p_format.left_indent = Pt(config['indentacion'])
 
         p_format.space_before = Pt(0)
-        p_format.space_after = Pt(0)
+        p_format.space_after = Pt(config.get('espaciado_despues', 0))
         p_format.line_spacing = Pt(12)
 
-        self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
+        self.configurador.configurar_fuente(p, tamano_fuente=config['tamano_fuente'])
 
         lineas = texto.split('\n')
         for i, linea in enumerate(lineas):
             if i > 0:
                 p.add_run().add_break()
-            self.procesador.procesar_etiquetas(p, linea, tamano_fuente)
+            self.procesador.procesar_etiquetas(p, linea, config['tamano_fuente'])
 
-        if justificado:
+        if config.get('justificado', False):
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
         else:
-            if alineacion == 'center':
+            if config['alineacion'] == 'center':
                 p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            elif alineacion == 'right':
+            elif config['alineacion'] == 'right':
                 p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
             else:
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
-    def agregar_parrafo_en_blanco(self, tamano_fuente=9):
+    def agregar_parrafo_en_blanco(self, config):
         p = self.documento.add_paragraph()
         run = p.add_run()
-        self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
-        run.font.size = Pt(tamano_fuente)
+        self.configurador.configurar_fuente(p, tamano_fuente=config['tamano_fuente'])
+        run.font.size = Pt(config['tamano_fuente'])
         run.font.name = "Arial"
         p.paragraph_format.space_before = Pt(0)
-        p.paragraph_format.space_after = Pt(0)
+        p.paragraph_format.space_after = Pt(config.get('espaciado_despues', 0))
 
-    def agregar_lista(self, items, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
+    def agregar_lista(self, items, config):
         for i, item in enumerate(items):
             if item.strip():
                 n = i + 1
@@ -143,36 +143,31 @@ class DocumentoContrato:
                 p_format.left_indent = Inches(0.5)
                 p_format.first_line_indent = Inches(-0.5)
                 p_format.space_before = Pt(0)
-                p_format.space_after = Pt(0)
+                p_format.space_after = Pt(config.get('espaciado_despues', 0))
                 p_format.line_spacing = Pt(12)
 
-                self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
+                self.configurador.configurar_fuente(p, tamano_fuente=config['tamano_fuente'])
 
                 run = p.add_run(f"{numero_romano}. \t")
-                run.font.size = Pt(tamano_fuente)
+                run.font.size = Pt(config['tamano_fuente'])
                 run.font.name = "Arial"
 
-                self.procesador.procesar_etiquetas(p, item, tamano_fuente)
+                self.procesador.procesar_etiquetas(p, item, config['tamano_fuente'])
 
-                if justificado:
+                if config.get('justificado', False):
                     p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
                 else:
-                    if alineacion == 'center':
+                    if config['alineacion'] == 'center':
                         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-                    elif alineacion == 'right':
+                    elif config['alineacion'] == 'right':
                         p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
                     else:
                         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
             else:
-                self.agregar_parrafo_en_blanco(tamano_fuente)
+                self.agregar_parrafo_en_blanco(config)
 
     def procesar_linea(self, linea, configuracion, i, lineas):
         config = configuracion.get(i, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
-        tamano_fuente = config['tamano_fuente']
-        alineacion = config['alineacion']
-        justificado = config['justificado']
-        indentacion = config['indentacion']
-
         if linea.startswith('<list>'):
             items = []
             i += 1
@@ -180,11 +175,11 @@ class DocumentoContrato:
                 item = lineas[i].strip().replace('<item>', '').replace('</item>', '')
                 items.append(item)
                 i += 1
-            self.agregar_lista(items, tamano_fuente, alineacion, justificado, indentacion)
+            self.agregar_lista(items, config)
         elif linea.startswith('</list>'):
             return i + 1
         else:
-            self.agregar_parrafo(linea, tamano_fuente, alineacion, justificado, indentacion)
+            self.agregar_parrafo(linea, config)
         return i + 1
 
     def generar_documento(self, lineas, variables, configuracion):
@@ -196,7 +191,7 @@ class DocumentoContrato:
                     linea = linea.replace(f"{{{clave}}}", valor)
                 i = self.procesar_linea(linea, configuracion, i, lineas)
             else:
-                self.agregar_parrafo_en_blanco()
+                self.agregar_parrafo_en_blanco(configuracion.get(i, {'tamano_fuente': 12}))
                 i += 1
 
     def guardar_documento(self, nombre_archivo):
