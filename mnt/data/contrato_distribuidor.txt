@@ -14,7 +14,9 @@ CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES
 <item><b>ING. JOSE FROYLAN GONZALEZ DE ANDA</b>, en su carácter de Apoderado Legal, quien se identifica con Credencial de Elector No.7506040H2912316MEX, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Interconexión, lo que acredita con la Escritura Pública No. <b>43,386</b>, de <b>24</b> de <b>marzo</b> de <b>2017</b>, otorgada ante la fe del <b>Lic. Victor Rafael Aguilar Molina</b>, Notario Público No.<b>174</b>, de la <b>Ciudad de México</b>, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas.  </item>
 
 <item>Cuenta con el Registro Federal de Contribuyentes número <b>CSS160330CP7</b> y tiene su domicilio fiscal en <b>Av..Paseo de la Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México.</b> Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en <b>Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541. </b> </item>
+
 </list> 
+
 <b>B. Declara “El Solicitante” que: </b>
 
 <color=255,0,0>[Persona física] </color>

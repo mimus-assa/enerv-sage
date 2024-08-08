@@ -123,6 +123,15 @@ class DocumentoContrato:
             else:
                 p.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
+    def agregar_parrafo_en_blanco(self, tamano_fuente=9):
+        p = self.documento.add_paragraph()
+        run = p.add_run()
+        self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
+        run.font.size = Pt(tamano_fuente)
+        run.font.name = "Arial"
+        p.paragraph_format.space_before = Pt(0)
+        p.paragraph_format.space_after = Pt(0)
+
     def agregar_lista(self, items, tamano_fuente=12, alineacion='left', justificado=False, indentacion=0):
         for i, item in enumerate(items):
             if item.strip():
@@ -155,13 +164,7 @@ class DocumentoContrato:
                     else:
                         p.alignment = WD_ALIGN_PARAGRAPH.LEFT
             else:
-                p = self.documento.add_paragraph()
-                p.paragraph_format.space_before = Pt(0)
-                p.paragraph_format.space_after = Pt(0)
-                run = p.add_run()
-                self.configurador.configurar_fuente(p, tamano_fuente=tamano_fuente)
-                run.font.size = Pt(tamano_fuente)
-                run.font.name = "Arial"
+                self.agregar_parrafo_en_blanco(tamano_fuente)
 
     def procesar_linea(self, linea, configuracion, i, lineas):
         config = configuracion.get(i, {'tamano_fuente': 12, 'alineacion': 'left', 'justificado': False, 'indentacion': 0})
@@ -175,8 +178,7 @@ class DocumentoContrato:
             i += 1
             while i < len(lineas) and not lineas[i].startswith('</list>'):
                 item = lineas[i].strip().replace('<item>', '').replace('</item>', '')
-                if item:
-                    items.append(item)
+                items.append(item)
                 i += 1
             self.agregar_lista(items, tamano_fuente, alineacion, justificado, indentacion)
         elif linea.startswith('</list>'):
@@ -187,7 +189,6 @@ class DocumentoContrato:
 
     def generar_documento(self, lineas, variables, configuracion):
         i = 0
-        p = None
         while i < len(lineas):
             linea = lineas[i].rstrip()
             if linea:
@@ -195,13 +196,7 @@ class DocumentoContrato:
                     linea = linea.replace(f"{{{clave}}}", valor)
                 i = self.procesar_linea(linea, configuracion, i, lineas)
             else:
-                p = self.documento.add_paragraph()
-                run = p.add_run()
-                self.configurador.configurar_fuente(p, tamano_fuente=9)
-                run.font.size = Pt(9)
-                run.font.name = "Arial"
-                p.paragraph_format.space_before = Pt(0)
-                p.paragraph_format.space_after = Pt(0)
+                self.agregar_parrafo_en_blanco()
                 i += 1
 
     def guardar_documento(self, nombre_archivo):
