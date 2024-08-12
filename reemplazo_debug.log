@@ -1,0 +1,1262 @@
+2024-08-08 14:52:40,610 - INFO - Reemplazando en párrafos...
+2024-08-08 14:52:40,610 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,610 - DEBUG - Run original: ""
+2024-08-08 14:52:40,611 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,611 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,611 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,611 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,611 - DEBUG - Run original: ""
+2024-08-08 14:52:40,611 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,611 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,611 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,611 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,612 - DEBUG - Run original: ""
+2024-08-08 14:52:40,612 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,612 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,612 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,612 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,612 - DEBUG - Run original: ""
+2024-08-08 14:52:40,612 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,612 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,612 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,613 - DEBUG - Párrafo original: "CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE, {nombre_cliente} EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR MAURICIO VEGA PEREZ EN SU CARÁCTER DE GESTOR; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:"
+2024-08-08 14:52:40,613 - DEBUG - Run original: "CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR"
+2024-08-08 14:52:40,613 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,613 - DEBUG - Estado final del run: "CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR"
+2024-08-08 14:52:40,613 - DEBUG - Run original: " ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA, "
+2024-08-08 14:52:40,613 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,614 - DEBUG - Estado final del run: " ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA, "
+2024-08-08 14:52:40,614 - DEBUG - Run original: "EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE"
+2024-08-08 14:52:40,614 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,614 - DEBUG - Estado final del run: "EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE"
+2024-08-08 14:52:40,614 - DEBUG - Run original: ", "
+2024-08-08 14:52:40,614 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,614 - DEBUG - Estado final del run: ", "
+2024-08-08 14:52:40,614 - DEBUG - Run original: "{nombre_cliente}"
+2024-08-08 14:52:40,614 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,615 - DEBUG - Estado final del run: "{nombre_cliente}"
+2024-08-08 14:52:40,615 - DEBUG - Run original: " "
+2024-08-08 14:52:40,615 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,615 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,615 - DEBUG - Run original: "EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR"
+2024-08-08 14:52:40,615 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,616 - DEBUG - Estado final del run: "EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR"
+2024-08-08 14:52:40,616 - DEBUG - Run original: " "
+2024-08-08 14:52:40,616 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,616 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,616 - DEBUG - Run original: "MAURICIO VEGA PEREZ"
+2024-08-08 14:52:40,616 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,616 - DEBUG - Estado final del run: "MAURICIO VEGA PEREZ"
+2024-08-08 14:52:40,616 - DEBUG - Run original: " "
+2024-08-08 14:52:40,617 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,617 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,617 - DEBUG - Run original: "EN SU CARÁCTER "
+2024-08-08 14:52:40,617 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,617 - DEBUG - Estado final del run: "EN SU CARÁCTER "
+2024-08-08 14:52:40,617 - DEBUG - Run original: "DE GESTOR;"
+2024-08-08 14:52:40,617 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,618 - DEBUG - Estado final del run: "DE GESTOR;"
+2024-08-08 14:52:40,618 - DEBUG - Run original: " "
+2024-08-08 14:52:40,618 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,618 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,618 - DEBUG - Run original: "Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:"
+2024-08-08 14:52:40,618 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,618 - DEBUG - Estado final del run: "Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:"
+2024-08-08 14:52:40,619 - DEBUG - Párrafo después de procesar: "CONTRATO DE INTERCONEXIÓN A LAS REDES GENERALES DE DISTRIBUCIÓN PARA CENTRALES ELÉCTRICAS CON CAPACIDAD MENOR A 0.5 MEGAWATTS QUE CELEBRAN POR UNA PARTE, CFE DISTRIBUCIÓN, EN ADELANTE “EL DISTRIBUIDOR”, REPRESENTADA POR ING. JOSÉ FROYLAN GONZALEZ DE ANDA, SUPERINTENDENTE DE ZONA, EN SU CARÁCTER DE APODERADO LEGAL Y POR OTRA PARTE, {nombre_cliente} EN ADELANTE “EL SOLICITANTE”, REPRESENTADO POR MAURICIO VEGA PEREZ EN SU CARÁCTER DE GESTOR; Y A QUIENES EN LO SUCESIVO Y DE MANERA CONJUNTA SE DENOMINARÁN COMO “LAS PARTES”; AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:"
+2024-08-08 14:52:40,619 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,619 - DEBUG - Run original: ""
+2024-08-08 14:52:40,619 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,619 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,619 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,619 - DEBUG - Párrafo original: "DECLARACIONES"
+2024-08-08 14:52:40,619 - DEBUG - Run original: "DECLARACIONES"
+2024-08-08 14:52:40,619 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,620 - DEBUG - Estado final del run: "DECLARACIONES"
+2024-08-08 14:52:40,620 - DEBUG - Párrafo después de procesar: "DECLARACIONES"
+2024-08-08 14:52:40,620 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,620 - DEBUG - Run original: ""
+2024-08-08 14:52:40,620 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,620 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,620 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,620 - DEBUG - Párrafo original: "A. Declara “El Distribuidor” que:"
+2024-08-08 14:52:40,620 - DEBUG - Run original: "A."
+2024-08-08 14:52:40,621 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,621 - DEBUG - Estado final del run: "A."
+2024-08-08 14:52:40,621 - DEBUG - Run original: " "
+2024-08-08 14:52:40,621 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,621 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,621 - DEBUG - Run original: "Declara “El Distribuidor” que:"
+2024-08-08 14:52:40,621 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,622 - DEBUG - Estado final del run: "Declara “El Distribuidor” que:"
+2024-08-08 14:52:40,622 - DEBUG - Párrafo después de procesar: "A. Declara “El Distribuidor” que:"
+2024-08-08 14:52:40,622 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,622 - DEBUG - Run original: ""
+2024-08-08 14:52:40,622 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,622 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,622 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,622 - DEBUG - Párrafo original: "Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propios, de conformidad con lo dispuesto en el artículo 1 del Acuerdo de creación de la empresa productiva subsidiaria de la Comisión Federal de Electricidad, denominada CFE Distribución, publicado en el Diario Oficial de la Federación el 29 de marzo de 2016."
+2024-08-08 14:52:40,622 - DEBUG - Run original: "Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propios, de conformidad con lo dispuesto en el artículo 1 del Acuerdo de creación de la empresa productiva subsidiaria de la Comisión Federal de Electricidad, denominada CFE Distribución, publicado en el Diario Oficial de la Federación el 29 de marzo de 2016."
+2024-08-08 14:52:40,622 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,623 - DEBUG - Estado final del run: "Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propios, de conformidad con lo dispuesto en el artículo 1 del Acuerdo de creación de la empresa productiva subsidiaria de la Comisión Federal de Electricidad, denominada CFE Distribución, publicado en el Diario Oficial de la Federación el 29 de marzo de 2016."
+2024-08-08 14:52:40,623 - DEBUG - Párrafo después de procesar: "Es una empresa productiva subsidiaria de la Comisión Federal de Electricidad, con personalidad jurídica y patrimonio propios, de conformidad con lo dispuesto en el artículo 1 del Acuerdo de creación de la empresa productiva subsidiaria de la Comisión Federal de Electricidad, denominada CFE Distribución, publicado en el Diario Oficial de la Federación el 29 de marzo de 2016."
+2024-08-08 14:52:40,623 - DEBUG - Párrafo original: "Tiene por objeto realizar las actividades necesarias para prestar el Servicio Público de Distribución de energía eléctrica de conformidad con los artículos 2, 4 fracción I, 5, 26, 30, 31 y 33 de la Ley de la Industria Eléctrica y 6, 57, 58 y 59 de la Ley de la Comisión Federal de Electricidad, así como para llevar a cabo, entre otras actividades, el financiamiento, instalación, mantenimiento, gestión, operación y ampliación de la infraestructura necesaria para prestar el servicio público de distribución, de conformidad con lo previsto en las leyes citadas, los Términos para la estricta separación legal de la Comisión Federal de Electricidad y demás disposiciones jurídicas aplicables, generando valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del referido Acuerdo."
+2024-08-08 14:52:40,623 - DEBUG - Run original: "Tiene por objeto realizar las actividades necesarias para prestar el Servicio Público de Distribución de energía eléctrica de conformidad con los artículos 2, 4 fracción I, 5, 26, 30, 31 y 33 de la Ley de la Industria Eléctrica y 6, 57, 58 y 59 de la Ley de la Comisión Federal de Electricidad, así como para llevar a cabo, entre otras actividades, el financiamiento, instalación, mantenimiento, gestión, operación y ampliación de la infraestructura necesaria para prestar el servicio público de distribución, de conformidad con lo previsto en las leyes citadas, los Términos para la estricta separación legal de la Comisión Federal de Electricidad y demás disposiciones jurídicas aplicables, generando valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del referido Acuerdo."
+2024-08-08 14:52:40,623 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,623 - DEBUG - Estado final del run: "Tiene por objeto realizar las actividades necesarias para prestar el Servicio Público de Distribución de energía eléctrica de conformidad con los artículos 2, 4 fracción I, 5, 26, 30, 31 y 33 de la Ley de la Industria Eléctrica y 6, 57, 58 y 59 de la Ley de la Comisión Federal de Electricidad, así como para llevar a cabo, entre otras actividades, el financiamiento, instalación, mantenimiento, gestión, operación y ampliación de la infraestructura necesaria para prestar el servicio público de distribución, de conformidad con lo previsto en las leyes citadas, los Términos para la estricta separación legal de la Comisión Federal de Electricidad y demás disposiciones jurídicas aplicables, generando valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del referido Acuerdo."
+2024-08-08 14:52:40,623 - DEBUG - Párrafo después de procesar: "Tiene por objeto realizar las actividades necesarias para prestar el Servicio Público de Distribución de energía eléctrica de conformidad con los artículos 2, 4 fracción I, 5, 26, 30, 31 y 33 de la Ley de la Industria Eléctrica y 6, 57, 58 y 59 de la Ley de la Comisión Federal de Electricidad, así como para llevar a cabo, entre otras actividades, el financiamiento, instalación, mantenimiento, gestión, operación y ampliación de la infraestructura necesaria para prestar el servicio público de distribución, de conformidad con lo previsto en las leyes citadas, los Términos para la estricta separación legal de la Comisión Federal de Electricidad y demás disposiciones jurídicas aplicables, generando valor económico y rentabilidad para el Estado Mexicano como su propietario, según lo dispuesto en el artículo 2 del referido Acuerdo."
+2024-08-08 14:52:40,623 - DEBUG - Párrafo original: "De conformidad con el artículo 5, fracción XVIII, del Acuerdo mencionado, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público del Gobierno Federal, Estatal o Municipal y con personas físicas o morales, toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales de obligaciones contraídas por sí, la Comisión Federal de Electricidad o las empresas productivas subsidiarias y empresas filiales de ésta, con sujeción a las disposiciones legales aplicables."
+2024-08-08 14:52:40,623 - DEBUG - Run original: "De conformidad con el artículo 5, fracción XVIII, del Acuerdo mencionado, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público del Gobierno Federal, Estatal o Municipal y con personas físicas o morales, toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales de obligaciones contraídas por sí, la Comisión Federal de Electricidad o las empresas productivas subsidiarias y empresas filiales de ésta, con sujeción a las disposiciones legales aplicables."
+2024-08-08 14:52:40,623 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,624 - DEBUG - Estado final del run: "De conformidad con el artículo 5, fracción XVIII, del Acuerdo mencionado, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público del Gobierno Federal, Estatal o Municipal y con personas físicas o morales, toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales de obligaciones contraídas por sí, la Comisión Federal de Electricidad o las empresas productivas subsidiarias y empresas filiales de ésta, con sujeción a las disposiciones legales aplicables."
+2024-08-08 14:52:40,624 - DEBUG - Párrafo después de procesar: "De conformidad con el artículo 5, fracción XVIII, del Acuerdo mencionado, para el cumplimiento de su objeto, podrá celebrar con cualquier ente público del Gobierno Federal, Estatal o Municipal y con personas físicas o morales, toda clase de actos, convenios, contratos, suscribir títulos de crédito y otorgar todo tipo de garantías reales y personales de obligaciones contraídas por sí, la Comisión Federal de Electricidad o las empresas productivas subsidiarias y empresas filiales de ésta, con sujeción a las disposiciones legales aplicables."
+2024-08-08 14:52:40,624 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,624 - DEBUG - Run original: ""
+2024-08-08 14:52:40,624 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,624 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,624 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,625 - DEBUG - Párrafo original: "ING. JOSE FROYLAN GONZALEZ DE ANDA, en su carácter de Apoderado Legal, quien se identifica con Credencial de Elector No.7506040H2912316MEX, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Interconexión, lo que acredita con la Escritura Pública No. 43,386, de 24 de marzo de 2017, otorgada ante la fe del Lic. Victor Rafael Aguilar Molina, Notario Público No.174, de la Ciudad de México, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas."
+2024-08-08 14:52:40,625 - DEBUG - Run original: "ING. JOSE FROYLAN GONZALEZ DE ANDA"
+2024-08-08 14:52:40,625 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,625 - DEBUG - Estado final del run: "ING. JOSE FROYLAN GONZALEZ DE ANDA"
+2024-08-08 14:52:40,625 - DEBUG - Run original: ", en su carácter de Apoderado Legal, "
+2024-08-08 14:52:40,625 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,625 - DEBUG - Estado final del run: ", en su carácter de Apoderado Legal, "
+2024-08-08 14:52:40,626 - DEBUG - Run original: "quien se identifica con Credencial de Elector No.7506040H2912316MEX, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Interconexión, lo que acredita con la Escritura Pública No. "
+2024-08-08 14:52:40,626 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,626 - DEBUG - Estado final del run: "quien se identifica con Credencial de Elector No.7506040H2912316MEX, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Interconexión, lo que acredita con la Escritura Pública No. "
+2024-08-08 14:52:40,626 - DEBUG - Run original: "43,386"
+2024-08-08 14:52:40,626 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=None
+2024-08-08 14:52:40,626 - DEBUG - Estado final del run: "43,386"
+2024-08-08 14:52:40,626 - DEBUG - Run original: ", de "
+2024-08-08 14:52:40,626 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,627 - DEBUG - Estado final del run: ", de "
+2024-08-08 14:52:40,627 - DEBUG - Run original: "24"
+2024-08-08 14:52:40,627 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,627 - DEBUG - Estado final del run: "24"
+2024-08-08 14:52:40,627 - DEBUG - Run original: " de "
+2024-08-08 14:52:40,627 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,627 - DEBUG - Estado final del run: " de "
+2024-08-08 14:52:40,627 - DEBUG - Run original: "marzo"
+2024-08-08 14:52:40,627 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,628 - DEBUG - Estado final del run: "marzo"
+2024-08-08 14:52:40,628 - DEBUG - Run original: " de "
+2024-08-08 14:52:40,628 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,628 - DEBUG - Estado final del run: " de "
+2024-08-08 14:52:40,628 - DEBUG - Run original: "2017"
+2024-08-08 14:52:40,628 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,629 - DEBUG - Estado final del run: "2017"
+2024-08-08 14:52:40,629 - DEBUG - Run original: ", otorgada ante la fe del "
+2024-08-08 14:52:40,629 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,629 - DEBUG - Estado final del run: ", otorgada ante la fe del "
+2024-08-08 14:52:40,629 - DEBUG - Run original: "Lic. Victor Rafael Aguilar Molina"
+2024-08-08 14:52:40,629 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,629 - DEBUG - Estado final del run: "Lic. Victor Rafael Aguilar Molina"
+2024-08-08 14:52:40,629 - DEBUG - Run original: ", Notario Público No."
+2024-08-08 14:52:40,629 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,630 - DEBUG - Estado final del run: ", Notario Público No."
+2024-08-08 14:52:40,630 - DEBUG - Run original: "174,"
+2024-08-08 14:52:40,630 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,630 - DEBUG - Estado final del run: "174,"
+2024-08-08 14:52:40,630 - DEBUG - Run original: " de la "
+2024-08-08 14:52:40,630 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,631 - DEBUG - Estado final del run: " de la "
+2024-08-08 14:52:40,631 - DEBUG - Run original: "Ciudad de México"
+2024-08-08 14:52:40,631 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=None
+2024-08-08 14:52:40,631 - DEBUG - Estado final del run: "Ciudad de México"
+2024-08-08 14:52:40,631 - DEBUG - Run original: ", las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas."
+2024-08-08 14:52:40,631 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,631 - DEBUG - Estado final del run: ", las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas."
+2024-08-08 14:52:40,632 - DEBUG - Párrafo después de procesar: "ING. JOSE FROYLAN GONZALEZ DE ANDA, en su carácter de Apoderado Legal, quien se identifica con Credencial de Elector No.7506040H2912316MEX, cuenta con las facultades legales suficientes para comparecer a la celebración del presente Contrato de Interconexión, lo que acredita con la Escritura Pública No. 43,386, de 24 de marzo de 2017, otorgada ante la fe del Lic. Victor Rafael Aguilar Molina, Notario Público No.174, de la Ciudad de México, las cuales, a la fecha de firma del presente no le han sido modificadas, revocadas o canceladas."
+2024-08-08 14:52:40,632 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,632 - DEBUG - Run original: ""
+2024-08-08 14:52:40,632 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,632 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,632 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,632 - DEBUG - Párrafo original: "Cuenta con el Registro Federal de Contribuyentes número CSS160330CP7 y tiene su domicilio fiscal en Av..Paseo de la Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México.Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541."
+2024-08-08 14:52:40,632 - DEBUG - Run original: "Cuenta con el Registro Federal de Contribuyentes número "
+2024-08-08 14:52:40,632 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,633 - DEBUG - Estado final del run: "Cuenta con el Registro Federal de Contribuyentes número "
+2024-08-08 14:52:40,633 - DEBUG - Run original: "CSS160330CP7"
+2024-08-08 14:52:40,633 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,633 - DEBUG - Estado final del run: "CSS160330CP7"
+2024-08-08 14:52:40,633 - DEBUG - Run original: " y tiene su domicilio fiscal en "
+2024-08-08 14:52:40,633 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,633 - DEBUG - Estado final del run: " y tiene su domicilio fiscal en "
+2024-08-08 14:52:40,633 - DEBUG - Run original: "Av..Paseo de la"
+2024-08-08 14:52:40,634 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,634 - DEBUG - Estado final del run: "Av..Paseo de la"
+2024-08-08 14:52:40,634 - DEBUG - Run original: " Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México."
+2024-08-08 14:52:40,634 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,634 - DEBUG - Estado final del run: " Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México."
+2024-08-08 14:52:40,634 - DEBUG - Run original: "Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en "
+2024-08-08 14:52:40,634 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,635 - DEBUG - Estado final del run: "Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en "
+2024-08-08 14:52:40,635 - DEBUG - Run original: "Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541."
+2024-08-08 14:52:40,635 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,635 - DEBUG - Estado final del run: "Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541."
+2024-08-08 14:52:40,635 - DEBUG - Párrafo después de procesar: "Cuenta con el Registro Federal de Contribuyentes número CSS160330CP7 y tiene su domicilio fiscal en Av..Paseo de la Reforma # 164, Colonia Juárez, C.P. 06600, Delegación Cuauhtémoc, Ciudad de México.Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en Av. San Miguel de Allende #933, Ciudad Industrial, Irapuato, Guanajuato, C.P. 36541."
+2024-08-08 14:52:40,635 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,635 - DEBUG - Run original: ""
+2024-08-08 14:52:40,635 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,636 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,636 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,636 - DEBUG - Párrafo original: "B. Declara “El Solicitante” que:"
+2024-08-08 14:52:40,636 - DEBUG - Run original: "B. Declara “El Solicitante” que:"
+2024-08-08 14:52:40,636 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,636 - DEBUG - Estado final del run: "B. Declara “El Solicitante” que:"
+2024-08-08 14:52:40,636 - DEBUG - Párrafo después de procesar: "B. Declara “El Solicitante” que:"
+2024-08-08 14:52:40,636 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,636 - DEBUG - Run original: ""
+2024-08-08 14:52:40,636 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,637 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,637 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,637 - DEBUG - Párrafo original: "[Persona física]"
+2024-08-08 14:52:40,637 - DEBUG - Run original: "[Persona física]"
+2024-08-08 14:52:40,637 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=FF0000
+2024-08-08 14:52:40,637 - DEBUG - Estado final del run: "[Persona física]"
+2024-08-08 14:52:40,637 - DEBUG - Párrafo después de procesar: "[Persona física]"
+2024-08-08 14:52:40,637 - DEBUG - Párrafo original: "Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Interconexión y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo."
+2024-08-08 14:52:40,637 - DEBUG - Run original: "Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de "
+2024-08-08 14:52:40,637 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,638 - DEBUG - Estado final del run: "Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de "
+2024-08-08 14:52:40,638 - DEBUG - Run original: "Interconexión"
+2024-08-08 14:52:40,638 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,638 - DEBUG - Estado final del run: "Interconexión"
+2024-08-08 14:52:40,638 - DEBUG - Run original: " y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo."
+2024-08-08 14:52:40,638 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,638 - DEBUG - Estado final del run: " y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo."
+2024-08-08 14:52:40,638 - DEBUG - Párrafo después de procesar: "Es una persona física que comparece por su propio derecho y cuanta con la capacidad jurídica suficiente para contratar y obligarse en los términos, alcances, condiciones y cláusulas del presente Contrato de Interconexión y que no existe dolo, mala fe, ni vicio en su voluntad para la celebración del mismo."
+2024-08-08 14:52:40,639 - DEBUG - Párrafo original: "Se identifica con INE No. 1099062573570"
+2024-08-08 14:52:40,639 - DEBUG - Run original: "Se identifica con "
+2024-08-08 14:52:40,639 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,639 - DEBUG - Estado final del run: "Se identifica con "
+2024-08-08 14:52:40,639 - DEBUG - Run original: "INE"
+2024-08-08 14:52:40,639 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,639 - DEBUG - Estado final del run: "INE"
+2024-08-08 14:52:40,639 - DEBUG - Run original: " No. "
+2024-08-08 14:52:40,639 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,640 - DEBUG - Estado final del run: " No. "
+2024-08-08 14:52:40,640 - DEBUG - Run original: "1099062573570"
+2024-08-08 14:52:40,640 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,640 - DEBUG - Estado final del run: "1099062573570"
+2024-08-08 14:52:40,640 - DEBUG - Párrafo después de procesar: "Se identifica con INE No. 1099062573570"
+2024-08-08 14:52:40,640 - DEBUG - Párrafo original: "(Si) (No) SI se adquiere el suministro de energía eléctrica para su consumo en el mismo Punto de interconexión de la Central Eléctrica."
+2024-08-08 14:52:40,640 - DEBUG - Run original: "("
+2024-08-08 14:52:40,641 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,641 - DEBUG - Estado final del run: "("
+2024-08-08 14:52:40,641 - DEBUG - Run original: "Si"
+2024-08-08 14:52:40,641 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,641 - DEBUG - Estado final del run: "Si"
+2024-08-08 14:52:40,641 - DEBUG - Run original: ") ("
+2024-08-08 14:52:40,641 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,642 - DEBUG - Estado final del run: ") ("
+2024-08-08 14:52:40,642 - DEBUG - Run original: "No"
+2024-08-08 14:52:40,642 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,642 - DEBUG - Estado final del run: "No"
+2024-08-08 14:52:40,642 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,642 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,642 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,642 - DEBUG - Run original: "SI"
+2024-08-08 14:52:40,642 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=None
+2024-08-08 14:52:40,643 - DEBUG - Estado final del run: "SI"
+2024-08-08 14:52:40,643 - DEBUG - Run original: " se adquiere el suministro de energía eléctrica para su consumo en el mismo Punto de interconexión de la Central Eléctrica."
+2024-08-08 14:52:40,643 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,643 - DEBUG - Estado final del run: " se adquiere el suministro de energía eléctrica para su consumo en el mismo Punto de interconexión de la Central Eléctrica."
+2024-08-08 14:52:40,643 - DEBUG - Párrafo después de procesar: "(Si) (No) SI se adquiere el suministro de energía eléctrica para su consumo en el mismo Punto de interconexión de la Central Eléctrica."
+2024-08-08 14:52:40,643 - DEBUG - Párrafo original: "Mediante la formalización del presente Contrato de Interconexión, manifiesta su voluntad para llevar a cabo la interconexión a las Redes Generales de Distribución, de una Central Eléctrica con una capacidad instalada (kW) 11.700KW, una tensión (voltaje) de interconexión (V) 220, con una tecnología de generación SOLAR."
+2024-08-08 14:52:40,643 - DEBUG - Run original: "Mediante la formalización del presente Contrato de Interconexión, manifiesta su voluntad para llevar a cabo la interconexión a las Redes Generales de Distribución, de una Central Eléctrica "
+2024-08-08 14:52:40,644 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,644 - DEBUG - Estado final del run: "Mediante la formalización del presente Contrato de Interconexión, manifiesta su voluntad para llevar a cabo la interconexión a las Redes Generales de Distribución, de una Central Eléctrica "
+2024-08-08 14:52:40,644 - DEBUG - Run original: "con una capacidad instalada (kW) "
+2024-08-08 14:52:40,644 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,644 - DEBUG - Estado final del run: "con una capacidad instalada (kW) "
+2024-08-08 14:52:40,644 - DEBUG - Run original: "11.700KW"
+2024-08-08 14:52:40,644 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,645 - DEBUG - Estado final del run: "11.700KW"
+2024-08-08 14:52:40,645 - DEBUG - Run original: ", una tensión (voltaje) de interconexión (V) "
+2024-08-08 14:52:40,645 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,645 - DEBUG - Estado final del run: ", una tensión (voltaje) de interconexión (V) "
+2024-08-08 14:52:40,645 - DEBUG - Run original: "220"
+2024-08-08 14:52:40,645 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,646 - DEBUG - Estado final del run: "220"
+2024-08-08 14:52:40,646 - DEBUG - Run original: ", con una tecnología de generación "
+2024-08-08 14:52:40,646 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,646 - DEBUG - Estado final del run: ", con una tecnología de generación "
+2024-08-08 14:52:40,646 - DEBUG - Run original: "SOLAR."
+2024-08-08 14:52:40,646 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,646 - DEBUG - Estado final del run: "SOLAR."
+2024-08-08 14:52:40,647 - DEBUG - Párrafo después de procesar: "Mediante la formalización del presente Contrato de Interconexión, manifiesta su voluntad para llevar a cabo la interconexión a las Redes Generales de Distribución, de una Central Eléctrica con una capacidad instalada (kW) 11.700KW, una tensión (voltaje) de interconexión (V) 220, con una tecnología de generación SOLAR."
+2024-08-08 14:52:40,647 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,647 - DEBUG - Run original: ""
+2024-08-08 14:52:40,647 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,647 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,647 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,647 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,647 - DEBUG - Run original: ""
+2024-08-08 14:52:40,647 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,647 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,648 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,648 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,648 - DEBUG - Run original: ""
+2024-08-08 14:52:40,648 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,648 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,648 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,648 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,648 - DEBUG - Run original: ""
+2024-08-08 14:52:40,648 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,648 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,649 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,649 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,649 - DEBUG - Run original: ""
+2024-08-08 14:52:40,649 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,649 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,649 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,650 - DEBUG - Párrafo original: "Para el desarrollo de las actividades materia del presente Contrato de Interconexión, se hará uso de las instalaciones correspondientes el Contrato Mercantil de Suministro de Energía Eléctrica celebrado con el CFE SUMINISTRADOR DE SERVICIOS BASICOS., con RPU 055160502559, No. RMU  36555 16-05-10 XAXX-010101 003 CFE, con número de cuenta 38D06M013862240, que se presta en el domicilio ubicado En  VIÑEDOS 733 COL. VALLE VERDE C.P 36555, IRAPUATO, GUANAJUATO. con tarifa PDBT, con voltaje 220, numero de hilos 3, numero de medidor LKC654, tipo de medidor (electromecánico) y/o (digital) DIGITAL, tensión (voltaje) de suministro (V) 220, con carga total instalada (KVA) 11.700, potencia instalada (KW) No Aplica y una demanda contratada (KW) 2.0 kw. "
+2024-08-08 14:52:40,650 - DEBUG - Run original: "Para el desarrollo de las actividades materia del presente Contrato de Interconexión, se hará uso de las instalaciones correspondientes el Contrato Mercantil de Suministro de Energía Eléctrica celebrado con el CFE SUMINISTRADOR DE SERVICIOS BASICOS"
+2024-08-08 14:52:40,650 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,650 - DEBUG - Estado final del run: "Para el desarrollo de las actividades materia del presente Contrato de Interconexión, se hará uso de las instalaciones correspondientes el Contrato Mercantil de Suministro de Energía Eléctrica celebrado con el CFE SUMINISTRADOR DE SERVICIOS BASICOS"
+2024-08-08 14:52:40,650 - DEBUG - Run original: "."
+2024-08-08 14:52:40,650 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=None
+2024-08-08 14:52:40,651 - DEBUG - Estado final del run: "."
+2024-08-08 14:52:40,651 - DEBUG - Run original: ", con "
+2024-08-08 14:52:40,651 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,651 - DEBUG - Estado final del run: ", con "
+2024-08-08 14:52:40,651 - DEBUG - Run original: "RPU"
+2024-08-08 14:52:40,651 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,652 - DEBUG - Estado final del run: "RPU"
+2024-08-08 14:52:40,652 - DEBUG - Run original: " "
+2024-08-08 14:52:40,652 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,652 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,652 - DEBUG - Run original: "055160502559"
+2024-08-08 14:52:40,652 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,652 - DEBUG - Estado final del run: "055160502559"
+2024-08-08 14:52:40,652 - DEBUG - Run original: ", "
+2024-08-08 14:52:40,652 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,653 - DEBUG - Estado final del run: ", "
+2024-08-08 14:52:40,653 - DEBUG - Run original: "No. RMU"
+2024-08-08 14:52:40,653 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,653 - DEBUG - Estado final del run: "No. RMU"
+2024-08-08 14:52:40,653 - DEBUG - Run original: " "
+2024-08-08 14:52:40,653 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,654 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,654 - DEBUG - Run original: " 36555 16-05-10 XAXX-010101 003 CFE"
+2024-08-08 14:52:40,654 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,654 - DEBUG - Estado final del run: " 36555 16-05-10 XAXX-010101 003 CFE"
+2024-08-08 14:52:40,654 - DEBUG - Run original: ", con número de cuenta "
+2024-08-08 14:52:40,654 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,654 - DEBUG - Estado final del run: ", con número de cuenta "
+2024-08-08 14:52:40,654 - DEBUG - Run original: "38D06M013862240"
+2024-08-08 14:52:40,654 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,655 - DEBUG - Estado final del run: "38D06M013862240"
+2024-08-08 14:52:40,655 - DEBUG - Run original: ", que se presta en el domicilio ubicado En "
+2024-08-08 14:52:40,655 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,655 - DEBUG - Estado final del run: ", que se presta en el domicilio ubicado En "
+2024-08-08 14:52:40,655 - DEBUG - Run original: " VIÑEDOS 733 COL. VALLE VERDE C.P 36555, IRAPUATO, GUANAJUATO."
+2024-08-08 14:52:40,655 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,656 - DEBUG - Estado final del run: " VIÑEDOS 733 COL. VALLE VERDE C.P 36555, IRAPUATO, GUANAJUATO."
+2024-08-08 14:52:40,656 - DEBUG - Run original: " "
+2024-08-08 14:52:40,656 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,656 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,656 - DEBUG - Run original: "con tarifa "
+2024-08-08 14:52:40,656 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,656 - DEBUG - Estado final del run: "con tarifa "
+2024-08-08 14:52:40,656 - DEBUG - Run original: "PDBT"
+2024-08-08 14:52:40,656 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,657 - DEBUG - Estado final del run: "PDBT"
+2024-08-08 14:52:40,657 - DEBUG - Run original: ", con voltaje "
+2024-08-08 14:52:40,657 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,657 - DEBUG - Estado final del run: ", con voltaje "
+2024-08-08 14:52:40,657 - DEBUG - Run original: "220"
+2024-08-08 14:52:40,657 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,658 - DEBUG - Estado final del run: "220"
+2024-08-08 14:52:40,658 - DEBUG - Run original: ", numero de hilos "
+2024-08-08 14:52:40,658 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,658 - DEBUG - Estado final del run: ", numero de hilos "
+2024-08-08 14:52:40,658 - DEBUG - Run original: "3"
+2024-08-08 14:52:40,658 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,658 - DEBUG - Estado final del run: "3"
+2024-08-08 14:52:40,658 - DEBUG - Run original: ", numero de medidor "
+2024-08-08 14:52:40,658 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,659 - DEBUG - Estado final del run: ", numero de medidor "
+2024-08-08 14:52:40,659 - DEBUG - Run original: "LKC654"
+2024-08-08 14:52:40,659 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,659 - DEBUG - Estado final del run: "LKC654"
+2024-08-08 14:52:40,659 - DEBUG - Run original: ", tipo de medidor ("
+2024-08-08 14:52:40,659 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,660 - DEBUG - Estado final del run: ", tipo de medidor ("
+2024-08-08 14:52:40,660 - DEBUG - Run original: "electromecánico"
+2024-08-08 14:52:40,660 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,660 - DEBUG - Estado final del run: "electromecánico"
+2024-08-08 14:52:40,660 - DEBUG - Run original: ") y/o ("
+2024-08-08 14:52:40,660 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,660 - DEBUG - Estado final del run: ") y/o ("
+2024-08-08 14:52:40,660 - DEBUG - Run original: "digital"
+2024-08-08 14:52:40,660 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,661 - DEBUG - Estado final del run: "digital"
+2024-08-08 14:52:40,661 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,661 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,661 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,661 - DEBUG - Run original: "DIGITAL"
+2024-08-08 14:52:40,661 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,661 - DEBUG - Estado final del run: "DIGITAL"
+2024-08-08 14:52:40,662 - DEBUG - Run original: ","
+2024-08-08 14:52:40,662 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,662 - DEBUG - Estado final del run: ","
+2024-08-08 14:52:40,662 - DEBUG - Run original: " tensión ("
+2024-08-08 14:52:40,662 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,662 - DEBUG - Estado final del run: " tensión ("
+2024-08-08 14:52:40,662 - DEBUG - Run original: "voltaje"
+2024-08-08 14:52:40,662 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,663 - DEBUG - Estado final del run: "voltaje"
+2024-08-08 14:52:40,663 - DEBUG - Run original: ") de suministro ("
+2024-08-08 14:52:40,663 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,663 - DEBUG - Estado final del run: ") de suministro ("
+2024-08-08 14:52:40,663 - DEBUG - Run original: "V"
+2024-08-08 14:52:40,663 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,663 - DEBUG - Estado final del run: "V"
+2024-08-08 14:52:40,663 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,663 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,664 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,664 - DEBUG - Run original: "220"
+2024-08-08 14:52:40,664 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,665 - DEBUG - Estado final del run: "220"
+2024-08-08 14:52:40,665 - DEBUG - Run original: ", con carga total instalada ("
+2024-08-08 14:52:40,665 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,665 - DEBUG - Estado final del run: ", con carga total instalada ("
+2024-08-08 14:52:40,665 - DEBUG - Run original: "KVA"
+2024-08-08 14:52:40,665 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,665 - DEBUG - Estado final del run: "KVA"
+2024-08-08 14:52:40,666 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,666 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,666 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,666 - DEBUG - Run original: "11.700"
+2024-08-08 14:52:40,666 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,666 - DEBUG - Estado final del run: "11.700"
+2024-08-08 14:52:40,666 - DEBUG - Run original: ", potencia instalada ("
+2024-08-08 14:52:40,666 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,667 - DEBUG - Estado final del run: ", potencia instalada ("
+2024-08-08 14:52:40,667 - DEBUG - Run original: "KW"
+2024-08-08 14:52:40,667 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,667 - DEBUG - Estado final del run: "KW"
+2024-08-08 14:52:40,667 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,667 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,667 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,667 - DEBUG - Run original: "No Aplica"
+2024-08-08 14:52:40,668 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,668 - DEBUG - Estado final del run: "No Aplica"
+2024-08-08 14:52:40,668 - DEBUG - Run original: " "
+2024-08-08 14:52:40,668 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,668 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,668 - DEBUG - Run original: "y una demanda contratada "
+2024-08-08 14:52:40,668 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,669 - DEBUG - Estado final del run: "y una demanda contratada "
+2024-08-08 14:52:40,669 - DEBUG - Run original: "("
+2024-08-08 14:52:40,669 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,669 - DEBUG - Estado final del run: "("
+2024-08-08 14:52:40,669 - DEBUG - Run original: "KW"
+2024-08-08 14:52:40,669 - DEBUG - Formato: negrita=True, itálica=True, subrayado=None, color=0070C0
+2024-08-08 14:52:40,669 - DEBUG - Estado final del run: "KW"
+2024-08-08 14:52:40,669 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,669 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,670 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,670 - DEBUG - Run original: "2.0 kw."
+2024-08-08 14:52:40,670 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,670 - DEBUG - Estado final del run: "2.0 kw."
+2024-08-08 14:52:40,670 - DEBUG - Run original: " "
+2024-08-08 14:52:40,670 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,671 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,671 - DEBUG - Párrafo después de procesar: "Para el desarrollo de las actividades materia del presente Contrato de Interconexión, se hará uso de las instalaciones correspondientes el Contrato Mercantil de Suministro de Energía Eléctrica celebrado con el CFE SUMINISTRADOR DE SERVICIOS BASICOS., con RPU 055160502559, No. RMU  36555 16-05-10 XAXX-010101 003 CFE, con número de cuenta 38D06M013862240, que se presta en el domicilio ubicado En  VIÑEDOS 733 COL. VALLE VERDE C.P 36555, IRAPUATO, GUANAJUATO. con tarifa PDBT, con voltaje 220, numero de hilos 3, numero de medidor LKC654, tipo de medidor (electromecánico) y/o (digital) DIGITAL, tensión (voltaje) de suministro (V) 220, con carga total instalada (KVA) 11.700, potencia instalada (KW) No Aplica y una demanda contratada (KW) 2.0 kw. "
+2024-08-08 14:52:40,671 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,671 - DEBUG - Run original: ""
+2024-08-08 14:52:40,671 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,672 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,672 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,672 - DEBUG - Párrafo original: "De conformidad con la clasificación de Centrales Eléctricas establecida en el Manual de        interconexión de centrarles de generación con capacidad menor a 0.5 MW, se trata de una Central Eléctrica (Baja Tensión hasta 50kW [BT]) (Media Tensión hasta 250 kW [MT1]) (Media Tensión de 250 kW hasta 500 kW [MT2]) 2.0 KW"
+2024-08-08 14:52:40,672 - DEBUG - Run original: "De conformidad con la clasificación de Centrales Eléctricas establecida en el Manual de        interconexión de centrarles de generación con capacidad menor a 0.5 MW, se trata de una Central Eléctrica ("
+2024-08-08 14:52:40,672 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,672 - DEBUG - Estado final del run: "De conformidad con la clasificación de Centrales Eléctricas establecida en el Manual de        interconexión de centrarles de generación con capacidad menor a 0.5 MW, se trata de una Central Eléctrica ("
+2024-08-08 14:52:40,672 - DEBUG - Run original: "Baja Tensión hasta 50kW [BT]"
+2024-08-08 14:52:40,673 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,673 - DEBUG - Estado final del run: "Baja Tensión hasta 50kW [BT]"
+2024-08-08 14:52:40,673 - DEBUG - Run original: ") ("
+2024-08-08 14:52:40,673 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,673 - DEBUG - Estado final del run: ") ("
+2024-08-08 14:52:40,673 - DEBUG - Run original: "Media Tensión hasta 250 kW [MT1]"
+2024-08-08 14:52:40,673 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,674 - DEBUG - Estado final del run: "Media Tensión hasta 250 kW [MT1]"
+2024-08-08 14:52:40,674 - DEBUG - Run original: ") ("
+2024-08-08 14:52:40,674 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,674 - DEBUG - Estado final del run: ") ("
+2024-08-08 14:52:40,674 - DEBUG - Run original: "Media Tensión de 250 kW hasta 500 "
+2024-08-08 14:52:40,674 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,674 - DEBUG - Estado final del run: "Media Tensión de 250 kW hasta 500 "
+2024-08-08 14:52:40,674 - DEBUG - Run original: "kW [MT2]"
+2024-08-08 14:52:40,674 - DEBUG - Formato: negrita=True, itálica=True, subrayado=None, color=0070C0
+2024-08-08 14:52:40,675 - DEBUG - Estado final del run: "kW [MT2]"
+2024-08-08 14:52:40,675 - DEBUG - Run original: ") "
+2024-08-08 14:52:40,675 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,675 - DEBUG - Estado final del run: ") "
+2024-08-08 14:52:40,675 - DEBUG - Run original: "2.0 KW"
+2024-08-08 14:52:40,675 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,676 - DEBUG - Estado final del run: "2.0 KW"
+2024-08-08 14:52:40,676 - DEBUG - Párrafo después de procesar: "De conformidad con la clasificación de Centrales Eléctricas establecida en el Manual de        interconexión de centrarles de generación con capacidad menor a 0.5 MW, se trata de una Central Eléctrica (Baja Tensión hasta 50kW [BT]) (Media Tensión hasta 250 kW [MT1]) (Media Tensión de 250 kW hasta 500 kW [MT2]) 2.0 KW"
+2024-08-08 14:52:40,676 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,676 - DEBUG - Run original: ""
+2024-08-08 14:52:40,676 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,676 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,676 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,676 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,676 - DEBUG - Run original: ""
+2024-08-08 14:52:40,676 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,677 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,677 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,677 - DEBUG - Párrafo original: "Instalará una Central Eléctrica en el domicilio del Usuario Final, con una capacidad instalada (kW) 11.700 KW, una tensión (voltaje) de interconexión (V) 220, con una tecnología de generación SOLAR."
+2024-08-08 14:52:40,677 - DEBUG - Run original: "Instalará una Central Eléctrica en el domicilio del Usuario Final, con una capacidad instalada (kW) "
+2024-08-08 14:52:40,677 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,677 - DEBUG - Estado final del run: "Instalará una Central Eléctrica en el domicilio del Usuario Final, con una capacidad instalada (kW) "
+2024-08-08 14:52:40,677 - DEBUG - Run original: "11.700 KW"
+2024-08-08 14:52:40,677 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,678 - DEBUG - Estado final del run: "11.700 KW"
+2024-08-08 14:52:40,678 - DEBUG - Run original: ","
+2024-08-08 14:52:40,678 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,678 - DEBUG - Estado final del run: ","
+2024-08-08 14:52:40,678 - DEBUG - Run original: " una tensión (voltaje) de interconexión "
+2024-08-08 14:52:40,678 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,679 - DEBUG - Estado final del run: " una tensión (voltaje) de interconexión "
+2024-08-08 14:52:40,679 - DEBUG - Run original: "(V) "
+2024-08-08 14:52:40,679 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,679 - DEBUG - Estado final del run: "(V) "
+2024-08-08 14:52:40,679 - DEBUG - Run original: "220"
+2024-08-08 14:52:40,679 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,679 - DEBUG - Estado final del run: "220"
+2024-08-08 14:52:40,679 - DEBUG - Run original: ", "
+2024-08-08 14:52:40,679 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,680 - DEBUG - Estado final del run: ", "
+2024-08-08 14:52:40,680 - DEBUG - Run original: "con una tecnología de generación "
+2024-08-08 14:52:40,680 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,680 - DEBUG - Estado final del run: "con una tecnología de generación "
+2024-08-08 14:52:40,680 - DEBUG - Run original: "SOLAR"
+2024-08-08 14:52:40,680 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0070C0
+2024-08-08 14:52:40,680 - DEBUG - Estado final del run: "SOLAR"
+2024-08-08 14:52:40,680 - DEBUG - Run original: "."
+2024-08-08 14:52:40,681 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,681 - DEBUG - Estado final del run: "."
+2024-08-08 14:52:40,681 - DEBUG - Párrafo después de procesar: "Instalará una Central Eléctrica en el domicilio del Usuario Final, con una capacidad instalada (kW) 11.700 KW, una tensión (voltaje) de interconexión (V) 220, con una tecnología de generación SOLAR."
+2024-08-08 14:52:40,681 - DEBUG - Párrafo original: "             El régimen de contraprestación asociado a la interconexión será Net metering"
+2024-08-08 14:52:40,681 - DEBUG - Run original: "             "
+2024-08-08 14:52:40,681 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,682 - DEBUG - Estado final del run: "             "
+2024-08-08 14:52:40,682 - DEBUG - Run original: "El régimen de contraprestación asociado a la interconexión será "
+2024-08-08 14:52:40,682 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,682 - DEBUG - Estado final del run: "El régimen de contraprestación asociado a la interconexión será "
+2024-08-08 14:52:40,683 - DEBUG - Run original: "Net metering"
+2024-08-08 14:52:40,683 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,683 - DEBUG - Estado final del run: "Net metering"
+2024-08-08 14:52:40,683 - DEBUG - Párrafo después de procesar: "             El régimen de contraprestación asociado a la interconexión será Net metering"
+2024-08-08 14:52:40,683 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,683 - DEBUG - Run original: ""
+2024-08-08 14:52:40,683 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,684 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,684 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,684 - DEBUG - Párrafo original: "Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en VIÑEDOS 733 COL. VALLE VERDEC.P. 36555 IRAPUATO, GUANAJUATO. con teléfono 462-339-6232, y correo electrónico maurovp30@gmail.com ."
+2024-08-08 14:52:40,684 - DEBUG - Run original: "Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en"
+2024-08-08 14:52:40,684 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,685 - DEBUG - Estado final del run: "Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en"
+2024-08-08 14:52:40,685 - DEBUG - Run original: " VIÑEDOS 733 COL. VALLE VERDEC.P. 36555 IRAPUATO, GUANAJUATO"
+2024-08-08 14:52:40,685 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,686 - DEBUG - Estado final del run: " VIÑEDOS 733 COL. VALLE VERDEC.P. 36555 IRAPUATO, GUANAJUATO"
+2024-08-08 14:52:40,686 - DEBUG - Run original: "."
+2024-08-08 14:52:40,686 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=None
+2024-08-08 14:52:40,686 - DEBUG - Estado final del run: "."
+2024-08-08 14:52:40,686 - DEBUG - Run original: " con teléfono "
+2024-08-08 14:52:40,686 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,687 - DEBUG - Estado final del run: " con teléfono "
+2024-08-08 14:52:40,687 - DEBUG - Run original: "462-339-6232"
+2024-08-08 14:52:40,687 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,687 - DEBUG - Estado final del run: "462-339-6232"
+2024-08-08 14:52:40,687 - DEBUG - Run original: ", y correo electrónico "
+2024-08-08 14:52:40,687 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,688 - DEBUG - Estado final del run: ", y correo electrónico "
+2024-08-08 14:52:40,688 - DEBUG - Run original: "maurovp30@gmail.com"
+2024-08-08 14:52:40,688 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,688 - DEBUG - Estado final del run: "maurovp30@gmail.com"
+2024-08-08 14:52:40,688 - DEBUG - Run original: " ."
+2024-08-08 14:52:40,688 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=0070C0
+2024-08-08 14:52:40,688 - DEBUG - Estado final del run: " ."
+2024-08-08 14:52:40,689 - DEBUG - Párrafo después de procesar: "Señala como domicilio convencional para todos los efectos relativos al presente Contrato de Interconexión, el ubicado en VIÑEDOS 733 COL. VALLE VERDEC.P. 36555 IRAPUATO, GUANAJUATO. con teléfono 462-339-6232, y correo electrónico maurovp30@gmail.com ."
+2024-08-08 14:52:40,689 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,689 - DEBUG - Run original: ""
+2024-08-08 14:52:40,689 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,689 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,689 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,689 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,689 - DEBUG - Run original: ""
+2024-08-08 14:52:40,689 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,690 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,690 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,690 - DEBUG - Párrafo original: "C. Declaran “Las Partes” que:"
+2024-08-08 14:52:40,690 - DEBUG - Run original: "C. Declaran “Las Partes” que:"
+2024-08-08 14:52:40,690 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,690 - DEBUG - Estado final del run: "C. Declaran “Las Partes” que:"
+2024-08-08 14:52:40,690 - DEBUG - Párrafo después de procesar: "C. Declaran “Las Partes” que:"
+2024-08-08 14:52:40,690 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,690 - DEBUG - Run original: ""
+2024-08-08 14:52:40,690 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,691 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,691 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,691 - DEBUG - Párrafo original: "Que se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que están de acuerdo en establecer las siguientes:"
+2024-08-08 14:52:40,691 - DEBUG - Run original: "Que se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que están de acuerdo en establecer las siguientes:"
+2024-08-08 14:52:40,691 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,691 - DEBUG - Estado final del run: "Que se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que están de acuerdo en establecer las siguientes:"
+2024-08-08 14:52:40,691 - DEBUG - Párrafo después de procesar: "Que se reconocen la personalidad y facultades con que se presentan y actúan de buena fe, por lo que están de acuerdo en establecer las siguientes:"
+2024-08-08 14:52:40,691 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,691 - DEBUG - Run original: ""
+2024-08-08 14:52:40,691 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,692 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,692 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,692 - DEBUG - Párrafo original: "CLÁUSULAS"
+2024-08-08 14:52:40,692 - DEBUG - Run original: "CLÁUSULAS"
+2024-08-08 14:52:40,692 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,692 - DEBUG - Estado final del run: "CLÁUSULAS"
+2024-08-08 14:52:40,692 - DEBUG - Párrafo después de procesar: "CLÁUSULAS"
+2024-08-08 14:52:40,692 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,692 - DEBUG - Run original: ""
+2024-08-08 14:52:40,692 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,693 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,693 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,693 - DEBUG - Párrafo original: "PRIMERA. Objeto del Contrato."
+2024-08-08 14:52:40,693 - DEBUG - Run original: "PRIMERA. Objeto del Contrato."
+2024-08-08 14:52:40,693 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,693 - DEBUG - Estado final del run: "PRIMERA. Objeto del Contrato."
+2024-08-08 14:52:40,693 - DEBUG - Párrafo después de procesar: "PRIMERA. Objeto del Contrato."
+2024-08-08 14:52:40,693 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,693 - DEBUG - Run original: ""
+2024-08-08 14:52:40,693 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,694 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,694 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,694 - DEBUG - Párrafo original: "El presente Contrato de Interconexión tiene por objeto establecer los términos y las condiciones entre “Las Partes”, para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución."
+2024-08-08 14:52:40,694 - DEBUG - Run original: "El presente Contrato de Interconexión tiene por objeto establecer los términos y las condiciones entre “Las Partes”, para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución."
+2024-08-08 14:52:40,694 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,694 - DEBUG - Estado final del run: "El presente Contrato de Interconexión tiene por objeto establecer los términos y las condiciones entre “Las Partes”, para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución."
+2024-08-08 14:52:40,694 - DEBUG - Párrafo después de procesar: "El presente Contrato de Interconexión tiene por objeto establecer los términos y las condiciones entre “Las Partes”, para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución."
+2024-08-08 14:52:40,694 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,694 - DEBUG - Run original: ""
+2024-08-08 14:52:40,694 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,695 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,695 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,695 - DEBUG - Párrafo original: "SEGUNDA. Obligaciones del Solicitante. "
+2024-08-08 14:52:40,695 - DEBUG - Run original: "SEGUNDA. Obligaciones del Solicitante."
+2024-08-08 14:52:40,695 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,695 - DEBUG - Estado final del run: "SEGUNDA. Obligaciones del Solicitante."
+2024-08-08 14:52:40,695 - DEBUG - Run original: " "
+2024-08-08 14:52:40,695 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,695 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,696 - DEBUG - Párrafo después de procesar: "SEGUNDA. Obligaciones del Solicitante. "
+2024-08-08 14:52:40,696 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,696 - DEBUG - Run original: ""
+2024-08-08 14:52:40,696 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,696 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,696 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,696 - DEBUG - Párrafo original: "La celebración del presente Contrato de Interconexión obliga a “El Solicitante” a:"
+2024-08-08 14:52:40,696 - DEBUG - Run original: "La celebración del presente Contrato de Interconexión obliga a “El Solicitante” a:"
+2024-08-08 14:52:40,696 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,696 - DEBUG - Estado final del run: "La celebración del presente Contrato de Interconexión obliga a “El Solicitante” a:"
+2024-08-08 14:52:40,697 - DEBUG - Párrafo después de procesar: "La celebración del presente Contrato de Interconexión obliga a “El Solicitante” a:"
+2024-08-08 14:52:40,697 - DEBUG - Párrafo original: "i)	Mantener en operación la Central Eléctrica, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW."
+2024-08-08 14:52:40,697 - DEBUG - Run original: "i)	Mantener en operación la Central Eléctrica, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW."
+2024-08-08 14:52:40,697 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,697 - DEBUG - Estado final del run: "i)	Mantener en operación la Central Eléctrica, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW."
+2024-08-08 14:52:40,697 - DEBUG - Párrafo después de procesar: "i)	Mantener en operación la Central Eléctrica, de conformidad con el Manual de interconexión de centrales de generación con capacidad menor a 0.5 MW."
+2024-08-08 14:52:40,697 - DEBUG - Párrafo original: "ii)	En caso de no contar con un contrato de suministro de energía eléctrica asociado al Punto de interconexión, deberá cubrir los costos relacionados con la instalación del(los) medidor(es), y equipo(s) de medición (transformadores de instrumentos) necesarios para la interconexión."
+2024-08-08 14:52:40,697 - DEBUG - Run original: "ii)	En caso de no contar con un contrato de suministro de energía eléctrica asociado al Punto de interconexión, deberá cubrir los costos relacionados con la instalación del("
+2024-08-08 14:52:40,697 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,698 - DEBUG - Estado final del run: "ii)	En caso de no contar con un contrato de suministro de energía eléctrica asociado al Punto de interconexión, deberá cubrir los costos relacionados con la instalación del("
+2024-08-08 14:52:40,698 - DEBUG - Run original: "los"
+2024-08-08 14:52:40,698 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,698 - DEBUG - Estado final del run: "los"
+2024-08-08 14:52:40,698 - DEBUG - Run original: ") medidor("
+2024-08-08 14:52:40,698 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,698 - DEBUG - Estado final del run: ") medidor("
+2024-08-08 14:52:40,698 - DEBUG - Run original: "es"
+2024-08-08 14:52:40,699 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,699 - DEBUG - Estado final del run: "es"
+2024-08-08 14:52:40,699 - DEBUG - Run original: "), y equipo("
+2024-08-08 14:52:40,699 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,699 - DEBUG - Estado final del run: "), y equipo("
+2024-08-08 14:52:40,699 - DEBUG - Run original: "s"
+2024-08-08 14:52:40,699 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,700 - DEBUG - Estado final del run: "s"
+2024-08-08 14:52:40,700 - DEBUG - Run original: ") de medición ("
+2024-08-08 14:52:40,700 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,700 - DEBUG - Estado final del run: ") de medición ("
+2024-08-08 14:52:40,700 - DEBUG - Run original: "transformadores de instrumentos"
+2024-08-08 14:52:40,700 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,700 - DEBUG - Estado final del run: "transformadores de instrumentos"
+2024-08-08 14:52:40,700 - DEBUG - Run original: ") necesarios para la interconexión."
+2024-08-08 14:52:40,700 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,701 - DEBUG - Estado final del run: ") necesarios para la interconexión."
+2024-08-08 14:52:40,701 - DEBUG - Párrafo después de procesar: "ii)	En caso de no contar con un contrato de suministro de energía eléctrica asociado al Punto de interconexión, deberá cubrir los costos relacionados con la instalación del(los) medidor(es), y equipo(s) de medición (transformadores de instrumentos) necesarios para la interconexión."
+2024-08-08 14:52:40,701 - DEBUG - Párrafo original: "iii)	Proporcionar el mantenimiento correspondiente a la Central Eléctrica, con base en lo señalado en los manuales del fabricante de los equipos."
+2024-08-08 14:52:40,701 - DEBUG - Run original: "iii)	Proporcionar el mantenimiento correspondiente a la Central Eléctrica, con base en lo señalado en los manuales del fabricante de los equipos."
+2024-08-08 14:52:40,701 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,701 - DEBUG - Estado final del run: "iii)	Proporcionar el mantenimiento correspondiente a la Central Eléctrica, con base en lo señalado en los manuales del fabricante de los equipos."
+2024-08-08 14:52:40,701 - DEBUG - Párrafo después de procesar: "iii)	Proporcionar el mantenimiento correspondiente a la Central Eléctrica, con base en lo señalado en los manuales del fabricante de los equipos."
+2024-08-08 14:52:40,701 - DEBUG - Párrafo original: "iv)	No intervenir ni modificar los equipos instalados por “El Distribuidor”, en caso contrario, “El Solicitante” deberá responder por los daños y perjuicios que causen a “El Distribuidor”."
+2024-08-08 14:52:40,702 - DEBUG - Run original: "iv)	No intervenir ni modificar los equipos instalados por “El Distribuidor”, en caso contrario, “El Solicitante” deberá responder por los daños y perjuicios que causen a “El Distribuidor”."
+2024-08-08 14:52:40,702 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,702 - DEBUG - Estado final del run: "iv)	No intervenir ni modificar los equipos instalados por “El Distribuidor”, en caso contrario, “El Solicitante” deberá responder por los daños y perjuicios que causen a “El Distribuidor”."
+2024-08-08 14:52:40,702 - DEBUG - Párrafo después de procesar: "iv)	No intervenir ni modificar los equipos instalados por “El Distribuidor”, en caso contrario, “El Solicitante” deberá responder por los daños y perjuicios que causen a “El Distribuidor”."
+2024-08-08 14:52:40,702 - DEBUG - Párrafo original: "v)	Garantizar el acceso a las unidades de verificación o de inspección, según corresponda."
+2024-08-08 14:52:40,702 - DEBUG - Run original: "v)	Garantizar el acceso a las unidades de verificación o de inspección, según corresponda."
+2024-08-08 14:52:40,702 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,702 - DEBUG - Estado final del run: "v)	Garantizar el acceso a las unidades de verificación o de inspección, según corresponda."
+2024-08-08 14:52:40,702 - DEBUG - Párrafo después de procesar: "v)	Garantizar el acceso a las unidades de verificación o de inspección, según corresponda."
+2024-08-08 14:52:40,703 - DEBUG - Párrafo original: "vi)	Contar con los medios de protección y desconexión que permitan interrumpir la operación de la Central Eléctrica en caso de falla o mal funcionamiento, o bien, a solicitud de “El Distribuidor”, para el caso de realización de maniobras de mantenimiento de las Redes Generales de Distribución o por posibles afectaciones a la infraestructura y operación de las Redes Generales de Distribución."
+2024-08-08 14:52:40,703 - DEBUG - Run original: "vi)	Contar con los medios de protección y desconexión que permitan interrumpir la operación de la Central Eléctrica en caso de falla o mal funcionamiento, o bien, a solicitud de “El Distribuidor”, para el caso de realización de maniobras de mantenimiento de las Redes Generales de Distribución o por posibles afectaciones a la infraestructura y operación de las Redes Generales de Distribución."
+2024-08-08 14:52:40,703 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,703 - DEBUG - Estado final del run: "vi)	Contar con los medios de protección y desconexión que permitan interrumpir la operación de la Central Eléctrica en caso de falla o mal funcionamiento, o bien, a solicitud de “El Distribuidor”, para el caso de realización de maniobras de mantenimiento de las Redes Generales de Distribución o por posibles afectaciones a la infraestructura y operación de las Redes Generales de Distribución."
+2024-08-08 14:52:40,703 - DEBUG - Párrafo después de procesar: "vi)	Contar con los medios de protección y desconexión que permitan interrumpir la operación de la Central Eléctrica en caso de falla o mal funcionamiento, o bien, a solicitud de “El Distribuidor”, para el caso de realización de maniobras de mantenimiento de las Redes Generales de Distribución o por posibles afectaciones a la infraestructura y operación de las Redes Generales de Distribución."
+2024-08-08 14:52:40,703 - DEBUG - Párrafo original: "vii)	Notificar a “El Distribuidor” cualquier caso fortuito o de fuerza mayor que afecte a la Central Eléctrica o infraestructura de interconexión en un plazo no mayor a 48 horas a partir de la ocurrencia del suceso."
+2024-08-08 14:52:40,703 - DEBUG - Run original: "vii)	Notificar a “El Distribuidor” cualquier caso fortuito o de fuerza mayor que afecte a la Central Eléctrica o infraestructura de interconexión en un plazo no mayor a 48 horas a partir de la ocurrencia del suceso."
+2024-08-08 14:52:40,703 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,704 - DEBUG - Estado final del run: "vii)	Notificar a “El Distribuidor” cualquier caso fortuito o de fuerza mayor que afecte a la Central Eléctrica o infraestructura de interconexión en un plazo no mayor a 48 horas a partir de la ocurrencia del suceso."
+2024-08-08 14:52:40,704 - DEBUG - Párrafo después de procesar: "vii)	Notificar a “El Distribuidor” cualquier caso fortuito o de fuerza mayor que afecte a la Central Eléctrica o infraestructura de interconexión en un plazo no mayor a 48 horas a partir de la ocurrencia del suceso."
+2024-08-08 14:52:40,704 - DEBUG - Párrafo original: "viii)	No ceder o transferir el presente Contrato de Interconexión durante su vigencia sin la autorización de “El Distribuidor”."
+2024-08-08 14:52:40,704 - DEBUG - Run original: "viii)	No ceder o transferir el presente Contrato de Interconexión durante su vigencia sin la autorización de “El Distribuidor”."
+2024-08-08 14:52:40,704 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,704 - DEBUG - Estado final del run: "viii)	No ceder o transferir el presente Contrato de Interconexión durante su vigencia sin la autorización de “El Distribuidor”."
+2024-08-08 14:52:40,704 - DEBUG - Párrafo después de procesar: "viii)	No ceder o transferir el presente Contrato de Interconexión durante su vigencia sin la autorización de “El Distribuidor”."
+2024-08-08 14:52:40,704 - DEBUG - Párrafo original: "ix)	Notificar a “El Distribuidor”, a través del Suministrador, de la intención de dar por terminado el presente Contrato con al menos veinte (20) días de anticipación a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,704 - DEBUG - Run original: "ix)	Notificar a “El Distribuidor”, a través del Suministrador, de la intención de dar por terminado el presente Contrato con al menos veinte (20) días de anticipación a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,704 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,705 - DEBUG - Estado final del run: "ix)	Notificar a “El Distribuidor”, a través del Suministrador, de la intención de dar por terminado el presente Contrato con al menos veinte (20) días de anticipación a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,705 - DEBUG - Párrafo después de procesar: "ix)	Notificar a “El Distribuidor”, a través del Suministrador, de la intención de dar por terminado el presente Contrato con al menos veinte (20) días de anticipación a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,705 - DEBUG - Párrafo original: "x)	Notificar al Suministrador sobre la celebración o conclusión del presente Contrato de Interconexión, para los efectos legales a que haya lugar."
+2024-08-08 14:52:40,705 - DEBUG - Run original: "x)	Notificar al Suministrador sobre la celebración o conclusión del presente Contrato de Interconexión, para los efectos legales a que haya lugar."
+2024-08-08 14:52:40,705 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,705 - DEBUG - Estado final del run: "x)	Notificar al Suministrador sobre la celebración o conclusión del presente Contrato de Interconexión, para los efectos legales a que haya lugar."
+2024-08-08 14:52:40,705 - DEBUG - Párrafo después de procesar: "x)	Notificar al Suministrador sobre la celebración o conclusión del presente Contrato de Interconexión, para los efectos legales a que haya lugar."
+2024-08-08 14:52:40,705 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,705 - DEBUG - Run original: ""
+2024-08-08 14:52:40,705 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,706 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,706 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,706 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,706 - DEBUG - Run original: ""
+2024-08-08 14:52:40,706 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,706 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,706 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,706 - DEBUG - Párrafo original: "xi)	Para el caso de migrar de un régimen de contraprestación asociado a la interconexión, distinto al elegido en el presente Contrato de Interconexión, deberá llevar a cabo la formalización de un nuevo contrato y asumir los costos correspondientes a la migración. La migración de régimen, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Interconexión en los términos señalados por las disposiciones aplicables."
+2024-08-08 14:52:40,706 - DEBUG - Run original: "xi)	Para el caso de migrar de un régimen de contraprestación asociado a la interconexión, distinto al elegido en el presente Contrato de Interconexión, deberá llevar a cabo la formalización de un nuevo contrato y asumir los costos correspondientes a la migración. La migración de régimen, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Interconexión en los términos señalados por las disposiciones aplicables."
+2024-08-08 14:52:40,706 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,707 - DEBUG - Estado final del run: "xi)	Para el caso de migrar de un régimen de contraprestación asociado a la interconexión, distinto al elegido en el presente Contrato de Interconexión, deberá llevar a cabo la formalización de un nuevo contrato y asumir los costos correspondientes a la migración. La migración de régimen, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Interconexión en los términos señalados por las disposiciones aplicables."
+2024-08-08 14:52:40,707 - DEBUG - Párrafo después de procesar: "xi)	Para el caso de migrar de un régimen de contraprestación asociado a la interconexión, distinto al elegido en el presente Contrato de Interconexión, deberá llevar a cabo la formalización de un nuevo contrato y asumir los costos correspondientes a la migración. La migración de régimen, únicamente se podrá realizar, transcurrido un año contado a partir de la formalización del presente Contrato de Interconexión en los términos señalados por las disposiciones aplicables."
+2024-08-08 14:52:40,707 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,707 - DEBUG - Run original: ""
+2024-08-08 14:52:40,707 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,707 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,707 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,707 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,707 - DEBUG - Run original: ""
+2024-08-08 14:52:40,707 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,708 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,708 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,708 - DEBUG - Párrafo original: "TERCERA. Obligaciones de “El Distribuidor”. "
+2024-08-08 14:52:40,708 - DEBUG - Run original: "TERCERA. Obligaciones de “El Distribuidor”."
+2024-08-08 14:52:40,708 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,708 - DEBUG - Estado final del run: "TERCERA. Obligaciones de “El Distribuidor”."
+2024-08-08 14:52:40,708 - DEBUG - Run original: " "
+2024-08-08 14:52:40,708 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,709 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,709 - DEBUG - Párrafo después de procesar: "TERCERA. Obligaciones de “El Distribuidor”. "
+2024-08-08 14:52:40,709 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,709 - DEBUG - Run original: ""
+2024-08-08 14:52:40,709 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,709 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,709 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,709 - DEBUG - Párrafo original: "La celebración del presente Contrato de Interconexión obliga a “El Distribuidor” a:"
+2024-08-08 14:52:40,709 - DEBUG - Run original: "La celebración del presente Contrato de Interconexión obliga a “El Distribuidor” a:"
+2024-08-08 14:52:40,709 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,710 - DEBUG - Estado final del run: "La celebración del presente Contrato de Interconexión obliga a “El Distribuidor” a:"
+2024-08-08 14:52:40,710 - DEBUG - Párrafo después de procesar: "La celebración del presente Contrato de Interconexión obliga a “El Distribuidor” a:"
+2024-08-08 14:52:40,710 - DEBUG - Párrafo original: "i)	Cubrir los costos relacionados con la instalación del(los) medidor(es) y equipo(s) de medición (transformadores de instrumentos) requeridos para la interconexión de la Central Eléctrica, cuando ésta se encuentra asociada a un contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,710 - DEBUG - Run original: "i)	Cubrir los costos relacionados con la instalación del("
+2024-08-08 14:52:40,710 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,710 - DEBUG - Estado final del run: "i)	Cubrir los costos relacionados con la instalación del("
+2024-08-08 14:52:40,710 - DEBUG - Run original: "los"
+2024-08-08 14:52:40,710 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,711 - DEBUG - Estado final del run: "los"
+2024-08-08 14:52:40,711 - DEBUG - Run original: ") medidor("
+2024-08-08 14:52:40,711 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,711 - DEBUG - Estado final del run: ") medidor("
+2024-08-08 14:52:40,711 - DEBUG - Run original: "es"
+2024-08-08 14:52:40,711 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,711 - DEBUG - Estado final del run: "es"
+2024-08-08 14:52:40,711 - DEBUG - Run original: ") y equipo("
+2024-08-08 14:52:40,711 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,712 - DEBUG - Estado final del run: ") y equipo("
+2024-08-08 14:52:40,712 - DEBUG - Run original: "s"
+2024-08-08 14:52:40,712 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,712 - DEBUG - Estado final del run: "s"
+2024-08-08 14:52:40,712 - DEBUG - Run original: ") de medición ("
+2024-08-08 14:52:40,712 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,712 - DEBUG - Estado final del run: ") de medición ("
+2024-08-08 14:52:40,713 - DEBUG - Run original: "transformadores de instrumentos"
+2024-08-08 14:52:40,713 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,713 - DEBUG - Estado final del run: "transformadores de instrumentos"
+2024-08-08 14:52:40,713 - DEBUG - Run original: ") requeridos para la interconexión de la Central Eléctrica, cuando ésta se encuentra asociada a un contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,713 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,713 - DEBUG - Estado final del run: ") requeridos para la interconexión de la Central Eléctrica, cuando ésta se encuentra asociada a un contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,713 - DEBUG - Párrafo después de procesar: "i)	Cubrir los costos relacionados con la instalación del(los) medidor(es) y equipo(s) de medición (transformadores de instrumentos) requeridos para la interconexión de la Central Eléctrica, cuando ésta se encuentra asociada a un contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,714 - DEBUG - Párrafo original: "ii)	Instalar el(los) medidor(es) necesario(s) y llevar a cabo la interconexión de la Central Eléctrica a las Redes Generales de Distribución, previo cumplimiento de los esquemas típicos de interconexión por parte de “El Solicitante” y mantener la interconexión física durante la vigencia del presente Contrato de Interconexión. Para el caso de terminación del presente Contrato de Interconexión, “El Distribuidor”, podrá sustituir los equipos de medición, debiendo instalar el medidor necesario para continuar, en su caso, con el servicio de conformidad con el contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,714 - DEBUG - Run original: "ii)	Instalar el(l"
+2024-08-08 14:52:40,714 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,714 - DEBUG - Estado final del run: "ii)	Instalar el(l"
+2024-08-08 14:52:40,714 - DEBUG - Run original: "os"
+2024-08-08 14:52:40,714 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,714 - DEBUG - Estado final del run: "os"
+2024-08-08 14:52:40,714 - DEBUG - Run original: ") medidor("
+2024-08-08 14:52:40,714 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,715 - DEBUG - Estado final del run: ") medidor("
+2024-08-08 14:52:40,715 - DEBUG - Run original: "es"
+2024-08-08 14:52:40,715 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,715 - DEBUG - Estado final del run: "es"
+2024-08-08 14:52:40,715 - DEBUG - Run original: ") necesario("
+2024-08-08 14:52:40,715 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,715 - DEBUG - Estado final del run: ") necesario("
+2024-08-08 14:52:40,716 - DEBUG - Run original: "s"
+2024-08-08 14:52:40,716 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,716 - DEBUG - Estado final del run: "s"
+2024-08-08 14:52:40,716 - DEBUG - Run original: ") y llevar a cabo la interconexión de la Central Eléctrica a las Redes Generales de Distribución, previo cumplimiento de los esquemas típicos de interconexión por parte de “El Solicitante” y mantener la interconexión física durante la vigencia del presente Contrato de Interconexión. Para el caso de terminación del presente Contrato de Interconexión, “El Distribuidor”, podrá sustituir los equipos de medición, debiendo instalar el medidor necesario para continuar, en su caso, con el servicio de conformidad con el contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,716 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,716 - DEBUG - Estado final del run: ") y llevar a cabo la interconexión de la Central Eléctrica a las Redes Generales de Distribución, previo cumplimiento de los esquemas típicos de interconexión por parte de “El Solicitante” y mantener la interconexión física durante la vigencia del presente Contrato de Interconexión. Para el caso de terminación del presente Contrato de Interconexión, “El Distribuidor”, podrá sustituir los equipos de medición, debiendo instalar el medidor necesario para continuar, en su caso, con el servicio de conformidad con el contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,716 - DEBUG - Párrafo después de procesar: "ii)	Instalar el(los) medidor(es) necesario(s) y llevar a cabo la interconexión de la Central Eléctrica a las Redes Generales de Distribución, previo cumplimiento de los esquemas típicos de interconexión por parte de “El Solicitante” y mantener la interconexión física durante la vigencia del presente Contrato de Interconexión. Para el caso de terminación del presente Contrato de Interconexión, “El Distribuidor”, podrá sustituir los equipos de medición, debiendo instalar el medidor necesario para continuar, en su caso, con el servicio de conformidad con el contrato de suministro de energía eléctrica."
+2024-08-08 14:52:40,717 - DEBUG - Párrafo original: "iii)	Tomar lectura del(los) medidor(es) de forma periódica (en función con el periodo de facturación) y notificar las mismas al Suministrador en tiempo y forma."
+2024-08-08 14:52:40,717 - DEBUG - Run original: "iii)	Tomar lectura del("
+2024-08-08 14:52:40,717 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,717 - DEBUG - Estado final del run: "iii)	Tomar lectura del("
+2024-08-08 14:52:40,717 - DEBUG - Run original: "los"
+2024-08-08 14:52:40,717 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,717 - DEBUG - Estado final del run: "los"
+2024-08-08 14:52:40,717 - DEBUG - Run original: ") medidor("
+2024-08-08 14:52:40,717 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,718 - DEBUG - Estado final del run: ") medidor("
+2024-08-08 14:52:40,718 - DEBUG - Run original: "es"
+2024-08-08 14:52:40,718 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,718 - DEBUG - Estado final del run: "es"
+2024-08-08 14:52:40,718 - DEBUG - Run original: ") de forma periódica ("
+2024-08-08 14:52:40,718 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,719 - DEBUG - Estado final del run: ") de forma periódica ("
+2024-08-08 14:52:40,719 - DEBUG - Run original: "en función con el periodo de facturación"
+2024-08-08 14:52:40,719 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,719 - DEBUG - Estado final del run: "en función con el periodo de facturación"
+2024-08-08 14:52:40,719 - DEBUG - Run original: ") y notificar las mismas al Suministrador en tiempo y forma."
+2024-08-08 14:52:40,719 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,719 - DEBUG - Estado final del run: ") y notificar las mismas al Suministrador en tiempo y forma."
+2024-08-08 14:52:40,719 - DEBUG - Párrafo después de procesar: "iii)	Tomar lectura del(los) medidor(es) de forma periódica (en función con el periodo de facturación) y notificar las mismas al Suministrador en tiempo y forma."
+2024-08-08 14:52:40,720 - DEBUG - Párrafo original: "iv)	Mantener y operar la infraestructura de interconexión asociada a la Central Eléctrica."
+2024-08-08 14:52:40,720 - DEBUG - Run original: "iv)	Mantener y operar la infraestructura de interconexión asociada a la Central Eléctrica."
+2024-08-08 14:52:40,720 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,720 - DEBUG - Estado final del run: "iv)	Mantener y operar la infraestructura de interconexión asociada a la Central Eléctrica."
+2024-08-08 14:52:40,720 - DEBUG - Párrafo después de procesar: "iv)	Mantener y operar la infraestructura de interconexión asociada a la Central Eléctrica."
+2024-08-08 14:52:40,720 - DEBUG - Párrafo original: "v)	Notificar con diez (10) días de anticipación al Solicitante la realización de actividades de mantenimiento a las Redes Generales de Distribución que interconecta a la Central Eléctrica en cuestión."
+2024-08-08 14:52:40,720 - DEBUG - Run original: "v)	Notificar con diez ("
+2024-08-08 14:52:40,720 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,721 - DEBUG - Estado final del run: "v)	Notificar con diez ("
+2024-08-08 14:52:40,721 - DEBUG - Run original: "10"
+2024-08-08 14:52:40,721 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,721 - DEBUG - Estado final del run: "10"
+2024-08-08 14:52:40,721 - DEBUG - Run original: ") días de anticipación al Solicitante la realización de actividades de mantenimiento a las Redes Generales de Distribución que interconecta a la Central Eléctrica en cuestión."
+2024-08-08 14:52:40,721 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,721 - DEBUG - Estado final del run: ") días de anticipación al Solicitante la realización de actividades de mantenimiento a las Redes Generales de Distribución que interconecta a la Central Eléctrica en cuestión."
+2024-08-08 14:52:40,721 - DEBUG - Párrafo después de procesar: "v)	Notificar con diez (10) días de anticipación al Solicitante la realización de actividades de mantenimiento a las Redes Generales de Distribución que interconecta a la Central Eléctrica en cuestión."
+2024-08-08 14:52:40,721 - DEBUG - Párrafo original: "vi)	Notificar a “El Solicitante” los eventos de caso fortuito o fuerza mayor que afecten la interconexión entre la Central Eléctrica y las Redes Generales de Distribución."
+2024-08-08 14:52:40,722 - DEBUG - Run original: "vi)	Notificar a “El Solicitante” los eventos de caso fortuito o fuerza mayor que afecten la interconexión entre la Central Eléctrica y las Redes Generales de Distribución."
+2024-08-08 14:52:40,722 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,722 - DEBUG - Estado final del run: "vi)	Notificar a “El Solicitante” los eventos de caso fortuito o fuerza mayor que afecten la interconexión entre la Central Eléctrica y las Redes Generales de Distribución."
+2024-08-08 14:52:40,722 - DEBUG - Párrafo después de procesar: "vi)	Notificar a “El Solicitante” los eventos de caso fortuito o fuerza mayor que afecten la interconexión entre la Central Eléctrica y las Redes Generales de Distribución."
+2024-08-08 14:52:40,722 - DEBUG - Párrafo original: "vii)	Reemplazar, por motivos de falla, obsolescencia o mantenimiento, previa solicitud del Suministrador de Servicios Básicos, los medidores y equipos de medición, colocando los sellos y medidas de seguridad que sean necesarios, sin costo para el Usuario Final."
+2024-08-08 14:52:40,722 - DEBUG - Run original: "vii)	Reemplazar, por motivos de falla, obsolescencia o mantenimiento, previa solicitud del Suministrador de Servicios Básicos, los medidores y equipos de medición, colocando los sellos y medidas de seguridad que sean necesarios, sin costo para el Usuario Final."
+2024-08-08 14:52:40,722 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,722 - DEBUG - Estado final del run: "vii)	Reemplazar, por motivos de falla, obsolescencia o mantenimiento, previa solicitud del Suministrador de Servicios Básicos, los medidores y equipos de medición, colocando los sellos y medidas de seguridad que sean necesarios, sin costo para el Usuario Final."
+2024-08-08 14:52:40,723 - DEBUG - Párrafo después de procesar: "vii)	Reemplazar, por motivos de falla, obsolescencia o mantenimiento, previa solicitud del Suministrador de Servicios Básicos, los medidores y equipos de medición, colocando los sellos y medidas de seguridad que sean necesarios, sin costo para el Usuario Final."
+2024-08-08 14:52:40,723 - DEBUG - Párrafo original: "viii)	Suspender el servicio cuando se presente cualquiera de los supuestos aplicables en el artículo 41 de la Ley de la Industria Eléctrica."
+2024-08-08 14:52:40,723 - DEBUG - Run original: "viii)	Suspender el servicio cuando se presente cualquiera de los supuestos aplicables en el artículo 41 de la Ley de la Industria Eléctrica."
+2024-08-08 14:52:40,723 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,723 - DEBUG - Estado final del run: "viii)	Suspender el servicio cuando se presente cualquiera de los supuestos aplicables en el artículo 41 de la Ley de la Industria Eléctrica."
+2024-08-08 14:52:40,723 - DEBUG - Párrafo después de procesar: "viii)	Suspender el servicio cuando se presente cualquiera de los supuestos aplicables en el artículo 41 de la Ley de la Industria Eléctrica."
+2024-08-08 14:52:40,723 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,723 - DEBUG - Run original: ""
+2024-08-08 14:52:40,723 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,723 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,724 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,724 - DEBUG - Párrafo original: "CUARTA. Especificaciones."
+2024-08-08 14:52:40,724 - DEBUG - Run original: "CUARTA. Especificaciones."
+2024-08-08 14:52:40,724 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,724 - DEBUG - Estado final del run: "CUARTA. Especificaciones."
+2024-08-08 14:52:40,724 - DEBUG - Párrafo después de procesar: "CUARTA. Especificaciones."
+2024-08-08 14:52:40,724 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,724 - DEBUG - Run original: ""
+2024-08-08 14:52:40,724 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,724 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,725 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,725 - DEBUG - Párrafo original: "Las Partes se obligan a cumplir con las normas, especificaciones y demás disposiciones aplicables a los equipos, materiales, accesorios o elementos empleados para llevar a cabo la interconexión, así como las aplicables a la Generación Distribuida o Generación Limpia Distribuida y lo establecido en el presente Contrato de Interconexión."
+2024-08-08 14:52:40,725 - DEBUG - Run original: "Las Partes se obligan a cumplir con las normas, especificaciones y demás disposiciones aplicables a los equipos, materiales, accesorios o elementos empleados para llevar a cabo la interconexión, así como las aplicables a la Generación Distribuida o Generación Limpia Distribuida y lo establecido en el presente Contrato de Interconexión."
+2024-08-08 14:52:40,725 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,725 - DEBUG - Estado final del run: "Las Partes se obligan a cumplir con las normas, especificaciones y demás disposiciones aplicables a los equipos, materiales, accesorios o elementos empleados para llevar a cabo la interconexión, así como las aplicables a la Generación Distribuida o Generación Limpia Distribuida y lo establecido en el presente Contrato de Interconexión."
+2024-08-08 14:52:40,725 - DEBUG - Párrafo después de procesar: "Las Partes se obligan a cumplir con las normas, especificaciones y demás disposiciones aplicables a los equipos, materiales, accesorios o elementos empleados para llevar a cabo la interconexión, así como las aplicables a la Generación Distribuida o Generación Limpia Distribuida y lo establecido en el presente Contrato de Interconexión."
+2024-08-08 14:52:40,725 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,725 - DEBUG - Run original: ""
+2024-08-08 14:52:40,725 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,725 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,726 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,726 - DEBUG - Párrafo original: "QUINTA. Modificaciones."
+2024-08-08 14:52:40,726 - DEBUG - Run original: "QUINTA. Modificaciones."
+2024-08-08 14:52:40,726 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,726 - DEBUG - Estado final del run: "QUINTA. Modificaciones."
+2024-08-08 14:52:40,726 - DEBUG - Párrafo después de procesar: "QUINTA. Modificaciones."
+2024-08-08 14:52:40,726 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,726 - DEBUG - Run original: ""
+2024-08-08 14:52:40,726 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,726 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,727 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,727 - DEBUG - Párrafo original: "Cualquier modificación al presente Contrato de Interconexión, exceptuando el cambio de régimen de contraprestación asociado a la interconexión, se deberá formalizar mediante la celebración de una adenda."
+2024-08-08 14:52:40,727 - DEBUG - Run original: "Cualquier modificación al presente Contrato de Interconexión, exceptuando el cambio de régimen de contraprestación asociado a la interconexión, se deberá formalizar mediante la celebración de una adenda."
+2024-08-08 14:52:40,727 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,727 - DEBUG - Estado final del run: "Cualquier modificación al presente Contrato de Interconexión, exceptuando el cambio de régimen de contraprestación asociado a la interconexión, se deberá formalizar mediante la celebración de una adenda."
+2024-08-08 14:52:40,727 - DEBUG - Párrafo después de procesar: "Cualquier modificación al presente Contrato de Interconexión, exceptuando el cambio de régimen de contraprestación asociado a la interconexión, se deberá formalizar mediante la celebración de una adenda."
+2024-08-08 14:52:40,727 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,727 - DEBUG - Run original: ""
+2024-08-08 14:52:40,727 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,727 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,728 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,728 - DEBUG - Párrafo original: "SEXTA. Transferencia del Contrato."
+2024-08-08 14:52:40,728 - DEBUG - Run original: "SEXTA. Transferencia del Contrato."
+2024-08-08 14:52:40,728 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,728 - DEBUG - Estado final del run: "SEXTA. Transferencia del Contrato."
+2024-08-08 14:52:40,728 - DEBUG - Párrafo después de procesar: "SEXTA. Transferencia del Contrato."
+2024-08-08 14:52:40,728 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,728 - DEBUG - Run original: ""
+2024-08-08 14:52:40,728 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,728 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,729 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,729 - DEBUG - Párrafo original: "Los derechos y obligaciones derivados del presente Contrato de Interconexión sólo podrán transferirse totalmente, previa notificación por escrito a “El Distribuidor”, a través del Suministrador, con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución de conformidad con las Disposiciones Administrativas de Carácter General "
+2024-08-08 14:52:40,729 - DEBUG - Run original: "Los derechos y obligaciones derivados del presente Contrato de Interconexión sólo podrán transferirse totalmente, previa notificación por escrito a “El Distribuidor”, a través del Suministrador, con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución de conformidad con las Disposiciones Administrativas de Carácter General "
+2024-08-08 14:52:40,729 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,729 - DEBUG - Estado final del run: "Los derechos y obligaciones derivados del presente Contrato de Interconexión sólo podrán transferirse totalmente, previa notificación por escrito a “El Distribuidor”, a través del Suministrador, con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución de conformidad con las Disposiciones Administrativas de Carácter General "
+2024-08-08 14:52:40,729 - DEBUG - Párrafo después de procesar: "Los derechos y obligaciones derivados del presente Contrato de Interconexión sólo podrán transferirse totalmente, previa notificación por escrito a “El Distribuidor”, a través del Suministrador, con anticipación no menor a dos meses a que esto suceda, siempre y cuando el Cesionario acredite su personalidad y demuestre el cumplimiento de los requisitos señalados para realizar la interconexión física entre la Central Eléctrica, y las Redes Generales de Distribución de conformidad con las Disposiciones Administrativas de Carácter General "
+2024-08-08 14:52:40,729 - DEBUG - Párrafo original: "en Materia de Generación Distribuida y sus anexos."
+2024-08-08 14:52:40,729 - DEBUG - Run original: "en Materia de Generación Distribuida y sus anexos."
+2024-08-08 14:52:40,729 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,730 - DEBUG - Estado final del run: "en Materia de Generación Distribuida y sus anexos."
+2024-08-08 14:52:40,730 - DEBUG - Párrafo después de procesar: "en Materia de Generación Distribuida y sus anexos."
+2024-08-08 14:52:40,730 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,730 - DEBUG - Run original: ""
+2024-08-08 14:52:40,730 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,730 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,730 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,730 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,730 - DEBUG - Run original: ""
+2024-08-08 14:52:40,730 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,730 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,731 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,731 - DEBUG - Párrafo original: "SÉPTIMA. Vigencia."
+2024-08-08 14:52:40,731 - DEBUG - Run original: "SÉPTIMA. Vigencia."
+2024-08-08 14:52:40,731 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,731 - DEBUG - Estado final del run: "SÉPTIMA. Vigencia."
+2024-08-08 14:52:40,731 - DEBUG - Párrafo después de procesar: "SÉPTIMA. Vigencia."
+2024-08-08 14:52:40,731 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,731 - DEBUG - Run original: ""
+2024-08-08 14:52:40,731 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,731 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,732 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,732 - DEBUG - Párrafo original: "El presente Contrato de Interconexión surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida."
+2024-08-08 14:52:40,732 - DEBUG - Run original: "El presente Contrato de Interconexión surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida."
+2024-08-08 14:52:40,732 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,732 - DEBUG - Estado final del run: "El presente Contrato de Interconexión surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida."
+2024-08-08 14:52:40,732 - DEBUG - Párrafo después de procesar: "El presente Contrato de Interconexión surtirá sus efectos a partir de la fecha en que se realice la interconexión física de la Central Eléctrica y tendrá una duración indefinida."
+2024-08-08 14:52:40,732 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,732 - DEBUG - Run original: ""
+2024-08-08 14:52:40,732 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,732 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,732 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,733 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,733 - DEBUG - Run original: ""
+2024-08-08 14:52:40,733 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,733 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,733 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,733 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,733 - DEBUG - Run original: ""
+2024-08-08 14:52:40,733 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,733 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,733 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,734 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,734 - DEBUG - Run original: ""
+2024-08-08 14:52:40,734 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,734 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,734 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,734 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,734 - DEBUG - Run original: ""
+2024-08-08 14:52:40,734 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,734 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,734 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,734 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,735 - DEBUG - Run original: ""
+2024-08-08 14:52:40,735 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,735 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,735 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,735 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,735 - DEBUG - Run original: ""
+2024-08-08 14:52:40,735 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,735 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,735 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,735 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,736 - DEBUG - Run original: ""
+2024-08-08 14:52:40,736 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,736 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,736 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,736 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,736 - DEBUG - Run original: ""
+2024-08-08 14:52:40,736 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,736 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,736 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,736 - DEBUG - Párrafo original: "OCTAVA. Terminación del contrato."
+2024-08-08 14:52:40,736 - DEBUG - Run original: "OCTAVA. Terminación del contrato."
+2024-08-08 14:52:40,737 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,737 - DEBUG - Estado final del run: "OCTAVA. Terminación del contrato."
+2024-08-08 14:52:40,737 - DEBUG - Párrafo después de procesar: "OCTAVA. Terminación del contrato."
+2024-08-08 14:52:40,737 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,737 - DEBUG - Run original: ""
+2024-08-08 14:52:40,737 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,737 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,737 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,737 - DEBUG - Párrafo original: "El presente Contrato podrá darse por terminado por cualquiera de las causas siguientes:"
+2024-08-08 14:52:40,737 - DEBUG - Run original: "El presente Contrato podrá darse por terminado por cualquiera de las causas siguientes:"
+2024-08-08 14:52:40,738 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,738 - DEBUG - Estado final del run: "El presente Contrato podrá darse por terminado por cualquiera de las causas siguientes:"
+2024-08-08 14:52:40,738 - DEBUG - Párrafo después de procesar: "El presente Contrato podrá darse por terminado por cualquiera de las causas siguientes:"
+2024-08-08 14:52:40,738 - DEBUG - Párrafo original: "a.	Por voluntad de “El Solicitante”, previa notificación por escrito a “El Distribuidor” con anticipación no menor a veinte (20) días hábiles a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,738 - DEBUG - Run original: "a.	Por voluntad de “El Solicitante”, previa notificación por escrito a “El Distribuidor” con anticipación no menor a veinte ("
+2024-08-08 14:52:40,738 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,738 - DEBUG - Estado final del run: "a.	Por voluntad de “El Solicitante”, previa notificación por escrito a “El Distribuidor” con anticipación no menor a veinte ("
+2024-08-08 14:52:40,738 - DEBUG - Run original: "20"
+2024-08-08 14:52:40,738 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,739 - DEBUG - Estado final del run: "20"
+2024-08-08 14:52:40,739 - DEBUG - Run original: ") días hábiles a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,739 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,739 - DEBUG - Estado final del run: ") días hábiles a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,739 - DEBUG - Párrafo después de procesar: "a.	Por voluntad de “El Solicitante”, previa notificación por escrito a “El Distribuidor” con anticipación no menor a veinte (20) días hábiles a la fecha en que se requiera tener por terminado el contrato."
+2024-08-08 14:52:40,739 - DEBUG - Párrafo original: "b.	Por necesidades del servicio, previa notificación, debidamente justificada por parte de “El Distribuidor”, a “El Solicitante”, con anticipación no menor a veinte (20) días hábiles a la fecha en que “El Distribuidor” tenga programado efectuar sus actividades."
+2024-08-08 14:52:40,739 - DEBUG - Run original: "b.	Por necesidades del servicio, previa notificación, debidamente justificada por parte de “El Distribuidor”, a “El Solicitante”, con anticipación no menor a veinte ("
+2024-08-08 14:52:40,739 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,740 - DEBUG - Estado final del run: "b.	Por necesidades del servicio, previa notificación, debidamente justificada por parte de “El Distribuidor”, a “El Solicitante”, con anticipación no menor a veinte ("
+2024-08-08 14:52:40,740 - DEBUG - Run original: "20"
+2024-08-08 14:52:40,740 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,740 - DEBUG - Estado final del run: "20"
+2024-08-08 14:52:40,740 - DEBUG - Run original: ") días hábiles a la fecha en que “El Distribuidor” tenga programado efectuar sus actividades."
+2024-08-08 14:52:40,740 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,741 - DEBUG - Estado final del run: ") días hábiles a la fecha en que “El Distribuidor” tenga programado efectuar sus actividades."
+2024-08-08 14:52:40,741 - DEBUG - Párrafo después de procesar: "b.	Por necesidades del servicio, previa notificación, debidamente justificada por parte de “El Distribuidor”, a “El Solicitante”, con anticipación no menor a veinte (20) días hábiles a la fecha en que “El Distribuidor” tenga programado efectuar sus actividades."
+2024-08-08 14:52:40,741 - DEBUG - Párrafo original: "c.	Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquiera de las Disposiciones Legales y Administrativas aplicables."
+2024-08-08 14:52:40,741 - DEBUG - Run original: "c.	Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquiera de las Disposiciones Legales y Administrativas aplicables."
+2024-08-08 14:52:40,741 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,741 - DEBUG - Estado final del run: "c.	Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquiera de las Disposiciones Legales y Administrativas aplicables."
+2024-08-08 14:52:40,741 - DEBUG - Párrafo después de procesar: "c.	Por la modificación o contravención a las disposiciones que establece la Ley de la Industria Eléctrica, su Reglamento o a cualquiera de las Disposiciones Legales y Administrativas aplicables."
+2024-08-08 14:52:40,741 - DEBUG - Párrafo original: "d.	Por acuerdo entre “Las Partes”."
+2024-08-08 14:52:40,741 - DEBUG - Run original: "d.	Por acuerdo entre “Las Partes”."
+2024-08-08 14:52:40,741 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,742 - DEBUG - Estado final del run: "d.	Por acuerdo entre “Las Partes”."
+2024-08-08 14:52:40,742 - DEBUG - Párrafo después de procesar: "d.	Por acuerdo entre “Las Partes”."
+2024-08-08 14:52:40,742 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,742 - DEBUG - Run original: ""
+2024-08-08 14:52:40,742 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,742 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,742 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,742 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,742 - DEBUG - Run original: ""
+2024-08-08 14:52:40,742 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,743 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,743 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,743 - DEBUG - Párrafo original: "NOVENA. Controversias."
+2024-08-08 14:52:40,743 - DEBUG - Run original: "NOVENA. Controversias."
+2024-08-08 14:52:40,743 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,743 - DEBUG - Estado final del run: "NOVENA. Controversias."
+2024-08-08 14:52:40,743 - DEBUG - Párrafo después de procesar: "NOVENA. Controversias."
+2024-08-08 14:52:40,743 - DEBUG - Párrafo original: "Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía."
+2024-08-08 14:52:40,743 - DEBUG - Run original: "Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía."
+2024-08-08 14:52:40,743 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,744 - DEBUG - Estado final del run: "Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía."
+2024-08-08 14:52:40,744 - DEBUG - Párrafo después de procesar: "Sin perjuicio de las acciones que procedan, las controversias que se presenten en las actividades reguladas serán resueltas mediante el procedimiento que para tal efecto establezca la Comisión Reguladora de Energía."
+2024-08-08 14:52:40,744 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,744 - DEBUG - Run original: ""
+2024-08-08 14:52:40,744 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,744 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,744 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,744 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,744 - DEBUG - Run original: ""
+2024-08-08 14:52:40,744 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,745 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,745 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,745 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,745 - DEBUG - Run original: ""
+2024-08-08 14:52:40,745 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,745 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,745 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,745 - DEBUG - Párrafo original: "Leído que fue por “Las Partes”, se extiende el presente Contrato de Interconexión por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de Irapuato.; a los 16 días del mes de  julio del año 2024."
+2024-08-08 14:52:40,745 - DEBUG - Run original: "Leído que fue por “Las Partes”, se extiende el presente Contrato de Interconexión por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de "
+2024-08-08 14:52:40,746 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,746 - DEBUG - Estado final del run: "Leído que fue por “Las Partes”, se extiende el presente Contrato de Interconexión por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de "
+2024-08-08 14:52:40,746 - DEBUG - Run original: "Irapuato"
+2024-08-08 14:52:40,746 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,746 - DEBUG - Estado final del run: "Irapuato"
+2024-08-08 14:52:40,746 - DEBUG - Run original: "."
+2024-08-08 14:52:40,746 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=None
+2024-08-08 14:52:40,747 - DEBUG - Estado final del run: "."
+2024-08-08 14:52:40,747 - DEBUG - Run original: "; a los "
+2024-08-08 14:52:40,747 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,747 - DEBUG - Estado final del run: "; a los "
+2024-08-08 14:52:40,747 - DEBUG - Run original: "16"
+2024-08-08 14:52:40,747 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,747 - DEBUG - Estado final del run: "16"
+2024-08-08 14:52:40,747 - DEBUG - Run original: " días del mes de "
+2024-08-08 14:52:40,748 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,748 - DEBUG - Estado final del run: " días del mes de "
+2024-08-08 14:52:40,748 - DEBUG - Run original: " "
+2024-08-08 14:52:40,748 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,748 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,748 - DEBUG - Run original: "julio"
+2024-08-08 14:52:40,748 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,749 - DEBUG - Estado final del run: "julio"
+2024-08-08 14:52:40,749 - DEBUG - Run original: " "
+2024-08-08 14:52:40,749 - DEBUG - Formato: negrita=None, itálica=True, subrayado=None, color=None
+2024-08-08 14:52:40,749 - DEBUG - Estado final del run: " "
+2024-08-08 14:52:40,749 - DEBUG - Run original: "del año "
+2024-08-08 14:52:40,749 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,749 - DEBUG - Estado final del run: "del año "
+2024-08-08 14:52:40,749 - DEBUG - Run original: "2024"
+2024-08-08 14:52:40,749 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,750 - DEBUG - Estado final del run: "2024"
+2024-08-08 14:52:40,750 - DEBUG - Run original: "."
+2024-08-08 14:52:40,750 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=0000FF
+2024-08-08 14:52:40,750 - DEBUG - Estado final del run: "."
+2024-08-08 14:52:40,750 - DEBUG - Párrafo después de procesar: "Leído que fue por “Las Partes”, se extiende el presente Contrato de Interconexión por duplicado, considerando que en el mismo no existe mala fe, ni vicio en el consentimiento de los firmantes, ratificando cada uno de sus puntos. Lo rubrican al margen y lo firman al calce de conformidad los que en el intervinieron, en la ciudad de Irapuato.; a los 16 días del mes de  julio del año 2024."
+2024-08-08 14:52:40,750 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,750 - DEBUG - Run original: ""
+2024-08-08 14:52:40,751 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,751 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,751 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,751 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,751 - DEBUG - Run original: ""
+2024-08-08 14:52:40,751 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,751 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,751 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,751 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,751 - DEBUG - Run original: ""
+2024-08-08 14:52:40,752 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,752 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,752 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,752 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,752 - DEBUG - Run original: ""
+2024-08-08 14:52:40,752 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,752 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,752 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,752 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,752 - DEBUG - Run original: ""
+2024-08-08 14:52:40,753 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,753 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,753 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,753 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,753 - DEBUG - Run original: ""
+2024-08-08 14:52:40,753 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,753 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,753 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,753 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,753 - DEBUG - Run original: ""
+2024-08-08 14:52:40,753 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,754 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,754 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,754 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,754 - DEBUG - Run original: ""
+2024-08-08 14:52:40,754 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,754 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,754 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,754 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,754 - DEBUG - Run original: ""
+2024-08-08 14:52:40,754 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,755 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,755 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,755 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,755 - DEBUG - Run original: ""
+2024-08-08 14:52:40,755 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,755 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,755 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,755 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,755 - DEBUG - Run original: ""
+2024-08-08 14:52:40,755 - DEBUG - Formato: negrita=True, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,756 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,756 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,756 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,756 - DEBUG - Run original: ""
+2024-08-08 14:52:40,756 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,756 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,756 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,756 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,756 - DEBUG - Run original: ""
+2024-08-08 14:52:40,756 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,757 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,757 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,757 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,757 - DEBUG - Run original: ""
+2024-08-08 14:52:40,757 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,757 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,757 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,757 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,757 - DEBUG - Run original: ""
+2024-08-08 14:52:40,757 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,758 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,758 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,758 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,758 - DEBUG - Run original: ""
+2024-08-08 14:52:40,758 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,758 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,758 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,758 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,758 - DEBUG - Run original: ""
+2024-08-08 14:52:40,758 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,759 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,759 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,759 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,759 - DEBUG - Run original: ""
+2024-08-08 14:52:40,759 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,759 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,759 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,759 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,759 - DEBUG - Run original: ""
+2024-08-08 14:52:40,759 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,760 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,760 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,760 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,760 - DEBUG - Run original: ""
+2024-08-08 14:52:40,760 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,760 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,760 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,760 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,760 - DEBUG - Run original: ""
+2024-08-08 14:52:40,760 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,760 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,761 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,761 - DEBUG - Párrafo original: "La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y RAMIREZ GONZALEZ ERNESTINA."
+2024-08-08 14:52:40,761 - DEBUG - Run original: "La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y "
+2024-08-08 14:52:40,761 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,761 - DEBUG - Estado final del run: "La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y "
+2024-08-08 14:52:40,761 - DEBUG - Run original: "RAMIREZ GONZALEZ ERNESTINA."
+2024-08-08 14:52:40,761 - DEBUG - Formato: negrita=True, itálica=None, subrayado=True, color=0000FF
+2024-08-08 14:52:40,761 - DEBUG - Estado final del run: "RAMIREZ GONZALEZ ERNESTINA."
+2024-08-08 14:52:40,761 - DEBUG - Párrafo después de procesar: "La presente hoja de firmas forma parte del contrato de interconexión celebrado entre CFE Distribución y RAMIREZ GONZALEZ ERNESTINA."
+2024-08-08 14:52:40,762 - DEBUG - Párrafo original: ""
+2024-08-08 14:52:40,762 - DEBUG - Run original: ""
+2024-08-08 14:52:40,762 - DEBUG - Formato: negrita=None, itálica=None, subrayado=None, color=None
+2024-08-08 14:52:40,762 - DEBUG - Estado final del run: ""
+2024-08-08 14:52:40,762 - DEBUG - Párrafo después de procesar: ""
+2024-08-08 14:52:40,762 - INFO - Reemplazando en tablas...
+2024-08-08 14:52:40,766 - INFO - Documento guardado como /home/mimus/enerf/chatgpt agent/mnt/data/contrato_distribuidor_vars_filled.docx
