@@ -7,6 +7,7 @@ class DocumentProcessor:
     
     def replace_text_in_paragraph(self, paragraph, old_text, new_text):
         """Reemplaza el texto manteniendo el formato dentro de un párrafo."""
+        new_text = str(new_text)  # Convertir a cadena de texto
         for run in paragraph.runs:
             if old_text in run.text:
                 run.text = run.text.replace(old_text, new_text)
